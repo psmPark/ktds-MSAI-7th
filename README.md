@@ -19,9 +19,7 @@ Azure OpenAI와 Azure AI Search를 결합하여, 사용자의 자연어 입력�
 
 ### ☁️ 2. **Azure Function App**
 - 백엔드 API 역할 수행  
-- Streamlit 프론트엔드에서 전달된 요청을 검증하고,  
-  Azure AI Search 및 OpenAI API 호출을 처리  
-- 결과를 반환하거나 Azure Storage에 저장  
+- Streamlit 프론트엔드에서 전달된 요청을 검증하고 Azure AI Search 및 OpenAI API 호출을 처리  
 
 ---
 
