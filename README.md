@@ -56,14 +56,4 @@ Azure OpenAI와 Azure AI Search를 결합하여, 사용자의 자연어 입력�
 2️⃣ **Function App**이 요청을 수신 및 검증  
 3️⃣ **Azure AI Search**에서 인덱스 튜닝된 점수 기반으로 유사 용어 검색  
 4️⃣ **Azure OpenAI**가 최종 약어 생성 및 보정 수행  
-5️⃣ 결과를 **Streamlit UI**에 표시 및 **Azure Storage**에 저장  
-
----
-
-## 💡 핵심 포인트
-- Application Insights **제외**  
-- Azure AI Search 인덱스에 **Scoring Profile + Vector Weight + Semantic Config 튜닝** 적용  
-- 약어 추천의 정확도 및 검색 성능 극대화  
-- OpenAI + AI Search의 조합으로 의미 기반 약어 생성 가능  
-
----
+5️⃣ 결과를 **Streamlit UI**에 표시
