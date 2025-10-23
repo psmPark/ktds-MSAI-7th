@@ -1,0 +1,684 @@
+﻿한글,영어,약어,설명
+상품,Product,PROD,소비자에게 판매하는 모든 종류의 물품.
+재고,Stock/Inventory,INV,현재 판매 또는 배송 가능한 상태로 창고에 보관 중인 상품 수량.
+품절,Sold Out,OOS,재고가 모두 소진되어 일시적 또는 영구적으로 구매할 수 없는 상태. (Out Of Stock)
+할인,Discount,DC,정가에서 일정 비율이나 금액을 빼주는 판매 방식.
+정가,Regular Price,RP,할인이나 프로모션이 적용되지 않은 본래의 판매 가격.
+소비자 가격,Consumer Price,CP,최종 소비자가 지불하도록 권장되는 가격.
+묶음 상품,Bundle Product,BP,둘 이상의 상품을 하나로 묶어 판매하는 구성.
+신상품,New Arrival,NA,최근에 출시되어 판매를 시작한 상품.
+베스트셀러,Bestseller,BS,가장 많이 팔린 인기 상품.
+스테디셀러,Steady Seller,SS,오랫동안 꾸준히 사랑받으며 팔리는 상품.
+상세 페이지,Detail Page,DP,"상품에 대한 자세한 정보(사진, 설명, 규격 등)를 제공하는 웹 페이지."
+상품 옵션,Product Option,OPT,"상품을 선택할 때 고를 수 있는 세부 항목(색상, 사이즈 등)."
+색상,Color,CLR,상품의 색깔 선택지.
+사이즈,Size,SZ,상품의 크기나 규격 선택지.
+단종,Discontinued,DISC,더 이상 생산 및 판매를 중단한 상품.
+한정판,Limited Edition,LE,특정 기간 또는 수량만 판매하는 상품.
+체험단,Reviewer Group,RG,상품을 먼저 사용하고 솔직한 후기를 작성하는 그룹.
+예약 판매,Pre-Order,PO,정식 출시일 이전에 미리 주문을 받는 판매 방식.
+주문,Order,ORD,고객이 상품 구매 의사를 밝히고 요청하는 행위.
+결제,Payment,PAY,상품이나 서비스에 대한 비용을 지불하는 행위.
+취소,Cancellation,CAN,주문이나 결제를 철회하는 행위.
+환불,Refund,REF,취소나 반품 후 지불했던 금액을 되돌려 받는 것.
+교환,Exchange,EXC,구매한 상품을 동일하거나 다른 상품으로 바꾸는 것.
+반품,Return,RTN,구매한 상품을 판매자에게 되돌려 보내는 것.
+구매,Purchase,PUR,실제로 상품을 사는 행위.
+장바구니,Shopping Cart,Cart,구매를 확정하기 전에 담아두는 상품 임시 보관함.
+위시리스트,Wish List,WL,나중에 사고 싶은 상품을 모아두는 목록.
+결제 수단,Payment Method,PM,"상품 대금을 지불하는 방법 (카드, 계좌이체 등)."
+주문 번호,Order Number,ON,각 주문에 고유하게 부여되는 식별 번호.
+구매 확정,Purchase Confirmation,CONF,상품을 받고 만족하여 거래를 최종적으로 완료하는 행위.
+무통장 입금,Bank Transfer,BT,은행 계좌를 통해 현금을 송금하여 결제하는 방식.
+카드 결제,Card Payment,CP,신용카드나 체크카드로 대금을 지불하는 방식.
+휴대폰 결제,Mobile Payment,MP,휴대폰 요금에 합산하여 대금을 지불하는 방식.
+간편 결제,Simple Payment,SP,결제 정보를 미리 등록하여 비밀번호 등으로 쉽게 결제하는 방식.
+배송,Delivery,DEL,구매한 상품을 고객에게 운반하여 전달하는 과정.
+택배,Parcel/Courier,PKG,소규모 화물을 운송하는 서비스.
+운송장 번호,Tracking Number,TN,택배의 위치를 추적할 수 있도록 부여된 고유 번호.
+배송지,Shipping Address,SA,상품을 수령할 주소.
+수령인,Recipient,RC,상품을 받는 사람.
+출고,Dispatch,Disp,창고에서 상품을 꺼내 택배사에 인계하는 단계.
+배송 준비중,Preparing for Shipment,PFS,주문 확인 후 상품 포장 및 출고를 준비하는 상태.
+배송 중,In Transit,IT,상품이 택배사를 통해 이동 중인 상태.
+배송 완료,Delivered,DLV,상품이 최종 수령인에게 전달된 상태.
+반품 배송비,Return Shipping Fee,RSF,상품을 반품할 때 발생하는 운송 비용.
+퀵 배송,Quick Delivery,QD,일반 택배보다 빠른 시간 내에 배송하는 서비스.
+해외 배송,International Shipping,IS,국경을 넘어 다른 나라로 상품을 보내는 것.
+무료 배송,Free Shipping,FS,고객이 배송비를 부담하지 않는 조건.
+유료 배송,Paid Shipping,PS,고객이 배송비를 별도로 지불해야 하는 조건.
+묶음 배송,Combined Shipping,CS,여러 개의 상품을 하나의 상자에 담아 한 번에 배송하는 것.
+당일 배송,Same-Day Delivery,SDD,주문한 당일에 상품을 받는 것.
+새벽 배송,Dawn Delivery,DD,밤에 주문하여 다음날 새벽 일찍 상품을 받는 것.
+지정일 배송,Scheduled Delivery,SD,고객이 원하는 특정 날짜를 지정하여 받는 배송 서비스.
+고객,Customer,CUST,상품이나 서비스를 구매하는 사람.
+회원,Member,MEM,사이트에 가입하여 정식 자격을 가진 고객.
+비회원,Non-Member,NM,사이트 가입 없이 상품을 구매하는 고객.
+아이디,User ID,ID,사이트 접속 시 사용하는 사용자 이름.
+비밀번호,Password,PW,본인 확인 및 보안을 위한 문자열.
+로그인,Log In,LI,아이디와 비밀번호를 입력하여 시스템에 접속하는 것.
+로그아웃,Log Out,LO,시스템 접속을 종료하는 것.
+적립금,Reserve/Mileage,RES,상품 구매 시 일부 금액이 쌓여 다음 구매에 사용할 수 있는 금액.
+포인트,Point,PT,적립금과 유사하게 사용할 수 있는 사이트 내 통화.
+문의,Inquiry,INQ,상품이나 서비스에 대해 궁금한 점을 묻는 것.
+리뷰,Review,RVW,구매한 상품에 대한 평가나 의견.
+후기,Feedback,FB,상품 사용 후의 전반적인 느낌이나 경험.
+고객 센터,Customer Center,CC,"고객의 문의, 불만 등을 접수하고 처리하는 부서."
+상담원,Agent,AGT,고객 센터에서 고객을 응대하는 직원.
+자주 묻는 질문,Frequently Asked Questions,FAQ,고객들이 자주 질문하는 내용을 모아놓은 답변 목록.
+개인 정보,Personal Information,PI,"이름, 주소, 전화번호 등 개인을 식별할 수 있는 정보."
+회원 탈퇴,Account Withdrawal,AWD,사이트의 회원 자격을 포기하고 정보를 삭제하는 것.
+이벤트,Event/Promotion,EVT,상품 판매를 촉진하기 위한 특별 행사.
+할인 쿠폰,Discount Coupon,DC,특정 금액이나 비율을 할인받을 수 있는 증서.
+증정품,Free Gift,FG,상품 구매 시 추가로 제공되는 사은품.
+마케팅 수신 동의,Marketing Agreement,MA,이메일이나 문자로 광고성 정보를 받겠다는 동의.
+구매 금액,Purchase Amount,PA,상품을 구매하기 위해 지불한 총액.
+누적 구매액,Accumulated Purchase Amount,APA,지금까지 해당 쇼핑몰에서 구매한 금액의 합계.
+등급,Membership Level,ML,누적 구매액 등에 따라 부여되는 회원 자격의 단계.
+할인율,Discount Rate,DR,할인되는 금액이 정가에서 차지하는 비율.
+포장,Packaging,PKG,상품을 보호하고 운반하기 위해 싸는 행위.
+선물 포장,Gift Wrapping,GW,상품을 선물용으로 보기 좋게 포장하는 서비스.
+배송 박스,Delivery Box,DB,택배 운송 시 상품을 담는 상자.
+송장,Invoice,IV,"상품의 품목, 수량, 가격 등이 적힌 문서 (일반적으로 택배 상자에 붙이는 라벨)."
+안전 배송,Secure Delivery,SD,상품이 손상되지 않도록 안전하게 전달하는 것.
+배송 조회,Tracking Service,TS,운송장 번호를 이용해 택배의 현재 위치를 확인하는 서비스.
+배송 메시지,Delivery Message,DM,택배 기사에게 전달하고 싶은 요청 사항.
+택배 기사,Courier/Driver,DRV,택배 운송 및 배달을 담당하는 사람.
+도서 산간 지역,Island and Mountain Area,IMA,배송이 어렵거나 추가 비용이 발생하는 외곽 지역.
+재배송,Redelivery,RD,배송에 실패하여 다시 상품을 보내는 것.
+수령 확인,Receipt Confirmation,RC,상품을 정상적으로 받았음을 확인하는 절차.
+고지서,Bill/Statement,BLL,결제해야 할 금액의 내역을 알리는 문서.
+전자 영수증,Electronic Receipt,ER,종이가 아닌 디지털 형태로 발급되는 결제 증명서.
+현금 영수증,Cash Receipt,CR,현금 결제 시 발급받는 소득 공제용 증명서.
+세금 계산서,Tax Invoice,TI,사업자 간 거래에 사용되는 세금 관련 증빙 서류.
+수수료,Fee/Commission,FEE,거래나 서비스를 이용할 때 부과되는 비용.
+환율,Exchange Rate,XR,다른 나라 화폐 간의 교환 비율.
+결제 오류,Payment Error,PE,결제 과정에서 발생하는 문제로 인해 결제가 실패하는 것.
+시스템 점검,System Check,SC,서비스 개선 또는 안정화를 위해 일시적으로 접속을 차단하는 작업.
+모바일 앱,Mobile App,APP,스마트폰이나 태블릿에서 사용하는 응용 프로그램.
+웹사이트,Website,WEB,인터넷에 접속하여 정보를 얻거나 거래하는 공간.
+온라인 쇼핑,Online Shopping,OLS,인터넷을 통해 상품을 구매하는 행위.
+오프라인 매장,Offline Store,OFS,직접 방문하여 상품을 볼 수 있는 실제 상점.
+매장 픽업,Store Pickup,SPU,온라인으로 주문하고 가까운 매장에서 직접 수령하는 방식.
+드라이브 스루,Drive Thru,DT,차에 탄 채로 주문 및 수령이 가능한 서비스.
+전자상거래,E-Commerce,EC,인터넷 등 전자 매체를 이용한 상거래.
+라이브 커머스,Live Commerce,LC,실시간 영상 스트리밍을 통해 상품을 판매하는 방식.
+소셜 미디어,Social Media,SM,사람들이 소통하고 정보를 공유하는 온라인 플랫폼.
+사용자 경험,User Experience,UX,사용자가 서비스나 상품을 이용하면서 느끼는 전반적인 경험.
+사용자 인터페이스,User Interface,UI,사용자가 시스템과 상호작용하는 화면이나 디자인.
+자동 응답 시스템,Interactive Voice Response,IVR,전화로 미리 녹음된 음성 안내를 듣고 버튼을 눌러 원하는 서비스를 선택하는 시스템.
+챗봇,Chatbot,CB,사람처럼 대화하며 정보를 제공하는 인공지능 프로그램.
+개인 맞춤 추천,Personalized Recommendation,PR,개인의 구매 기록이나 관심사에 맞춰 상품을 추천하는 것.
+접근성,Accessibility,ACC,누구나 제약 없이 웹사이트나 서비스를 이용할 수 있는 정도.
+유효 기간,Expiry Date,ED,상품을 사용하거나 섭취해도 안전한 기한.
+권장 소비 기한,Best Before Date,BBD,상품의 품질이 가장 좋다고 권장하는 기한.
+제조 일자,Manufacture Date,MD,상품이 생산된 날짜.
+원산지,Origin,ORG,상품이 생산되거나 가공된 국가 또는 지역.
+수입품,Imported Goods,IM,해외에서 들여온 상품.
+국내산,Domestic Product,DP,자국 내에서 생산된 상품.
+정품,Genuine Product,GP,"위조품이 아닌, 본래 상표의 제조사에서 만든 상품."
+병행 수입,Parallel Import,PI,정식 수입업체 외의 다른 경로로 수입된 정품.
+소비자 피해 보상,Consumer Compensation,CC,상품이나 서비스로 인해 피해를 입었을 때 손해를 보상하는 것.
+소비자 보호원,Consumer Agency,CA,소비자의 권익을 보호하는 기관.
+판매자,Seller,SEL,상품을 소비자에게 파는 주체.
+제조사,Manufacturer,MNF,상품을 직접 만드는 회사.
+브랜드,Brand,BND,"상품의 이름, 로고 등으로 형성된 이미지나 상표."
+직영점,Directly Managed Store,DMS,본사가 직접 운영하는 매장.
+가맹점,Franchise Store,FS,본사의 상표와 시스템을 빌려 독립적으로 운영하는 매장.
+백화점,Department Store,DS,다양한 고급 상품을 판매하는 대형 소매점.
+대형 마트,Hypermarket,HM,식품부터 공산품까지 대량으로 판매하는 큰 규모의 마트.
+편의점,Convenience Store,CS,일상용품을 주로 취급하며 24시간 운영하는 작은 소매점.
+팝업 스토어,Pop-up Store,PS,짧은 기간 동안만 운영하는 임시 매장.
+온라인 전용,Online Exclusive,OE,오직 온라인에서만 구매할 수 있는 상품.
+오프라인 전용,Offline Exclusive,OFX,오직 오프라인 매장에서만 구매할 수 있는 상품.
+정기 구독,Subscription,SUB,일정 기간마다 상품이나 서비스를 자동으로 받는 방식.
+샘플,Sample,SPL,본품을 구매하기 전에 사용해 볼 수 있도록 제공되는 소량의 상품.
+체험분,Trial Size,TS,본품보다 적은 용량으로 시험 사용을 위해 제공되는 상품.
+묶음 할인,Volume Discount,VD,다량 구매 시 적용되는 할인 혜택.
+시간 한정 특가,Time Sale,TS,특정 시간 동안만 제공되는 특별 할인 가격.
+선착순,First Come First Served,FCFS,먼저 주문하거나 도착한 순서대로 혜택을 제공하는 방식.
+배송 추적,Track and Trace,TT,운송 단계별 위치 정보를 확인하는 것.
+안심 번호,Safe Number,SN,개인 전화번호 대신 임시로 부여되어 사용 후 폐기되는 번호.
+콜센터,Call Center,CC,전화로 고객 응대 업무를 하는 곳.
+보증 기간,Warranty Period,WP,상품의 고장 시 무상 수리를 약속하는 기간.
+AS (사후 서비스),After Service,AS,"상품 구매 후 발생하는 문제에 대한 수리, 교환 등의 서비스."
+품질 보증서,Quality Guarantee,QG,상품의 품질을 보증하는 문서.
+비밀 유지,Confidentiality,CF,고객의 정보를 외부에 노출하지 않고 보호하는 것.
+약관,Terms and Conditions,T&C,서비스 이용에 필요한 규정 및 조건.
+개인 정보 처리 방침,Privacy Policy,PP,"개인 정보를 수집, 이용, 보호하는 방법에 대한 규정."
+이용 동의,User Agreement,UA,서비스 약관에 동의하는 행위.
+본인 인증,Identity Verification,IV,사용자가 본인임을 확인하는 절차.
+캡차,Captcha,CP,컴퓨터가 아닌 사람임을 증명하기 위한 보안 문자 확인 절차.
+보안 문자,Security Code,SC,본인 인증 등에 사용되는 임시 숫자나 문자.
+결제 비밀번호,Payment Password,PPW,간편 결제 시 사용하는 별도의 비밀번호.
+다회용 포장재,Reusable Packaging,RP,한 번 쓰고 버리지 않고 여러 번 재사용할 수 있는 포장재.
+친환경 제품,Eco-Friendly Product,EP,환경 오염을 최소화하며 생산된 제품.
+무해성,Non-Toxicity,NT,인체나 환경에 해로운 성분이 없는 특성.
+유기농,Organic,ORG,화학 비료나 농약을 사용하지 않고 재배된.
+비건,Vegan,VGN,동물성 원료를 사용하지 않은 제품.
+신선 식품,Fresh Food,FF,냉장/냉동 보관이 필요하며 유통 기한이 짧은 식품.
+냉장 보관,Refrigerated Storage,RS,일정 온도(보통 0~10°C)를 유지하며 보관하는 것.
+냉동 보관,Frozen Storage,FZ,0°C 이하의 온도를 유지하며 보관하는 것.
+상온 보관,Room Temperature Storage,RTS,일반적인 실내 온도에서 보관하는 것.
+즉시 진열 가능 상품,Floor Ready Merchandise,FRM,매장에 도착 후 포장만 풀면 바로 진열할 수 있도록 완비된 상품.
+보관 온도,Storage Temperature,ST,상품의 품질 유지를 위해 필요한 온도.
+위생,Hygiene,HYG,청결하고 안전한 상태 유지.
+유통 기한,Expiration Date,EXP,상품이 소비자에게 판매될 수 있는 최종 날짜.
+재입고 알림,Restock Notification,RN,품절된 상품이 다시 들어왔을 때 알려주는 서비스.
+가격 비교,Price Comparison,PC,여러 판매처의 가격을 비교하는 행위.
+최저가,Lowest Price,LP,가장 낮은 판매 가격.
+최고가,Highest Price,HP,가장 높은 판매 가격.
+적정 가격,Fair Price,FP,소비자와 판매자가 합의할 수 있는 합리적인 가격.
+가격 변동,Price Fluctuation,PF,시간에 따라 상품 가격이 오르거나 내리는 현상.
+예상 배송일,Estimated Delivery Date,EDD,상품이 도착할 것으로 예상되는 날짜.
+추가 옵션,Add-on Option,AO,기본 상품 외에 추가로 선택할 수 있는 항목.
+판매 수량,Sales Volume,SV,특정 기간 동안 팔린 상품의 총 수량.
+고객 만족도,Customer Satisfaction,CSAT,상품이나 서비스에 대해 고객이 느끼는 만족의 정도.
+순수 추천 지수,Net Promoter Score,NPS,고객이 이 상품/서비스를 타인에게 추천할 의향이 얼마나 높은지를 나타내는 지수.
+평균 구매 금액,Average Order Value,AOV,한 번 주문할 때 평균적으로 소비하는 금액.
+반품률,Return Rate,RR,판매된 상품 중 반품된 비율.
+교환율,Exchange Rate,ER,판매된 상품 중 교환된 비율.
+주문 건수,Order Count,OC,총 주문이 발생한 횟수.
+구매 횟수,Purchase Frequency,PF,한 고객이 일정 기간 동안 구매한 횟수.
+재구매,Repurchase,RP,한 번 구매했던 상품을 다시 사는 행위.
+단골 고객,Repeat Customer,RC,반복적으로 상품을 구매하는 고객.
+대기 시간,Waiting Time,WT,서비스를 이용하기 위해 기다려야 하는 시간.
+처리 시간,Processing Time,PT,"주문, 결제, 배송 등의 업무를 처리하는 데 걸리는 시간."
+업무 시간,Business Hours,BH,회사나 매장이 운영되는 시간.
+휴무일,Holiday/Closed Day,HD,정기적으로 문을 닫는 날.
+온라인 결제,Online Payment,OP,인터넷이나 앱을 통해 이루어지는 결제.
+오프라인 결제,Offline Payment,OFP,실제 매장에서 이루어지는 결제.
+일시불,One-Time Payment,OTP,상품 대금을 한 번에 전액 지불하는 방식.
+할부,Installment Payment,IP,상품 대금을 여러 개월에 걸쳐 나누어 지불하는 방식.
+창고 관리 시스템,Warehouse Management System,WMS,"창고 내 상품의 위치, 재고, 입출고 등을 효율적으로 관리하는 시스템."
+공급망 관리,Supply Chain Management,SCM,원자재부터 최종 소비자에게 전달되기까지 모든 물류 흐름을 관리하는 통합 프로세스.
+입고,Receiving,RCV,외부에서 상품을 들여와 창고에 보관하는 작업.
+출하,Shipping/Dispatch,SHP,고객 주문에 맞춰 상품을 창고에서 내보내는 작업.
+피킹,Picking,PKG,출고를 위해 창고의 특정 위치에서 상품을 집는 작업.
+패킹,Packing,PCK,피킹한 상품을 운송을 위해 포장하는 작업.
+검수,Inspection/Verification,INSP,입고 또는 출고 시 상품의 수량 및 상태를 확인하는 작업.
+재고 실사,Inventory Audit,AUD,특정 시점에 창고 내 실제 재고 수량을 확인하는 작업.
+로케이션,Location,LOC,창고 내 상품이 보관되는 정확한 위치 주소.
+선입 선출,"First-In, First-Out",FIFO,먼저 입고된 상품을 먼저 출고하는 재고 관리 원칙.
+후입 선출,"Last-In, First-Out",LIFO,나중에 입고된 상품을 먼저 출고하는 재고 관리 방식 (회계 목적).
+최소 주문 수량,Minimum Order Quantity,MOQ,공급업체가 요구하는 최소한의 주문 가능한 수량.
+리드타임,Lead Time,LT,주문 시점부터 상품이 인도되기까지 걸리는 총 시간.
+팔레트,Pallet,PAL,지게차 등으로 운반할 수 있도록 상품을 쌓는 받침대.
+컨베이어 벨트,Conveyor Belt,CVB,물품을 연속적으로 운반하는 장치.
+크로스 도킹,Cross-Docking,CD,입고된 상품을 보관 과정 없이 바로 출고 차량으로 옮기는 방식.
+SKU,Stock Keeping Unit,SKU,재고 관리를 위해 상품 하나하나에 부여하는 고유 식별 코드.
+낱개 판매,Unit Sale,USL,묶음이 아닌 개별 상품 단위로 판매하는 것.
+유통 마진,Distribution Margin,DM,상품의 최종 판매가에서 원가 및 중간 비용을 제외한 이익.
+총 매출,Gross Sales,GS,할인이나 반품을 제외하기 전의 전체 판매액.
+순 매출,Net Sales,NS,"총 매출에서 할인, 반품, 에누리 등을 제외한 실제 판매액."
+객단가,Average Transaction Value,ATV,고객 한 명이 한 번 구매할 때 평균적으로 소비하는 금액.
+재고 회전율,Inventory Turnover Ratio,ITR,재고가 팔리고 교체되는 속도를 나타내는 지표.
+판매 채널,Sales Channel,SCL,"상품이 소비자에게 도달하는 경로 (온라인, 오프라인, 도매 등)."
+B2B,Business to Business,B2B,기업과 기업 간의 거래.
+B2C,Business to Customer,B2C,기업과 소비자 간의 거래.
+D2C,Direct to Customer,D2C,중간 유통 단계를 거치지 않고 제조사가 소비자에게 직접 판매하는 방식.
+도매,Wholesale,WL,상품을 대량으로 구매하여 소매상에게 판매하는 행위.
+소매,Retail,RTL,최종 소비자에게 상품을 판매하는 행위.
+납품가,Supply Price,SP,공급업체가 유통업체에게 상품을 넘기는 가격.
+공정 거래,Fair Trade,FT,개발도상국 생산자에게 공정한 가격을 지불하는 윤리적 거래.
+독점 판매,Exclusive Distribution,ED,특정 유통업체에게만 상품을 판매할 수 있는 권리를 부여하는 것.
+수요 예측,Demand Forecasting,DF,미래에 발생할 것으로 예상되는 상품 수요를 미리 추정하는 것.
+상품 구색,Product Assortment,PA,매장이나 쇼핑몰에서 판매하는 상품의 종류 및 다양성.
+PB 상품,Private Brand Product,PB,유통업체가 직접 기획하고 개발하여 판매하는 자체 브랜드 상품.
+OEM,Original Equipment Manufacturer,OEM,제조사가 주문자의 설계에 따라 상품을 생산하는 방식.
+ODM,Original Development Manufacturer,ODM,제조사가 자체적으로 상품을 개발하고 주문자의 브랜드로 납품하는 방식.
+상품 기획자,Merchandiser,MD,"상품을 기획하고 공급, 판매 전략을 수립하는 직무."
+진열대,Display Shelf,DS,매장에서 상품을 보기 좋게 올려두는 선반이나 가구.
+매대,Selling Counter,SC,계산이나 상품 전시를 위해 사용하는 카운터.
+POP 광고,Point of Purchase Advertising,POP,구매가 이루어지는 지점 근처에서 소비자의 구매를 유도하는 광고물.
+시즌 상품,Seasonal Product,SP,특정 계절이나 시기에만 판매량이 집중되는 상품.
+충동 구매,Impulse Buying,IB,계획 없이 순간적인 욕구로 상품을 구매하는 행위.
+쇼윈도,Show Window,SW,매장 외부에서 상품을 전시하여 고객을 유인하는 창문.
+재고 소진,Inventory Clearance,IC,남아있는 상품을 모두 판매하기 위해 대폭 할인하는 판매 전략.
+판매 촉진,Sales Promotion,SP,상품 구매를 유도하기 위한 모든 활동.
+시식/시향,Tasting/Sampling,TST,상품을 구매하기 전에 미리 맛보거나 냄새를 맡아보는 것.
+롤링 프로모션,Rolling Promotion,RP,일정 기간 반복적으로 진행되는 할인 행사.
+구매 전환율,Conversion Rate,CR,웹사이트 방문자 중 실제로 구매를 완료한 비율.
+장바구니 이탈률,Cart Abandonment Rate,CAR,장바구니에 상품을 담고도 구매를 완료하지 않은 비율.
+A/B 테스트,A/B Testing,ABT,두 가지 디자인이나 기능을 비교하여 더 나은 성과를 내는 쪽을 선택하는 실험.
+검색 엔진 최적화,Search Engine Optimization,SEO,검색 결과 상위에 노출되도록 웹사이트를 개선하는 작업.
+키워드 광고,Keyword Advertising,KA,특정 검색어에 노출되도록 구매하는 온라인 광고.
+랜딩 페이지,Landing Page,LP,온라인 광고나 검색 결과 클릭 후 처음 도달하는 웹페이지.
+클릭률,Click-Through Rate,CTR,광고나 링크가 노출된 횟수 대비 클릭된 횟수의 비율.
+체류 시간,Dwell Time,DT,사용자가 웹페이지에 머무르는 평균 시간.
+이탈률,Bounce Rate,BR,웹사이트에 들어왔다가 아무 행동 없이 바로 나가는 비율.
+서버,Server,SRV,웹사이트나 데이터 등을 저장하고 서비스를 제공하는 컴퓨터 시스템.
+데이터베이스,Database,DB,정형화된 데이터를 모아 관리하는 시스템.
+API,Application Programming Interface,API,서로 다른 프로그램들이 정보를 주고받을 수 있게 하는 통신 규약.
+클라우드 컴퓨팅,Cloud Computing,CC,"인터넷을 통해 서버, 스토리지 등의 IT 자원을 사용하는 서비스."
+개인 정보 보호,Privacy Protection,PP,개인의 식별 정보를 안전하게 관리하는 것.
+보안 인증,Security Certification,SC,웹사이트의 안전성과 신뢰성을 증명하는 절차.
+사용자 후킹,User Hooking,UH,사용자의 흥미를 끌어 서비스에 몰입하게 만드는 전략.
+다크 패턴,Dark Pattern,DP,사용자를 속여 특정 행동을 유도하는 비윤리적인 UI 디자인.
+주문서,Order Sheet,OS,고객이 구매를 요청한 상품 목록과 정보가 담긴 서류.
+결제 승인,Payment Authorization,AUTH,금융 기관에서 결제를 허락하는 과정.
+미수금,Accounts Receivable,AR,상품을 판매하고 아직 받지 못한 대금.
+채권 추심,Debt Collection,DC,기한 내에 갚지 않은 대금을 받아내는 행위.
+클레임,Claim,CLM,상품이나 서비스에 문제가 발생했을 때 제기하는 이의나 요구.
+C/S,Customer Service,CS,고객 응대 및 문제 해결 업무.
+상담 이력,Consultation History,CH,고객과의 과거 문의 및 상담 기록.
+본인 확인,Identity Confirmation,IC,주문자 또는 회원 본인이 맞는지 확인하는 절차.
+해피콜,Happy Call,HC,상품 배송 또는 서비스 이용 후 만족도를 확인하기 위해 거는 전화.
+지연 배송,Delayed Delivery,DD,약속된 날짜보다 늦게 상품이 도착하는 것.
+배송 불가,Undeliverable,UD,주소 불명 등의 이유로 상품 전달이 불가능한 상태.
+처리 시간,Handling Time,HT,주문 접수부터 출고까지 걸리는 시간.
+발주,Ordering/Purchase Order,PO,재고 확보를 위해 공급업체에 상품을 주문하는 행위.
+물류 창고,Logistics Warehouse,LW,"상품의 보관, 분류, 포장, 출하 등의 물류 작업이 이루어지는 곳."
+바코드,Barcode,BC,상품 식별 및 재고 관리를 위해 사용되는 막대 형태의 코드.
+QR 코드,Quick Response Code,QC,흑백 격자무늬로 정보를 담는 2차원 코드.
+라벨,Label,LBL,"상품에 붙어있는 정보 표지 (가격, 규격, 바코드 등)."
+품질 검사,Quality Control Check,QC,상품이 정해진 기준과 규격에 맞는지 확인하는 과정.
+불량품,Defective Product,DP,품질 기준에 미달하거나 하자가 있는 상품.
+폐기,Disposal/Scrap,DSP,판매나 사용이 불가능하여 버리는 행위.
+리콜,Recall,RCL,제조사나 판매자가 결함이 있는 상품을 회수하는 조치.
+유통 구조,Distribution Structure,DS,생산자부터 소비자에 이르기까지 상품이 이동하는 전체 단계.
+표준 규격,Standard Specification,SS,"상품의 형태, 크기, 재질 등에 대한 공통된 기준."
+안전 인증,Safety Certification,SC,상품의 안전성을 공적으로 증명하는 절차.
+벌크 상품,Bulk Product,BLK,개별 포장 없이 대량으로 판매되는 상품.
+렌탈 서비스,Rental Service,RNT,일정 기간 동안 상품을 빌려주는 서비스.
+위약금,Penalty/Liquidated Damages,PN,계약 위반 시 지불해야 하는 벌칙금.
+공시 가격,Publicly Announced Price,PAP,정부나 기관이 공식적으로 발표한 가격.
+변동가,Variable Price,VP,시장 상황에 따라 가격이 수시로 변하는 가격.
+법인 카드,Corporate Card,CC,회사 명의로 발급되어 업무상 비용을 지출하는 카드.
+세무 조사,Tax Audit,TA,정부가 기업의 세금 납부 적정성을 확인하는 조사.
+계약서,Contract,CONT,거래 당사자 간의 권리와 의무를 명시한 문서.
+면세,Tax Exemption,TX,세금이 부과되지 않거나 면제되는 조건.
+부가가치세,Value Added Tax,VAT,상품 판매 또는 서비스 제공 시 부과되는 세금.
+현금 흐름,Cash Flow,CF,일정 기간 동안 현금이 들어오고 나가는 움직임.
+감사,Audit,AUD,재무 상태나 업무 처리의 적정성을 점검하는 행위.
+재무 제표,Financial Statements,FS,기업의 재무 상태와 경영 성과를 나타내는 문서.
+공시,Disclosure,DISC,기업의 중요한 정보를 외부에 공개하는 행위.
+탄소 발자국,Carbon Footprint,CF,제품의 생산부터 폐기까지 전 과정에서 발생하는 온실가스 총량.
+리퍼비시 상품,Refurbished Product,REF,반품되거나 문제가 있어 수리 후 다시 판매하는 상품.
+업사이클링,Upcycling,UC,버려지는 물건에 디자인을 더해 가치 있는 새 제품으로 만드는 것.
+공정 무역,Fair Trade,FT,윤리적인 방식으로 생산자에게 정당한 대가를 지불하는 무역.
+친환경 인증,Eco-Friendly Certification,ECC,환경 기준을 충족했음을 인정하는 증명.
+재활용률,Recycling Rate,RR,전체 폐기물 중 재활용되는 비율.
+지속 가능성,Sustainability,SUST,"환경, 사회, 경제적 측면에서 오래 유지될 수 있는 능력."
+제로 웨이스트,Zero Waste,ZW,쓰레기 배출을 최소화하려는 라이프스타일.
+윤리적 소비,Ethical Consumption,EC,"환경, 인권 등을 고려하여 상품을 구매하는 행위."
+비대면 결제,Contactless Payment,CP,"접촉 없이 이루어지는 결제 (NFC, QR 등)."
+생체 인증,Biometric Authentication,BA,"지문, 홍채 등 신체 정보를 이용한 본인 확인."
+자동 결제,Automatic Payment,AP,정기적으로 자동으로 대금이 청구되는 결제.
+PG사,Payment Gateway Provider,PG,온라인 쇼핑몰과 금융기관 간의 결제 과정을 중개하는 회사.
+FBA,Fulfillment By Amazon,FBA,"아마존이 판매자의 재고 보관, 포장, 배송, CS를 대행하는 서비스."
+제휴 마케팅,Affiliate Marketing,AM,다른 웹사이트나 채널을 통해 판매를 유도하고 수수료를 지급하는 방식.
+바이럴 마케팅,Viral Marketing,VM,상품 정보가 입소문처럼 빠르게 퍼져나가도록 하는 마케팅.
+인플루언서,Influencer,INFL,소셜 미디어 등에서 큰 영향력을 가진 사람.
+라이브 스트리밍,Live Streaming,LS,실시간으로 영상을 송출하는 것.
+쇼호스트,Show Host,SH,TV 홈쇼핑이나 라이브 커머스에서 상품을 소개하는 진행자.
+협찬,Sponsorship,SPN,대가 없이 상품이나 서비스를 제공하여 홍보를 얻는 행위.
+콘텐츠 마케팅,Content Marketing,CM,유익하거나 흥미로운 콘텐츠를 제작하여 고객을 유인하는 마케팅.
+온디맨드,On-Demand,OD,소비자의 요청에 따라 즉시 서비스나 상품을 제공하는 방식.
+O2O,Online to Offline,O2O,온라인 고객을 오프라인 매장으로 유도하거나 그 반대의 서비스.
+옴니 채널,Omni-Channel,OC,모든 판매 채널을 유기적으로 통합하여 일관된 고객 경험을 제공하는 전략.
+멀티 채널,Multi-Channel,MC,여러 개의 판매 채널을 동시에 운영하는 방식.
+펀딩,Funding/Crowdfunding,CF,대중으로부터 자금을 모아 프로젝트나 상품을 개발하는 것.
+와디즈,Wadiz,WDZ,국내의 대표적인 크라우드 펀딩 플랫폼.
+예약 주문,Backorder,BO,현재 재고가 없어 나중에 입고되면 보내주기로 하고 미리 받는 주문.
+시즌 오프,Season Off,SO,특정 시즌이 끝나고 남은 상품을 대폭 할인하여 판매하는 것.
+특가,Special Offer,SO,특정 기간 동안 매우 저렴하게 판매하는 가격.
+쿠폰 코드,Coupon Code,CC,온라인에서 할인 혜택을 적용하기 위해 입력하는 문자열.
+선착순 마감,"First Come, First Serve Closure",FCFS,정해진 수량이나 기간이 다 되어 혜택 제공을 종료하는 것.
+대기 번호,Waiting Number,WN,서비스나 상품을 받기 위해 기다리는 순서.
+1+1 행사,Buy One Get One Free,BOGO,상품 하나를 사면 같은 상품을 하나 더 주는 판매 방식.
+사은품 증정,Free Gift Offering,FGO,구매 금액이나 조건에 따라 추가 선물을 제공하는 것.
+무이자 할부,Interest-Free Installment,IFI,할부 구매 시 이자를 면제해 주는 혜택.
+전용 상품,Exclusive Product,EXP,특정 채널이나 고객만을 위해 판매되는 상품.
+희소성 마케팅,Scarcity Marketing,SM,상품의 수량이나 기간을 제한하여 구매를 촉진하는 전략.
+보관료,Storage Fee,SF,창고에 상품을 보관하는 대가로 지불하는 비용.
+지입 차,Consignment Vehicle,CV,화물차를 소유한 운송인이 회사에 등록하여 운송 업무를 수행하는 방식.
+4PL,Fourth Party Logistics,4PL,"공급망 전체를 기획, 설계, 운영, 관리하는 통합 물류 솔루션."
+드랍 쉬핑,Drop Shipping,DS,판매자가 재고 없이 주문을 받으면 공급업체가 고객에게 직접 배송하는 방식.
+포워딩,Forwarding,FWD,국제 운송을 중개하고 대행하는 서비스.
+관세,Customs Duty,CD,국경을 통과하는 상품에 부과되는 세금.
+무역 대금,Trade Payment,TP,국제 거래에서 상품에 대해 지불하는 금액.
+수출,Export,EXPT,자국의 상품을 외국으로 판매하는 행위.
+수입,Import,IMPT,외국의 상품을 자국으로 들여오는 행위.
+인코텀즈,Incoterms,INC,국제 무역 거래 조건에 관한 국제 규칙.
+통관,Customs Clearance,CC,수출입 상품이 국경을 합법적으로 통과하는 절차.
+보세 창고,Bonded Warehouse,BW,통관 절차가 완료되지 않은 수입품을 보관하는 창고.
+배송 대행지,Shipping Agent,SA,해외 직구 시 상품을 대신 받아 국내로 재배송해 주는 주소.
+블랙 컨슈머,Black Consumer,BC,"악의적으로 환불, 교환, 컴플레인을 제기하는 소비자."
+진상 고객,Difficult Customer,DC,비합리적인 요구를 하거나 직원을 힘들게 하는 고객.
+고객 여정,Customer Journey,CJ,고객이 상품을 인지하고 구매하며 재구매하기까지의 모든 과정.
+바이럴 루프,Viral Loop,VL,고객이 다른 고객을 끌어들이는 순환적인 구조.
+로열티 프로그램,Loyalty Program,LP,충성도 높은 고객에게 혜택을 제공하여 재구매를 유도하는 제도.
+세그먼트,Segment,SGM,고객을 특정 기준에 따라 분류한 집단.
+타겟 마케팅,Target Marketing,TM,특정 세그먼트를 대상으로 집중적으로 진행하는 마케팅.
+콜드 스타트,Cold Start,CS,신규 고객에게 추천 정보를 제공할 데이터가 없는 초기 상태.
+가입 경로,Sign-up Channel,SC,고객이 서비스를 알게 되고 가입한 경로.
+미끼 상품,Loss Leader,LL,원가 이하로 판매하여 고객을 유인하는 상품.
+고가 정책,Premium Pricing,PP,경쟁 상품보다 높은 가격으로 품질과 이미지를 강조하는 전략.
+박리다매,"High Volume, Low Margin",HVLM,이익을 적게 보고 많이 파는 판매 전략.
+가격 탄력성,Price Elasticity,PE,가격 변화에 따른 수요량의 변화 정도.
+할증료,Surcharge,SC,기본 요금 외에 추가로 붙는 비용.
+수급 불균형,Supply-Demand Imbalance,SDI,공급량과 수요량이 일치하지 않는 상태.
+이윤,Profit,PFT,매출액에서 비용을 제외하고 남은 순수 이익.
+재고 부담,Inventory Burden,IB,팔리지 않은 재고를 보유함으로써 발생하는 비용과 위험.
+재고 소진율,Inventory Sell-Through Rate,STR,입고된 재고 중 일정 기간 내 판매된 비율.
+손익분기점,Break-Even Point,BEP,이익도 손해도 아닌 상태가 되는 매출액 또는 판매량.
+마일리지,Mileage,MLG,항공사나 쇼핑몰 등에서 제공하는 적립금.
+e-Gift Card,Electronic Gift Card,EGC,실물 카드 없이 모바일로 전송되는 상품권.
+포인트 통합,Point Integration,PI,여러 제휴사의 포인트를 하나로 합쳐 사용할 수 있게 하는 것.
+비활성 계정,Dormant Account,DA,장기간 접속이나 활동이 없는 회원 계정.
+개인 정보 유출,Personal Data Leak,PDL,고객의 개인 정보가 외부로 새어 나가는 사고.
+고객 만족 경영,Customer Satisfaction Management,CSM,고객의 만족을 기업 경영의 최우선 목표로 삼는 전략.
+내부 통제,Internal Control,IC,기업의 목표 달성을 위해 내부 시스템을 감시하고 조정하는 활동.
+무단 도용,Unauthorized Use,UU,"허락 없이 타인의 이미지, 문구 등을 사용하는 행위."
+저작권,Copyright,CPY,창작물을 만든 사람의 권리.
+상표권,Trademark Right,TR,등록된 상표를 독점적으로 사용할 수 있는 권리.
+특허권,Patent Right,PR,발명에 대해 독점적인 권리를 가질 수 있는 권리.
+배타적 권리,Exclusive Right,ER,다른 사람이 사용할 수 없도록 특정 주체에게만 주어진 권리.
+소송,Litigation,LITI,법원에 분쟁 해결을 요청하는 행위.
+약관 동의,Terms of Service Agreement,TSA,서비스 이용 전 약관 내용을 읽고 승인하는 행위.
+불가항력,Force Majeure,FM,자연재해 등 당사자의 통제 범위를 벗어난 사건.
+보상 판매,Trade-In,TI,기존 사용하던 제품을 반납하고 새 제품을 할인된 가격에 구매하는 방식.
+폐쇄몰,Closed Mall,CLM,"특정 집단(직원, 회원 등)에게만 접근이 허용된 쇼핑몰."
+제휴사,Affiliate Partner,AP,공동의 이익을 위해 사업적으로 협력하는 회사.
+벤더,Vendor,VND,상품이나 서비스를 공급하는 업체.
+협력업체,Partner Company,PCP,업무를 함께 수행하는 회사.
+총판,General Distributor,GD,특정 지역이나 시장에서 독점적으로 상품 판매를 책임지는 대리점.
+가이드라인,Guideline,GL,업무나 행동의 방향을 제시하는 지침.
+매뉴얼,Manual,MNL,특정 작업을 수행하는 절차를 상세히 기록한 문서.
+표준화,Standardization,STD,"품질, 형식, 방법 등을 일정하게 통일하는 작업."
+전산화,Computerization,CMP,수동으로 하던 업무를 컴퓨터 시스템으로 처리하는 것.
+데이터 마이닝,Data Mining,DM,대규모 데이터에서 유의미한 패턴과 규칙을 찾아내는 분석 기법.
+빅데이터,Big Data,BD,기존 데이터 처리 시스템으로는 분석이 어려운 대규모 데이터.
+인공지능,Artificial Intelligence,AI,"인간의 학습 능력, 추론 능력 등을 컴퓨터 프로그램으로 구현한 기술."
+머신러닝,Machine Learning,ML,데이터 학습을 통해 스스로 성능을 향상시키는 인공지능 분야.
+딥러닝,Deep Learning,DL,여러 층의 신경망을 이용하는 머신러닝의 한 분야.
+로봇 프로세스 자동화,Robotic Process Automation,RPA,사람이 반복하는 업무를 로봇 소프트웨어가 자동 처리하는 기술.
+스마트 팩토리,Smart Factory,SF,"AI, 빅데이터 등을 활용하여 생산 과정을 자동화하는 공장."
+메타버스 커머스,Metaverse Commerce,MC,3차원 가상세계에서 상품을 판매하고 구매하는 행위.
+가상 현실,Virtual Reality,VR,컴퓨터로 만든 가상의 환경을 현실처럼 느끼게 하는 기술.
+증강 현실,Augmented Reality,AR,실제 환경에 가상의 이미지를 덧입혀 보여주는 기술.
+무인 매장,Unmanned Store,US,직원 없이 자동화된 시스템으로 운영되는 상점.
+키오스크,Kiosk,KSK,터치스크린 방식으로 주문 및 결제가 가능한 무인 단말기.
+셀프 계산대,Self-Checkout,SCO,고객이 직접 상품을 스캔하고 결제하는 계산대.
+생애 가치,Customer Lifetime Value,CLV,한 고객이 기업과 거래하는 전 기간에 걸쳐 창출하는 총 이익.
+이탈 고객,Churn Customer,CC,더 이상 서비스를 이용하지 않기로 결정한 고객.
+휴면 고객,Dormant Customer,DC,일정 기간 구매 활동이 없는 고객.
+잠재 고객,Prospect/Lead,PRO,미래에 상품을 구매할 가능성이 있는 고객.
+충성 고객,Loyal Customer,LC,특정 브랜드나 매장만 고집하여 반복적으로 구매하는 고객.
+고객 유지,Customer Retention,CR,기존 고객이 계속 서비스를 이용하도록 관리하는 활동.
+이메일 마케팅,Email Marketing,EM,이메일을 통해 상품 정보나 프로모션을 전달하는 마케팅.
+푸시 알림,Push Notification,PN,앱을 사용하지 않을 때도 휴대폰 화면에 뜨는 알림 메시지.
+팝업 창,Pop-up Window,PW,웹페이지 접속 시 자동으로 뜨는 작은 알림 창.
+쿠키,Cookie,CKE,웹사이트 접속 정보를 사용자 컴퓨터에 저장하는 파일.
+브라우저,Browser,BRW,웹사이트에 접속하고 내용을 볼 수 있게 하는 프로그램.
+캐시,Cache,CSH,자주 사용하는 데이터나 이미지를 임시로 저장해 두는 공간.
+세션,Session,SESS,사용자가 웹사이트에 접속하여 로그아웃할 때까지의 활동 기간.
+트래픽,Traffic,TRF,웹사이트에 접속하는 데이터 통신량.
+대역폭,Bandwidth,BW,일정 시간 동안 전송할 수 있는 데이터의 최대량.
+해킹,Hacking,HACK,컴퓨터 시스템에 불법적으로 침입하여 정보를 훔치거나 파괴하는 행위.
+랜섬웨어,Ransomware,RW,시스템을 잠근 후 금전을 요구하는 악성 프로그램.
+방화벽,Firewall,FW,외부의 불법 침입으로부터 내부 네트워크를 보호하는 보안 시스템.
+암호화,Encryption,ENC,정보를 알아볼 수 없는 형태로 변환하여 보안을 강화하는 작업.
+복호화,Decryption,DEC,암호화된 정보를 다시 원래 형태로 되돌리는 작업.
+인증서,Certificate,CRT,정보의 신뢰성과 본인 여부를 증명하는 전자 문서.
+가상 사설망,Virtual Private Network,VPN,공중망을 이용하여 마치 사설망처럼 안전하게 통신할 수 있게 하는 기술.
+고객 생애 가치,Customer Lifetime Value,CLV,한 고객이 기업과 거래하는 전체 기간 동안 창출하는 총 이익.
+재구매 의향,Repurchase Intention,RI,고객이 해당 상품이나 서비스를 다시 구매할 의도.
+평균 응대 시간,Average Handling Time,AHT,고객 상담 시작부터 종료까지 걸리는 평균 시간.
+첫 접촉 해결률,First Contact Resolution,FCR,고객이 첫 문의에서 문제를 해결하여 재문의가 발생하지 않는 비율.
+이탈률,Churn Rate,CR,일정 기간 동안 서비스를 더 이상 이용하지 않게 된 고객의 비율.
+신속한 응대,Quick Response,QR,고객의 문의나 요청에 빠르게 답변하거나 조치하는 것.
+고객 경험,Customer Experience,CX,고객이 기업/브랜드와 상호작용하는 모든 과정에서 느끼는 총체적 경험.
+보이스 오브 커스터머,Voice of Customer,VOC,"고객의 의견, 불만, 제안 등 모든 피드백."
+문의 유형 분류,Inquiry Type Classification,ITC,고객 문의를 접수 목적에 따라 종류별로 나누는 작업.
+상담 품질 평가,Call Quality Assessment,CQA,고객 응대 서비스의 질을 평가하는 것.
+상담 대기열,Call Queue,CQ,상담원 연결을 기다리는 고객들의 순서.
+콜백 서비스,Callback Service,CBS,상담 대기 중인 고객에게 나중에 전화해 주는 서비스.
+악성 민원인,Vexatious Complainant,VC,상습적이고 비합리적인 요구를 하는 고객.
+에스컬레이션,Escalation,ESCL,일반적인 CS로 해결되지 않아 상위 관리자에게 인계되는 문제.
+재고 자산,Inventory Asset,IA,판매를 목적으로 보유하고 있는 모든 상품.
+재고 부족,Stockout,SO,고객 주문 시 판매할 재고가 없는 상태.
+안전 재고,Safety Stock,SS,예측하지 못한 수요 증가나 공급 지연에 대비해 비축하는 재고.
+결품,Missing Item,MI,주문에 포함되어야 할 상품이 빠져있는 상태.
+가용 재고,Available Stock,AS,즉시 판매 또는 출고 가능한 현재 재고 수량.
+재고 조정,Inventory Adjustment,IADJ,실제 재고와 시스템 상 재고의 차이를 맞추는 작업.
+재고 평가 손실,Inventory Valuation Loss,IVL,재고 가치가 하락하여 발생하는 손실.
+순환 실사,Cycle Count,CC,정기적인 전수 실사 대신 소수의 상품을 주기적으로 확인하는 재고 실사 방법.
+로트 번호,Lot Number,LN,특정 기간 생산된 상품에 부여되는 식별 번호 (추적용).
+창고 레이아웃,Warehouse Layout,WL,"창고 내 동선, 보관 위치 등을 설계하는 배치도."
+집하,Collection,COL,택배사에서 판매자로부터 상품을 수거하는 과정.
+분류,Sorting,SRT,수거된 상품을 배송 지역별로 나누는 작업.
+허브 터미널,Hub Terminal,HT,전국 각지의 화물을 모아 분류하고 다시 각 지역으로 보내는 중심 물류 거점.
+라스트 마일,Last Mile,LM,상품이 최종 물류 거점에서 소비자에게 전달되는 최종 단계.
+3자 물류,Third Party Logistics,3PL,물류 업무를 전문 업체에 아웃소싱하는 것.
+4자 물류,Fourth Party Logistics,4PL,"물류 기획, 컨설팅, 관리를 포함하여 공급망 전체를 관리하는 서비스."
+물류 거점,Logistics Center,LC,물품의 보관 및 유통을 위한 핵심 시설.
+크로스 도킹,Cross-Docking,CD,창고 보관 과정 없이 상품을 바로 하차장에서 출하장으로 옮겨 배송하는 방식.
+물류 비용,Logistics Cost,LGC,"운송, 보관, 포장, 하역 등에 소요되는 모든 비용."
+온도 제어,Temperature Control,TC,냉장/냉동 상품의 적정 온도를 유지하는 관리.
+적재,Loading,LDG,상품을 운송 차량에 싣는 작업.
+하역,Unloading,ULD,운송 차량에서 상품을 내리는 작업.
+팔레트당 수량,Quantity Per Pallet,QPP,하나의 팔레트에 적재할 수 있는 상품의 최대 수량.
+컨테이너,Container,CTN,해상 및 육상 운송에 사용되는 대형 규격 화물 상자.
+도로운송,Road Transport,RT,트럭 등 차량을 이용한 육상 운송.
+해상운송,Ocean Freight,OFR,선박을 이용한 국제 운송.
+항공운송,Air Freight,AFR,항공기를 이용한 신속 운송.
+화물,Cargo,CGO,운송을 목적으로 하는 상품.
+복합운송,Multimodal Transport,MMT,두 가지 이상의 운송 수단을 연계하여 운송하는 것.
+운송장 (선하증권),Bill of Lading,B/L,해상 운송 시 화물 수령을 증명하고 운송 계약을 나타내는 유가증권.
+보험료,Insurance Premium,IP,운송 중 발생할 수 있는 손해에 대비하여 지불하는 비용.
+관세,Customs Duty,CD,수입 상품에 부과되는 세금.
+수출입 신고,Import/Export Declaration,IED,세관에 수출입 사실을 신고하는 절차.
+통관 수수료,Customs Clearance Fee,CCF,통관 대행 서비스에 지불하는 수수료.
+FTA,Free Trade Agreement,FTA,국가 간 상품 이동 시 관세를 낮추거나 없애는 무역 협정.
+원산지 증명서,Certificate of Origin,CO,상품의 생산 또는 가공 국가를 증명하는 서류.
+인코텀즈,Incoterms,INC,무역 거래 조건에 관한 국제 규칙.
+배송 대행지,Shipping Proxy/Agent,SA,해외 직구 시 현지에서 상품을 대신 받아 국내로 배송하는 서비스 업체.
+소싱,Sourcing,SRC,상품을 구매할 공급업체나 생산지를 찾는 행위.
+납품,Delivery/Supply,SPLY,판매자가 유통업체에게 상품을 공급하는 것.
+최종 결정권자,Decision Maker,DMK,구매나 계약에 대한 최종 권한을 가진 사람.
+매입가,Buying Price,BP,판매자가 상품을 공급업체로부터 구매하는 가격.
+순이익,Net Profit,NP,매출에서 매출원가와 모든 비용을 제외한 최종 이익.
+총 이익,Gross Profit,GP,매출에서 매출원가만을 제외한 이익.
+운영 비용,Operating Expense,OPEX,"기업 운영에 필요한 모든 비용 (인건비, 임차료 등)."
+원가,Cost Price,CP,상품을 생산하거나 매입하는 데 들어간 비용.
+고정 비용,Fixed Cost,FC,생산량이나 판매량에 관계없이 일정하게 발생하는 비용.
+변동 비용,Variable Cost,VC,생산량이나 판매량에 따라 변동하는 비용.
+간접 비용,Indirect Cost,IC,특정 상품이나 활동에 직접적으로 귀속시키기 어려운 비용.
+마케팅 비용,Marketing Cost,MC,"광고, 홍보, 프로모션 등에 지출하는 비용."
+투자 대비 수익률,Return On Investment,ROI,투자 금액 대비 얻은 이익의 비율.
+광고 수익률,Return On Ad Spend,ROAS,광고 지출액 대비 광고를 통해 얻은 매출액.
+고객 획득 비용,Customer Acquisition Cost,CAC,신규 고객 한 명을 확보하는 데 드는 평균 비용.
+콘텐츠 마케팅,Content Marketing,CM,가치 있는 콘텐츠를 제작하여 잠재 고객을 유인하는 마케팅.
+바이럴 마케팅,Viral Marketing,VM,입소문을 통해 정보가 확산되도록 유도하는 마케팅.
+인플루언서 마케팅,Influencer Marketing,IM,소셜 미디어 등 영향력 있는 사람을 활용하는 마케팅.
+퍼포먼스 마케팅,Performance Marketing,PM,데이터와 지표를 기반으로 성과를 측정하며 진행하는 마케팅.
+리타겟팅,Retargeting,RTG,웹사이트에 방문했던 사용자에게 다시 광고를 노출하는 기법.
+고객 여정 맵,Customer Journey Map,CJM,고객이 제품/서비스와 상호작용하는 모든 단계를 시각화한 지도.
+퍼널 분석,Funnel Analysis,FA,고객이 구매로 전환되는 단계별 경로와 이탈 지점을 분석하는 기법.
+코호트 분석,Cohort Analysis,COA,특정 시기에 공통된 경험을 한 고객 집단(코호트)의 행동을 추적 분석하는 것.
+재방문율,Repeat Visit Rate,RVR,웹사이트에 다시 방문한 고객의 비율.
+스크롤 뎁스,Scroll Depth,SD,사용자가 웹페이지를 얼마나 깊이 읽었는지 측정하는 지표.
+A/B 테스트,A/B Testing,ABT,"두 가지 버전(A안, B안)을 비교하여 더 효과적인 디자인이나 기능을 찾는 실험."
+랜딩 페이지,Landing Page,LP,광고 클릭 후 사용자가 처음 도달하는 웹페이지.
+CTA 버튼,Call To Action Button,CTA,"고객의 행동(구매, 가입 등)을 유도하는 버튼."
+위젯,Widget,WGT,웹사이트에 추가 기능을 제공하는 작은 소프트웨어 모듈.
+쿠키,Cookie,CKE,웹사이트 접속 정보를 사용자 컴퓨터에 저장하는 파일.
+세션,Session,SESS,사용자가 웹사이트에 접속하여 활동하는 일련의 과정.
+트래픽,Traffic,TRF,웹사이트에 접속하는 데이터 통신량.
+서버 다운,Server Down,SD,서버가 작동을 멈춰 웹사이트 접속이 불가능한 상태.
+백업,Backup,BKUP,데이터 손실에 대비하여 정보를 별도로 저장해 두는 것.
+데이터베이스 관리 시스템,Database Management System,DBMS,데이터베이스를 효율적으로 관리하는 소프트웨어.
+API 연동,API Integration,API,서로 다른 시스템 간에 기능을 연결하여 데이터를 주고받게 하는 것.
+클라우드 기반,Cloud-Based,CB,인터넷상의 서버를 통해 서비스를 제공하는 방식.
+시스템 보안,System Security,SS,전산 시스템을 해킹이나 외부 위협으로부터 보호하는 것.
+암호화,Encryption,ENC,데이터를 보호하기 위해 알아볼 수 없는 형태로 변환하는 기술.
+방화벽,Firewall,FW,외부 네트워크의 불법 침입을 막는 보안 시스템.
+해킹,Hacking,HACK,시스템에 무단 침입하여 데이터를 탈취하거나 파괴하는 행위.
+개인 정보 파기,Personal Data Destruction,PDD,개인 정보를 복구할 수 없도록 완전히 삭제하는 것.
+데이터 마이닝,Data Mining,DM,대규모 데이터에서 유의미한 패턴을 찾아내는 분석 기법.
+머신러닝,Machine Learning,ML,컴퓨터가 데이터 학습을 통해 스스로 성능을 향상시키는 기술.
+인공지능 추천,AI Recommendation,AIR,인공지능이 고객의 선호도를 분석하여 상품을 제안하는 것.
+동적 가격 책정,Dynamic Pricing,DP,"수요, 경쟁, 재고 등에 따라 가격을 실시간으로 변동하는 전략."
+손익분기점,Break-Even Point,BEP,매출액이 총 비용과 같아져 이익도 손실도 아닌 지점.
+마진율,Margin Rate,MR,매출액 대비 이익이 차지하는 비율.
+가격 탄력성,Price Elasticity,PE,가격 변화에 따른 수요량의 민감도.
+박리다매,"High Volume, Low Margin",HVLM,이윤을 적게 붙여서 대량으로 판매하는 방식.
+고가 정책,Premium Pricing,PP,높은 가격을 책정하여 고급 이미지를 구축하는 전략.
+저가 정책,Low Pricing,LP,시장 평균보다 낮은 가격으로 경쟁력을 확보하는 전략.
+미끼 상품,Loss Leader,LL,고객 유인을 위해 원가 이하로 판매하는 상품.
+시즌 오프,Season Off,SO,특정 시즌이 끝난 후 남은 상품을 할인 판매하는 것.
+균일가,Fixed Price,FP,상품 종류나 가치에 상관없이 가격을 동일하게 책정하는 것.
+할증료,Surcharge,SC,특정 상황이나 조건 때문에 추가로 부과하는 요금.
+무이자 할부,Interest-Free Installment,IFI,할부 기간 동안 이자가 없는 결제 방식.
+리퍼비시 상품,Refurbished Product,REF,"반품, 전시 등으로 회수된 후 정비를 거쳐 재판매하는 상품."
+벌크 상품,Bulk Product,BLK,개별 포장 없이 대량으로 판매되는 상품 (대용량).
+매장 레이아웃,Store Layout,SL,"매장 내 상품 진열, 동선 등을 설계하는 배치 구조."
+VMD,Visual Merchandising,VMD,상품 전시를 통해 고객에게 시각적인 매력을 전달하는 활동.
+팝업 스토어,Pop-up Store,PS,짧은 기간 동안만 운영하는 임시 매장.
+플래그십 스토어,Flagship Store,FS,브랜드의 정체성과 가치를 가장 잘 보여주는 대표 매장.
+키오스크,Kiosk,KSK,"터치스크린 방식으로 주문, 결제가 가능한 무인 단말기."
+셀프 계산대,Self-Checkout,SCO,고객이 직접 상품을 스캔하고 결제하는 시스템.
+POS 시스템,Point of Sale System,POS,"상품 판매, 재고, 매출 등을 관리하는 판매 시점 정보 관리 시스템."
+영업 시간,Business Hours,BH,매장이나 회사가 운영되는 시간.
+폐점,Store Closing,CLSD,매장 영업을 종료하는 것.
+도난 방지 태그,Anti-Theft Tag,ATT,상품 도난을 막기 위해 부착하는 보안 장치.
+재고 손실률,Shrinkage Rate,SR,"도난, 파손, 행정 착오 등으로 인해 발생하는 재고 손실 비율."
+매장 안전 수칙,Store Safety Rules,SSR,매장 내에서 지켜야 할 안전 규정.
+고객 동선,Customer Flow,CF,매장 내에서 고객이 이동하는 경로.
+카운터,Counter,CTR,계산 및 고객 응대가 이루어지는 곳.
+마네킹,Mannequin,MNQ,옷이나 액세서리를 전시하는 인체 모형.
+진열 표준,Display Standard,DSP,상품을 진열할 때 지켜야 할 통일된 기준.
+온디맨드 서비스,On-Demand Service,ODS,고객의 요청에 따라 즉시 제공되는 서비스.
+O2O 서비스,Online to Offline Service,O2O,온라인과 오프라인을 연계하여 고객을 유도하는 서비스.
+옴니 채널,Omni-Channel,OC,모든 채널을 통합하여 일관된 고객 경험을 제공하는 전략.
+라이브 커머스,Live Commerce,LC,실시간 동영상 스트리밍을 통해 상품을 판매하는 방식.
+쇼호스트,Show Host,SH,라이브 커머스 방송 진행자.
+메타버스 커머스,Metaverse Commerce,MTC,가상 세계에서 이루어지는 상거래.
+가상현실,Virtual Reality,VR,컴퓨터로 만든 가상의 환경을 현실처럼 체험하는 기술.
+증강현실,Augmented Reality,AR,실제 환경에 가상 이미지를 덧입혀 보여주는 기술.
+사용자 생성 콘텐츠,User Generated Content,UGC,"사용자가 직접 만들어서 올린 콘텐츠 (리뷰, 영상 등)."
+마일리지,Mileage,MLG,구매 금액에 따라 적립되어 현금처럼 사용할 수 있는 포인트.
+e-Gift Card,Electronic Gift Card,EGC,실물 카드 없이 모바일로 전송되는 상품권.
+포인트 통합,Point Integration,PI,여러 제휴사의 포인트를 하나로 합쳐 사용할 수 있게 하는 것.
+멤버십 등급,Membership Tier,MT,누적 구매액 등에 따라 고객에게 부여하는 회원 자격 단계.
+우수 고객,VIP Customer,VIP,매출 기여도가 높거나 충성도가 높은 고객.
+휴면 고객,Dormant Customer,DC,일정 기간 동안 구매 활동이 없는 고객.
+이탈 고객,Churn Customer,CC,서비스를 더 이상 이용하지 않기로 결정한 고객.
+고객 재활성화,Customer Reactivation,CRA,휴면 고객이나 이탈 고객을 다시 활동하도록 유도하는 것.
+타겟 마케팅,Target Marketing,TM,특정 고객 집단(세그먼트)을 목표로 하는 마케팅.
+잠재 고객,Prospect/Lead,PRO,미래에 상품을 구매할 가능성이 있는 사람.
+콜드 리드,Cold Lead,CL,구매 의도가 아직 낮은 잠재 고객.
+핫 리드,Hot Lead,HL,구매 의도가 매우 높아 조만간 구매할 가능성이 높은 잠재 고객.
+데이터 보호 책임자,Data Protection Officer,DPO,개인 정보 보호 관련 업무를 총괄하는 책임자.
+개인 정보 처리 방침,Privacy Policy,PP,"개인 정보의 수집, 이용, 제공에 관한 규정."
+이용 약관,Terms of Service,TOS,서비스 이용에 대한 법적인 계약 내용.
+무단 도용,Unauthorized Use,UU,"허락 없이 타인의 이미지, 콘텐츠 등을 사용하는 행위."
+저작권 침해,Copyright Infringement,CI,저작권자의 권리를 침해하는 행위.
+상표권,Trademark Right,TR,특정 상표를 독점적으로 사용할 수 있는 권리.
+특허권,Patent Right,PR,발명에 대해 독점적인 권리를 가질 수 있는 권리.
+공정 거래,Fair Trade,FT,기업 간에 공정하고 합법적인 거래를 하는 것.
+소비자 보호법,Consumer Protection Act,CPA,소비자의 권익을 보호하기 위한 법률.
+상품 리콜,Product Recall,RCL,결함이 있는 상품을 제조사나 판매자가 회수하는 조치.
+품질 보증서,Warranty Certificate,WC,상품의 품질을 보장하는 문서.
+AS 규정,After Service Policy,ASP,"상품 구매 후 발생하는 문제에 대한 수리, 교환 등의 서비스 규정."
+보증 기간,Warranty Period,WP,무상 수리나 교환이 가능한 기간.
+위약금,Penalty Fee,PF,계약 사항을 위반했을 때 지불해야 하는 벌칙금.
+전자 영수증,Electronic Receipt,ER,종이가 아닌 디지털 형태로 발급되는 결제 증명서.
+현금 영수증,Cash Receipt,CR,현금 결제 시 발급받는 소득 공제용 증명서.
+세금 계산서,Tax Invoice,TI,사업자 간 거래에 사용되는 세금 증빙 서류.
+부가가치세,Value Added Tax,VAT,상품 판매나 서비스 제공 시 부과되는 간접세.
+면세,Tax Exemption,TX,세금이 부과되지 않는 조건.
+법인 카드,Corporate Card,CC,회사 명의로 발급된 업무용 카드.
+내부 통제,Internal Control,IC,기업의 목표 달성을 위해 업무 프로세스를 감시하고 조정하는 활동.
+감사,Audit,AUD,재무 상태나 업무 처리의 적정성을 점검하는 행위.
+근로 계약서,Labor Contract,LC,근로자와 회사 간의 고용 조건에 대한 서류.
+산업 안전 보건,Industrial Safety and Health,ISH,작업 환경에서 발생할 수 있는 위험을 예방하는 활동.
+직무 교육,Job Training,JT,직무 수행에 필요한 지식과 기술을 습득하게 하는 교육.
+유기농 인증,Organic Certification,OC,화학 비료나 농약 없이 재배되었음을 증명하는 인증.
+친환경 포장,Eco-Friendly Packaging,EFP,환경에 미치는 영향을 최소화한 포장재.
+재활용률,Recycling Rate,RR,전체 폐기물 중 재활용되는 비율.
+탄소 발자국,Carbon Footprint,CFP,제품의 전 과정에서 발생하는 온실가스 총량.
+지속 가능 경영,Sustainable Management,SM,"환경적, 사회적 책임을 다하며 이익을 추구하는 경영 방식."
+비건 인증,Vegan Certification,VC,동물성 원료를 사용하지 않았음을 증명하는 인증.
+콜드체인,Cold Chain,CC,신선 식품 운송 및 보관 시 저온 상태를 지속적으로 유지하는 시스템.
+신선도 유지 기간,Freshness Retention Period,FRP,식품의 신선함이 유지되는 기간.
+상온 보관,Room Temperature Storage,RTS,일반적인 실내 온도에서 보관하는 것 (1~30°C).
+냉장 보관,Refrigerated Storage,RS,냉장 온도에서 보관하는 것 (0~10°C).
+냉동 보관,Frozen Storage,FS,냉동 온도에서 보관하는 것 (0°C 이하).
+출하 준비 완료,Ready To Ship,RTS,상품 포장이 완료되어 배송사 인계 직전 상태.
+배송 지연,Delivery Delay,DD,예정된 배송일보다 늦어지는 것.
+재배송,Redelivery,RD,배송 실패 후 다시 상품을 보내는 것.
+고객 미수령,Customer Non-Receipt,CNR,상품이 배송되었으나 고객이 수령하지 못한 상태.
+도서 산간 추가 비용,Island/Mountain Surcharge,IMS,외곽 지역 배송 시 추가되는 운송 비용.
+지역 택배사,Local Courier,LC,특정 지역의 배송을 전담하는 택배사.
+위탁 배송,Consignment Delivery,CD,판매자가 직접 배송하지 않고 다른 업체에 위임하는 방식.
+드랍 쉬핑,Drop Shipping,DS,판매자가 재고 없이 주문을 받으면 공급업체가 고객에게 직접 배송하는 방식.
+직구,Direct Purchase,DP,해외 온라인 쇼핑몰에서 소비자가 직접 구매하는 것.
+역직구,Reverse Direct Purchase,RDP,국내 쇼핑몰에서 해외 소비자가 직접 구매하는 것.
+해외 직배송,International Direct Delivery,IDD,해외 판매자가 고객에게 직접 배송하는 방식.
+결제 대행,Payment Agency,PA,온라인 쇼핑몰의 결제를 중개하는 서비스.
+PG사,Payment Gateway Provider,PG,결제 승인 및 대금 처리를 대행하는 회사.
+에스크로 서비스,Escrow Service,ESC,소비자의 결제 대금을 제3자가 보관하다가 거래 완료 후 판매자에게 지급하는 서비스.
+간편 송금,Simple Remittance,SR,복잡한 절차 없이 모바일로 쉽게 돈을 보내는 방식.
+선불 카드,Prepaid Card,PC,미리 금액을 충전하여 사용하는 카드.
+제로페이,Zero Pay,ZP,계좌 이체 기반의 모바일 직불 결제 서비스.
+비대면 결제,Contactless Payment,CLP,"접촉 없이 이루어지는 결제 (NFC, QR 등)."
+생체 인식 결제,Biometric Payment,BP,"지문, 얼굴 등 신체 정보를 이용한 결제."
+재고 회전 기간,Inventory Holding Period,IHP,재고가 판매되는 데 걸리는 평균 기간.
+재고 불용 처리,Inventory Write-Off,IWO,사용 또는 판매 불가능한 재고를 장부상에서 제거하는 회계 처리.
+예측 발주,Forecast Ordering,FO,수요 예측을 기반으로 미리 상품을 주문하는 행위.
+리오더,Reorder,R/O,품절된 상품을 다시 주문하는 것.
+초도 물량,Initial Volume,IV,신상품 출시 시 처음으로 주문하거나 입고하는 물량.
+최적화,Optimization,OPT,"효율성, 생산성 등을 최대화하는 작업."
+자동화,Automation,AUTO,사람의 개입 없이 기계나 시스템이 자동으로 업무를 처리하는 것.
+시스템 통합,System Integration,SI,여러 독립된 시스템을 하나의 시스템으로 연결하는 것.
+ERP 시스템,Enterprise Resource Planning,ERP,"기업의 모든 자원(재무, 생산, 물류 등)을 통합 관리하는 시스템."
+TMS,Transportation Management System,TMS,"운송 계획, 실행, 관리를 위한 시스템."
+FMS,Field Management System,FMS,현장 업무 및 인력을 관리하는 시스템.
+실시간 추적,Real-Time Tracking,RTT,운송 중인 상품의 위치를 즉시 확인하는 것.
+GPS,Global Positioning System,GPS,위성 항법 시스템을 이용한 위치 정보 확인.
+RFID,Radio Frequency Identification,RFID,무선 주파수를 이용하여 사물을 식별하는 기술.
+태그,Tag,TAG,상품에 부착하여 정보를 담는 장치.
+바코드 스캐너,Barcode Scanner,BCS,바코드를 읽어 상품 정보를 입력하는 장치.
+무인 운반 차량,Automated Guided Vehicle,AGV,정해진 경로를 따라 스스로 움직이는 무인 물류 운반 로봇.
+스마트 팩토리,Smart Factory,SF,"빅데이터, AI 등을 활용하여 생산 과정을 지능화하는 공장."
+로봇 프로세스 자동화,Robotic Process Automation,RPA,반복적인 업무를 소프트웨어 로봇이 자동 처리하는 기술.
+인공지능,Artificial Intelligence,AI,인간의 지능이 필요한 작업을 수행하는 컴퓨터 시스템.
+빅데이터 분석,Big Data Analysis,BDA,"대규모 데이터를 수집, 저장, 분석하는 기술."
+데이터 레이크,Data Lake,DLK,정형/비정형 데이터를 모두 원본 형태로 저장하는 대규모 저장소.
+데이터 웨어하우스,Data Warehouse,DWH,의사 결정 지원을 위해 정제된 데이터를 저장하는 시스템.
+데이터 시각화,Data Visualization,DV,데이터를 그래프나 차트 형태로 보기 쉽게 표현하는 것.
+개인화,Personalization,PERS,고객 개인의 특성에 맞춰 서비스나 상품을 맞춤 제공하는 것.
+추천 알고리즘,Recommendation Algorithm,RA,고객의 과거 행동을 분석하여 상품을 추천하는 시스템.
+맞춤형 광고,Customized Ad,CA,개인의 관심사나 구매 이력에 맞춰 노출되는 광고.
+쿠폰 발행,Coupon Issuance,CI,할인이나 혜택을 받을 수 있는 쿠폰을 제공하는 것.
+할인율,Discount Rate,DR,정가 대비 할인되는 금액의 비율.
+증정품,Free Gift,FG,상품 구매 시 추가로 제공하는 사은품.
+선착순 이벤트,First-Come Event,FCE,먼저 참여하는 순서대로 혜택을 제공하는 행사.
+재고 소진 할인,Clearance Sale,CS,남은 재고를 모두 팔기 위해 대폭 할인하는 행사.
+사내 복지몰,Employee Welfare Mall,EWM,기업 임직원에게만 제공되는 폐쇄형 쇼핑몰.
+제휴 마케팅,Affiliate Marketing,AM,다른 채널을 통해 판매를 유도하고 수수료를 지급하는 마케팅.
+협찬,Sponsorship,SPN,금전적 대가 대신 상품 제공으로 홍보 효과를 얻는 행위.
+광고 모델,Advertising Model,ADM,상품 홍보를 위해 고용된 인물.
+이미지 사용권,Image Usage Right,IUR,상품 사진이나 광고 이미지를 사용할 수 있는 권리.
+독점 계약,Exclusive Contract,EC,특정 업체에게만 판매나 유통 권한을 부여하는 계약.
+총판,General Distributor,GD,특정 지역/시장에서 상품의 판매 및 유통을 총괄하는 업체.
+대리점,Agency,AGY,제조업체나 총판을 대신하여 상품을 판매하는 업체.
+가맹점,Franchise Store,FS,본사의 브랜드와 운영 시스템을 빌려 독립적으로 운영하는 매장.
+직영점,Directly Managed Store,DMS,본사가 직접 소유하고 관리하는 매장.
+매장 직원 교육,Staff Training,ST,매장 직원의 서비스 품질 향상을 위한 교육.
+매뉴얼,Manual,MNL,업무 수행 절차를 상세히 기록한 지침서.
+품질 관리,Quality Control,QC,상품이나 서비스의 품질을 일정 기준 이상으로 유지하는 활동.
+검품,Inspection,INSP,"상품의 상태, 수량 등을 확인하는 작업."
+불량률,Defect Rate,DFR,생산되거나 판매된 상품 중 불량품이 차지하는 비율.
+하자,Defect,DFT,상품에 있는 물리적 또는 기능적 결함.
+유효 기간 만료,Expiration,EXP,상품 사용 또는 판매가 가능한 기한이 끝남.
+폐기 처리,Disposal,DSP,판매나 사용이 불가능한 상품을 버리는 절차.
+환경 규제,Environmental Regulation,ER,환경 보호를 위해 기업 활동에 부과되는 법적 제한.
+ESG 경영,"Environmental, Social, Governance",ESG,"환경, 사회적 책임, 지배구조를 고려하는 경영 철학."
+상생 협력,Win-Win Cooperation,WWC,파트너 간의 공동 이익을 추구하는 협력 관계.
+납품 단가,Supply Unit Price,SUP,공급하는 상품 1개당 가격.
+수수료율,Commission Rate,CR,거래 금액 대비 판매자에게 부과되는 수수료의 비율.
+판매자 정산,Seller Settlement,SS,플랫폼이 판매 대금에서 수수료 등을 제외하고 판매자에게 지급하는 행위.

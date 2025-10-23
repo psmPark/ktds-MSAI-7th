@@ -1,0 +1,97 @@
+﻿table_name,column_name,column_type,primary_key,foreign_key,index_name,sequence_name,function_name,description
+user_accounts,user_id,INT,Y,,idx_user_accounts_user_id,seq_user_accounts,fn_get_user_balance,사용자 계정 정보를 저장
+user_accounts,user_name,VARCHAR(50),N,,idx_user_accounts_user_name,,,사용자 이름
+user_accounts,email,VARCHAR(100),N,,idx_user_accounts_email,,,사용자 이메일
+user_accounts,created_at,DATETIME,N,,idx_user_accounts_created_at,,,계정 생성일
+user_accounts,updated_at,DATETIME,N,,idx_user_accounts_updated_at,,,계정 수정일
+orders,order_id,INT,Y,,idx_orders_order_id,seq_orders,fn_calculate_order_total,주문 정보를 저장
+orders,user_id,INT,N,user_accounts.user_id,idx_orders_user_id,,,주문한 사용자 ID
+orders,order_date,DATETIME,N,,idx_orders_order_date,,,주문 날짜
+orders,total_price,"DECIMAL(10,2)",N,,idx_orders_total_price,,,총 주문 금액
+orders,status,VARCHAR(20),N,,idx_orders_status,,,주문 상태
+products,product_id,INT,Y,,idx_products_product_id,seq_products,fn_get_product_stock,상품 정보를 저장
+products,product_name,VARCHAR(100),N,,idx_products_product_name,,,상품 이름
+products,category_id,INT,N,product_categories.category_id,idx_products_category_id,,,상품 카테고리 ID
+products,price,"DECIMAL(10,2)",N,,idx_products_price,,,상품 가격
+products,stock_quantity,INT,N,,idx_products_stock_quantity,,,재고 수량
+product_categories,category_id,INT,Y,,idx_product_categories_category_id,seq_product_categories,fn_get_category_info,상품 카테고리 정보
+product_categories,category_name,VARCHAR(50),N,,idx_product_categories_category_name,,,카테고리 이름
+product_categories,description,VARCHAR(255),N,,idx_product_categories_description,,,카테고리 설명
+warehouses,warehouse_id,INT,Y,,idx_warehouses_warehouse_id,seq_warehouses,fn_get_warehouse_stock,창고 정보
+warehouses,warehouse_name,VARCHAR(50),N,,idx_warehouses_warehouse_name,,,창고 이름
+warehouses,address,VARCHAR(255),N,,idx_warehouses_address,,,창고 주소
+warehouses,capacity,INT,N,,idx_warehouses_capacity,,,창고 수용량
+customers,customer_id,INT,Y,,idx_customers_customer_id,seq_customers,fn_get_customer_info,고객 정보
+customers,first_name,VARCHAR(50),N,,idx_customers_first_name,,,고객 이름
+customers,last_name,VARCHAR(50),N,,idx_customers_last_name,,,고객 성
+customers,email,VARCHAR(100),N,,idx_customers_email,,,고객 이메일
+customers,phone,VARCHAR(20),N,,idx_customers_phone,,,고객 연락처
+shipments,shipment_id,INT,Y,,idx_shipments_shipment_id,seq_shipments,fn_get_shipment_status,배송 정보
+shipments,order_id,INT,N,orders.order_id,idx_shipments_order_id,,,배송 대상 주문 ID
+shipments,shipment_date,DATETIME,N,,idx_shipments_shipment_date,,,배송 날짜
+shipments,status,VARCHAR(20),N,,idx_shipments_status,,,배송 상태
+payments,payment_id,INT,Y,,idx_payments_payment_id,seq_payments,fn_process_payment,결제 정보
+payments,order_id,INT,N,orders.order_id,idx_payments_order_id,,,결제 대상 주문 ID
+payments,amount,"DECIMAL(10,2)",N,,idx_payments_amount,,,결제 금액
+payments,payment_date,DATETIME,N,,idx_payments_payment_date,,,결제 날짜
+payments,method,VARCHAR(50),N,,idx_payments_method,,,결제 수단
+discounts,discount_id,INT,Y,,idx_discounts_discount_id,seq_discounts,fn_apply_discount,할인 정보
+discounts,product_id,INT,N,products.product_id,idx_discounts_product_id,,,할인 적용 상품
+discounts,rate,"DECIMAL(5,2)",N,,idx_discounts_rate,,,할인율
+discounts,start_date,DATETIME,N,,idx_discounts_start_date,,,할인 시작일
+discounts,end_date,DATETIME,N,,idx_discounts_end_date,,,할인 종료일
+inventory_logs,log_id,INT,Y,,idx_inventory_logs_log_id,seq_inventory_logs,fn_update_inventory,재고 변경 로그
+inventory_logs,product_id,INT,N,products.product_id,idx_inventory_logs_product_id,,,상품 ID
+inventory_logs,change_quantity,INT,N,,idx_inventory_logs_change_quantity,,,변경 수량
+inventory_logs,change_date,DATETIME,N,,idx_inventory_logs_change_date,,,변경 일시
+reviews,review_id,INT,Y,,idx_reviews_review_id,seq_reviews,fn_get_review_info,상품 리뷰 정보
+reviews,product_id,INT,N,products.product_id,idx_reviews_product_id,,,리뷰 대상 상품 ID
+reviews,customer_id,INT,N,customers.customer_id,idx_reviews_customer_id,,,리뷰 작성자 ID
+reviews,rating,INT,N,,idx_reviews_rating,,,평점
+reviews,comment,VARCHAR(255),N,,idx_reviews_comment,,,리뷰 내용
+suppliers,supplier_id,INT,Y,,idx_suppliers_id,seq_suppliers,fn_get_supplier_rating,상품 공급업체 고유 ID (벤더)
+suppliers,supplier_name,VARCHAR(100),N,,idx_suppliers_name,,,공급업체 이름
+suppliers,contact_person,VARCHAR(50),N,,idx_suppliers_contact,,,담당자 연락처
+suppliers,supply_price,"DECIMAL(10,2)",N,,idx_suppliers_price,,,상품 납품 기본 단가 (납품가)
+suppliers,min_order_qty,INT,N,,idx_suppliers_moq,,,최소 주문 수량 (MOQ)
+suppliers,payment_terms,VARCHAR(50),N,,idx_suppliers_terms,,,대금 결제 조건
+inventory_management,inventory_id,INT,Y,,idx_inv_mgmt_id,seq_inv_mgmt,fn_calc_safety_stock,재고 관리 고유 ID (WMS 항목)
+inventory_management,product_id,INT,N,products.product_id,idx_inv_mgmt_prod_id,,,관리 대상 상품 ID (SKU)
+inventory_management,warehouse_id,INT,N,warehouses.warehouse_id,idx_inv_mgmt_wh_id,,,보관 창고 ID
+inventory_management,location_code,VARCHAR(10),N,,idx_inv_mgmt_loc,,,창고 내 상품 보관 위치 (로케이션)
+inventory_management,safety_stock_qty,INT,N,,idx_inv_mgmt_safe_qty,,,예측 불가에 대비한 안전 재고 수량
+inventory_management,is_available,BOOLEAN,N,,idx_inv_mgmt_avail,,,즉시 판매/출고 가능 여부 (가용 재고)
+inventory_management,accuracy_check_date,DATETIME,N,,idx_inv_mgmt_check_dt,,,재고 실사 또는 순환 실사 일자
+customer_service_logs,cs_log_id,INT,Y,,idx_cs_logs_id,seq_cs_logs,fn_calc_fcr_rate,CS 로그 고유 ID (VOC 기록)
+customer_service_logs,customer_id,INT,N,customers.customer_id,idx_cs_logs_cust_id,,,고객 ID
+customer_service_logs,inquiry_type,VARCHAR(50),N,,idx_cs_logs_type,,,문의 유형 분류
+customer_service_logs,claim_status,VARCHAR(20),N,,idx_cs_logs_claim_st,,,클레임 처리 상태
+customer_service_logs,is_first_contact_res,BOOLEAN,N,,idx_cs_logs_fcr,,,첫 접촉 해결 여부 (FCR)
+customer_service_logs,handle_time_sec,INT,N,,idx_cs_logs_handle_tm,,,상담 처리 시간 (평균 응대 시간)
+customer_service_logs,is_vexatious,BOOLEAN,N,,idx_cs_logs_vex,,,악성 민원인(블랙 컨슈머) 여부
+customer_service_logs,csq_rating,INT,N,,idx_cs_logs_csq,,,상담 품질 평가 점수
+marketing_campaigns,campaign_id,INT,Y,,idx_campaigns_id,seq_campaigns,fn_calc_roas,마케팅 캠페인 고유 ID (퍼포먼스 마케팅)
+marketing_campaigns,campaign_name,VARCHAR(100),N,,idx_campaigns_name,,,캠페인 이름
+marketing_campaigns,start_date,DATETIME,N,,idx_campaigns_start_dt,,,캠페인 시작일
+marketing_campaigns,end_date,DATETIME,N,,idx_campaigns_end_dt,,,캠페인 종료일
+marketing_campaigns,ad_spend,"DECIMAL(10,2)",N,,idx_campaigns_spend,,,총 광고 지출액 (마케팅 비용)
+marketing_campaigns,total_revenue,"DECIMAL(10,2)",N,,idx_campaigns_rev,,,캠페인으로 발생한 총 매출
+marketing_campaigns,roas,"DECIMAL(5,2)",N,,idx_campaigns_roas,,,광고 수익률 (ROAS)
+marketing_campaigns,conversion_rate,"DECIMAL(5,2)",N,,idx_campaigns_cr,,,구매 전환율 (CR)
+marketing_campaigns,acquisition_cost,"DECIMAL(10,2)",N,,idx_campaigns_cac,,,고객 획득 비용 (CAC)
+marketing_campaigns,is_retargeting,BOOLEAN,N,,idx_campaigns_rtg,,,리타겟팅 캠페인 여부
+logistics_routes,route_id,INT,Y,,idx_routes_id,seq_routes,fn_calc_avg_lead_time,물류 경로 고유 ID (SCM의 운송 경로)
+logistics_routes,start_location,VARCHAR(100),N,,idx_routes_start,,,"출발 물류 거점 (예: 창고 ID, Hub Terminal)"
+logistics_routes,end_location,VARCHAR(100),N,,idx_routes_end,,,도착 물류 거점 (예: 허브 터미널 / 고객 지역)
+logistics_routes,avg_lead_time_days,INT,N,,idx_routes_lead_time,,,해당 경로 평균 운송 시간 (리드타임)
+logistics_routes,logistics_type,VARCHAR(20),N,,idx_routes_type,,,물류 타입 (3PL/4PL/자체 물류)
+logistics_routes,is_last_mile,BOOLEAN,N,,idx_routes_lm,,,최종 고객 전달 단계 여부 (라스트 마일)
+logistics_routes,avg_total_cost,"DECIMAL(10,2)",N,,idx_routes_cost,,,해당 경로 운송 평균 비용 (물류 비용)
+customer_analytics,analysis_id,INT,Y,,idx_analytics_id,seq_analytics,fn_calc_clv,고객 분석 지표 고유 ID (BI/빅데이터)
+customer_analytics,customer_id,INT,N,customers.customer_id,idx_analytics_cust_id,,,분석 대상 고객 ID
+customer_analytics,customer_ltv,"DECIMAL(10,2)",N,,idx_analytics_clv,,,고객 생애 가치 (CLV)
+customer_analytics,churn_rate,"DECIMAL(5,2)",N,,idx_analytics_churn,,,고객 이탈률
+customer_analytics,segment_type,VARCHAR(50),N,,idx_analytics_segment,,,고객 세분화 유형
+customer_analytics,is_dormant,BOOLEAN,N,,idx_analytics_dormant,,,휴면 고객 여부
+customer_analytics,avg_handling_time,INT,N,,idx_analytics_aht,,,평균 응대 시간 (AHT)
+customer_analytics,is_prospect,BOOLEAN,N,,idx_analytics_prospect,,,잠재 고객(Lead) 여부
