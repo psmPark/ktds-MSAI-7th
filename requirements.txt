@@ -2,5 +2,6 @@ streamlit
 python-dotenv
 azure-search-documents
 openai
+azure-functions
 
 #azure-core

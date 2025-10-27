@@ -1,4097 +1,4780 @@
 [
   {
+    "id": 1,
     "korean": "상품",
     "english": "Product",
     "abbreviation": "PROD",
     "description": "소비자에게 판매하는 모든 종류의 물품."
   },
   {
+    "id": 2,
     "korean": "재고",
     "english": "Stock/Inventory",
     "abbreviation": "INV",
     "description": "현재 판매 또는 배송 가능한 상태로 창고에 보관 중인 상품 수량."
   },
   {
+    "id": 3,
     "korean": "품절",
     "english": "Sold Out",
     "abbreviation": "OOS",
     "description": "재고가 모두 소진되어 일시적 또는 영구적으로 구매할 수 없는 상태. (Out Of Stock)"
   },
   {
+    "id": 4,
     "korean": "할인",
     "english": "Discount",
     "abbreviation": "DC",
     "description": "정가에서 일정 비율이나 금액을 빼주는 판매 방식."
   },
   {
+    "id": 5,
     "korean": "정가",
     "english": "Regular Price",
     "abbreviation": "RP",
     "description": "할인이나 프로모션이 적용되지 않은 본래의 판매 가격."
   },
   {
+    "id": 6,
     "korean": "소비자 가격",
     "english": "Consumer Price",
     "abbreviation": "CP",
     "description": "최종 소비자가 지불하도록 권장되는 가격."
   },
   {
+    "id": 7,
     "korean": "묶음 상품",
     "english": "Bundle Product",
     "abbreviation": "BP",
     "description": "둘 이상의 상품을 하나로 묶어 판매하는 구성."
   },
   {
+    "id": 8,
     "korean": "신상품",
     "english": "New Arrival",
     "abbreviation": "NA",
     "description": "최근에 출시되어 판매를 시작한 상품."
   },
   {
+    "id": 9,
     "korean": "베스트셀러",
     "english": "Bestseller",
     "abbreviation": "BS",
     "description": "가장 많이 팔린 인기 상품."
   },
   {
+    "id": 10,
     "korean": "스테디셀러",
     "english": "Steady Seller",
     "abbreviation": "SS",
     "description": "오랫동안 꾸준히 사랑받으며 팔리는 상품."
   },
   {
+    "id": 11,
     "korean": "상세 페이지",
     "english": "Detail Page",
     "abbreviation": "DP",
     "description": "상품에 대한 자세한 정보(사진, 설명, 규격 등)를 제공하는 웹 페이지."
   },
   {
+    "id": 12,
     "korean": "상품 옵션",
     "english": "Product Option",
     "abbreviation": "OPT",
     "description": "상품을 선택할 때 고를 수 있는 세부 항목(색상, 사이즈 등)."
   },
   {
+    "id": 13,
     "korean": "색상",
     "english": "Color",
     "abbreviation": "CLR",
     "description": "상품의 색깔 선택지."
   },
   {
+    "id": 14,
     "korean": "사이즈",
     "english": "Size",
     "abbreviation": "SZ",
     "description": "상품의 크기나 규격 선택지."
   },
   {
+    "id": 15,
     "korean": "단종",
     "english": "Discontinued",
     "abbreviation": "DISC",
     "description": "더 이상 생산 및 판매를 중단한 상품."
   },
   {
+    "id": 16,
     "korean": "한정판",
     "english": "Limited Edition",
     "abbreviation": "LE",
     "description": "특정 기간 또는 수량만 판매하는 상품."
   },
   {
+    "id": 17,
     "korean": "체험단",
     "english": "Reviewer Group",
     "abbreviation": "RG",
     "description": "상품을 먼저 사용하고 솔직한 후기를 작성하는 그룹."
   },
   {
+    "id": 18,
     "korean": "예약 판매",
     "english": "Pre-Order",
     "abbreviation": "PO",
     "description": "정식 출시일 이전에 미리 주문을 받는 판매 방식."
   },
   {
+    "id": 19,
     "korean": "주문",
     "english": "Order",
     "abbreviation": "ORD",
     "description": "고객이 상품 구매 의사를 밝히고 요청하는 행위."
   },
   {
+    "id": 20,
     "korean": "결제",
     "english": "Payment",
     "abbreviation": "PAY",
     "description": "상품이나 서비스에 대한 비용을 지불하는 행위."
   },
   {
+    "id": 21,
     "korean": "취소",
     "english": "Cancellation",
     "abbreviation": "CAN",
     "description": "주문이나 결제를 철회하는 행위."
   },
   {
+    "id": 22,
     "korean": "환불",
     "english": "Refund",
     "abbreviation": "REF",
     "description": "취소나 반품 후 지불했던 금액을 되돌려 받는 것."
   },
   {
+    "id": 23,
     "korean": "교환",
     "english": "Exchange",
     "abbreviation": "EXC",
     "description": "구매한 상품을 동일하거나 다른 상품으로 바꾸는 것."
   },
   {
+    "id": 24,
     "korean": "반품",
     "english": "Return",
     "abbreviation": "RTN",
     "description": "구매한 상품을 판매자에게 되돌려 보내는 것."
   },
   {
+    "id": 25,
     "korean": "구매",
     "english": "Purchase",
     "abbreviation": "PUR",
     "description": "실제로 상품을 사는 행위."
   },
   {
+    "id": 26,
     "korean": "장바구니",
     "english": "Shopping Cart",
     "abbreviation": "Cart",
     "description": "구매를 확정하기 전에 담아두는 상품 임시 보관함."
   },
   {
+    "id": 27,
     "korean": "위시리스트",
     "english": "Wish List",
     "abbreviation": "WL",
     "description": "나중에 사고 싶은 상품을 모아두는 목록."
   },
   {
+    "id": 28,
     "korean": "결제 수단",
     "english": "Payment Method",
     "abbreviation": "PM",
     "description": "상품 대금을 지불하는 방법 (카드, 계좌이체 등)."
   },
   {
+    "id": 29,
     "korean": "주문 번호",
     "english": "Order Number",
     "abbreviation": "ON",
     "description": "각 주문에 고유하게 부여되는 식별 번호."
   },
   {
+    "id": 30,
     "korean": "구매 확정",
     "english": "Purchase Confirmation",
     "abbreviation": "CONF",
     "description": "상품을 받고 만족하여 거래를 최종적으로 완료하는 행위."
   },
   {
+    "id": 31,
     "korean": "무통장 입금",
     "english": "Bank Transfer",
     "abbreviation": "BT",
     "description": "은행 계좌를 통해 현금을 송금하여 결제하는 방식."
   },
   {
+    "id": 32,
     "korean": "카드 결제",
     "english": "Card Payment",
     "abbreviation": "CP",
     "description": "신용카드나 체크카드로 대금을 지불하는 방식."
   },
   {
+    "id": 33,
     "korean": "휴대폰 결제",
     "english": "Mobile Payment",
     "abbreviation": "MP",
     "description": "휴대폰 요금에 합산하여 대금을 지불하는 방식."
   },
   {
+    "id": 34,
     "korean": "간편 결제",
     "english": "Simple Payment",
     "abbreviation": "SP",
     "description": "결제 정보를 미리 등록하여 비밀번호 등으로 쉽게 결제하는 방식."
   },
   {
+    "id": 35,
     "korean": "배송",
     "english": "Delivery",
     "abbreviation": "DEL",
     "description": "구매한 상품을 고객에게 운반하여 전달하는 과정."
   },
   {
+    "id": 36,
     "korean": "택배",
     "english": "Parcel/Courier",
     "abbreviation": "PKG",
     "description": "소규모 화물을 운송하는 서비스."
   },
   {
+    "id": 37,
     "korean": "운송장 번호",
     "english": "Tracking Number",
     "abbreviation": "TN",
     "description": "택배의 위치를 추적할 수 있도록 부여된 고유 번호."
   },
   {
+    "id": 38,
     "korean": "배송지",
     "english": "Shipping Address",
     "abbreviation": "SA",
     "description": "상품을 수령할 주소."
   },
   {
+    "id": 39,
     "korean": "수령인",
     "english": "Recipient",
     "abbreviation": "RC",
     "description": "상품을 받는 사람."
   },
   {
+    "id": 40,
     "korean": "출고",
     "english": "Dispatch",
     "abbreviation": "Disp",
     "description": "창고에서 상품을 꺼내 택배사에 인계하는 단계."
   },
   {
+    "id": 41,
     "korean": "배송 준비중",
     "english": "Preparing for Shipment",
     "abbreviation": "PFS",
     "description": "주문 확인 후 상품 포장 및 출고를 준비하는 상태."
   },
   {
+    "id": 42,
     "korean": "배송 중",
     "english": "In Transit",
     "abbreviation": "IT",
     "description": "상품이 택배사를 통해 이동 중인 상태."
   },
   {
+    "id": 43,
     "korean": "배송 완료",
     "english": "Delivered",
     "abbreviation": "DLV",
     "description": "상품이 최종 수령인에게 전달된 상태."
   },
   {
+    "id": 44,
     "korean": "반품 배송비",
     "english": "Return Shipping Fee",
     "abbreviation": "RSF",
     "description": "상품을 반품할 때 발생하는 운송 비용."
   },
   {
+    "id": 45,
     "korean": "퀵 배송",
     "english": "Quick Delivery",
     "abbreviation": "QD",
     "description": "일반 택배보다 빠른 시간 내에 배송하는 서비스."
   },
   {
+    "id": 46,
     "korean": "해외 배송",
     "english": "International Shipping",
     "abbreviation": "IS",
     "description": "국경을 넘어 다른 나라로 상품을 보내는 것."
   },
   {
+    "id": 47,
     "korean": "무료 배송",
     "english": "Free Shipping",
     "abbreviation": "FS",
     "description": "고객이 배송비를 부담하지 않는 조건."
   },
   {
+    "id": 48,
     "korean": "유료 배송",
     "english": "Paid Shipping",
     "abbreviation": "PS",
     "description": "고객이 배송비를 별도로 지불해야 하는 조건."
   },
   {
+    "id": 49,
     "korean": "묶음 배송",
     "english": "Combined Shipping",
     "abbreviation": "CS",
     "description": "여러 개의 상품을 하나의 상자에 담아 한 번에 배송하는 것."
   },
   {
+    "id": 50,
     "korean": "당일 배송",
     "english": "Same-Day Delivery",
     "abbreviation": "SDD",
     "description": "주문한 당일에 상품을 받는 것."
   },
   {
+    "id": 51,
     "korean": "새벽 배송",
     "english": "Dawn Delivery",
     "abbreviation": "DD",
     "description": "밤에 주문하여 다음날 새벽 일찍 상품을 받는 것."
   },
   {
+    "id": 52,
     "korean": "지정일 배송",
     "english": "Scheduled Delivery",
     "abbreviation": "SD",
     "description": "고객이 원하는 특정 날짜를 지정하여 받는 배송 서비스."
   },
   {
+    "id": 53,
     "korean": "고객",
     "english": "Customer",
     "abbreviation": "CUST",
     "description": "상품이나 서비스를 구매하는 사람."
   },
   {
+    "id": 54,
     "korean": "회원",
     "english": "Member",
     "abbreviation": "MEM",
     "description": "사이트에 가입하여 정식 자격을 가진 고객."
   },
   {
+    "id": 55,
     "korean": "비회원",
     "english": "Non-Member",
     "abbreviation": "NM",
     "description": "사이트 가입 없이 상품을 구매하는 고객."
   },
   {
+    "id": 56,
     "korean": "아이디",
     "english": "User ID",
     "abbreviation": "ID",
     "description": "사이트 접속 시 사용하는 사용자 이름."
   },
   {
+    "id": 57,
     "korean": "비밀번호",
     "english": "Password",
     "abbreviation": "PW",
     "description": "본인 확인 및 보안을 위한 문자열."
   },
   {
+    "id": 58,
     "korean": "로그인",
     "english": "Log In",
     "abbreviation": "LI",
     "description": "아이디와 비밀번호를 입력하여 시스템에 접속하는 것."
   },
   {
+    "id": 59,
     "korean": "로그아웃",
     "english": "Log Out",
     "abbreviation": "LO",
     "description": "시스템 접속을 종료하는 것."
   },
   {
+    "id": 60,
     "korean": "적립금",
     "english": "Reserve/Mileage",
     "abbreviation": "RES",
     "description": "상품 구매 시 일부 금액이 쌓여 다음 구매에 사용할 수 있는 금액."
   },
   {
+    "id": 61,
     "korean": "포인트",
     "english": "Point",
     "abbreviation": "PT",
     "description": "적립금과 유사하게 사용할 수 있는 사이트 내 통화."
   },
   {
+    "id": 62,
     "korean": "문의",
     "english": "Inquiry",
     "abbreviation": "INQ",
     "description": "상품이나 서비스에 대해 궁금한 점을 묻는 것."
   },
   {
+    "id": 63,
     "korean": "리뷰",
     "english": "Review",
     "abbreviation": "RVW",
     "description": "구매한 상품에 대한 평가나 의견."
   },
   {
+    "id": 64,
     "korean": "후기",
     "english": "Feedback",
     "abbreviation": "FB",
     "description": "상품 사용 후의 전반적인 느낌이나 경험."
   },
   {
+    "id": 65,
     "korean": "고객 센터",
     "english": "Customer Center",
     "abbreviation": "CC",
     "description": "고객의 문의, 불만 등을 접수하고 처리하는 부서."
   },
   {
+    "id": 66,
     "korean": "상담원",
     "english": "Agent",
     "abbreviation": "AGT",
     "description": "고객 센터에서 고객을 응대하는 직원."
   },
   {
+    "id": 67,
     "korean": "자주 묻는 질문",
     "english": "Frequently Asked Questions",
     "abbreviation": "FAQ",
     "description": "고객들이 자주 질문하는 내용을 모아놓은 답변 목록."
   },
   {
+    "id": 68,
     "korean": "개인 정보",
     "english": "Personal Information",
     "abbreviation": "PI",
     "description": "이름, 주소, 전화번호 등 개인을 식별할 수 있는 정보."
   },
   {
+    "id": 69,
     "korean": "회원 탈퇴",
     "english": "Account Withdrawal",
     "abbreviation": "AWD",
     "description": "사이트의 회원 자격을 포기하고 정보를 삭제하는 것."
   },
   {
+    "id": 70,
     "korean": "이벤트",
     "english": "Event/Promotion",
     "abbreviation": "EVT",
     "description": "상품 판매를 촉진하기 위한 특별 행사."
   },
   {
+    "id": 71,
     "korean": "할인 쿠폰",
     "english": "Discount Coupon",
     "abbreviation": "DC",
     "description": "특정 금액이나 비율을 할인받을 수 있는 증서."
   },
   {
+    "id": 72,
     "korean": "증정품",
     "english": "Free Gift",
     "abbreviation": "FG",
     "description": "상품 구매 시 추가로 제공되는 사은품."
   },
   {
+    "id": 73,
     "korean": "마케팅 수신 동의",
     "english": "Marketing Agreement",
     "abbreviation": "MA",
     "description": "이메일이나 문자로 광고성 정보를 받겠다는 동의."
   },
   {
+    "id": 74,
     "korean": "구매 금액",
     "english": "Purchase Amount",
     "abbreviation": "PA",
     "description": "상품을 구매하기 위해 지불한 총액."
   },
   {
+    "id": 75,
     "korean": "누적 구매액",
     "english": "Accumulated Purchase Amount",
     "abbreviation": "APA",
     "description": "지금까지 해당 쇼핑몰에서 구매한 금액의 합계."
   },
   {
+    "id": 76,
     "korean": "등급",
     "english": "Membership Level",
     "abbreviation": "ML",
     "description": "누적 구매액 등에 따라 부여되는 회원 자격의 단계."
   },
   {
+    "id": 77,
     "korean": "할인율",
     "english": "Discount Rate",
     "abbreviation": "DR",
     "description": "할인되는 금액이 정가에서 차지하는 비율."
   },
   {
+    "id": 78,
     "korean": "포장",
     "english": "Packaging",
     "abbreviation": "PKG",
     "description": "상품을 보호하고 운반하기 위해 싸는 행위."
   },
   {
+    "id": 79,
     "korean": "선물 포장",
     "english": "Gift Wrapping",
     "abbreviation": "GW",
     "description": "상품을 선물용으로 보기 좋게 포장하는 서비스."
   },
   {
+    "id": 80,
     "korean": "배송 박스",
     "english": "Delivery Box",
     "abbreviation": "DB",
     "description": "택배 운송 시 상품을 담는 상자."
   },
   {
+    "id": 81,
     "korean": "송장",
     "english": "Invoice",
     "abbreviation": "IV",
     "description": "상품의 품목, 수량, 가격 등이 적힌 문서 (일반적으로 택배 상자에 붙이는 라벨)."
   },
   {
+    "id": 82,
     "korean": "안전 배송",
     "english": "Secure Delivery",
     "abbreviation": "SD",
     "description": "상품이 손상되지 않도록 안전하게 전달하는 것."
   },
   {
+    "id": 83,
     "korean": "배송 조회",
     "english": "Tracking Service",
     "abbreviation": "TS",
     "description": "운송장 번호를 이용해 택배의 현재 위치를 확인하는 서비스."
   },
   {
+    "id": 84,
     "korean": "배송 메시지",
     "english": "Delivery Message",
     "abbreviation": "DM",
     "description": "택배 기사에게 전달하고 싶은 요청 사항."
   },
   {
+    "id": 85,
     "korean": "택배 기사",
     "english": "Courier/Driver",
     "abbreviation": "DRV",
     "description": "택배 운송 및 배달을 담당하는 사람."
   },
   {
+    "id": 86,
     "korean": "도서 산간 지역",
     "english": "Island and Mountain Area",
     "abbreviation": "IMA",
     "description": "배송이 어렵거나 추가 비용이 발생하는 외곽 지역."
   },
   {
+    "id": 87,
     "korean": "재배송",
     "english": "Redelivery",
     "abbreviation": "RD",
     "description": "배송에 실패하여 다시 상품을 보내는 것."
   },
   {
+    "id": 88,
     "korean": "수령 확인",
     "english": "Receipt Confirmation",
     "abbreviation": "RC",
     "description": "상품을 정상적으로 받았음을 확인하는 절차."
   },
   {
+    "id": 89,
     "korean": "고지서",
     "english": "Bill/Statement",
     "abbreviation": "BLL",
     "description": "결제해야 할 금액의 내역을 알리는 문서."
   },
   {
+    "id": 90,
     "korean": "전자 영수증",
     "english": "Electronic Receipt",
     "abbreviation": "ER",
     "description": "종이가 아닌 디지털 형태로 발급되는 결제 증명서."
   },
   {
+    "id": 91,
     "korean": "현금 영수증",
     "english": "Cash Receipt",
     "abbreviation": "CR",
     "description": "현금 결제 시 발급받는 소득 공제용 증명서."
   },
   {
+    "id": 92,
     "korean": "세금 계산서",
     "english": "Tax Invoice",
     "abbreviation": "TI",
     "description": "사업자 간 거래에 사용되는 세금 관련 증빙 서류."
   },
   {
+    "id": 93,
     "korean": "수수료",
     "english": "Fee/Commission",
     "abbreviation": "FEE",
     "description": "거래나 서비스를 이용할 때 부과되는 비용."
   },
   {
+    "id": 94,
     "korean": "환율",
     "english": "Exchange Rate",
     "abbreviation": "XR",
     "description": "다른 나라 화폐 간의 교환 비율."
   },
   {
+    "id": 95,
     "korean": "결제 오류",
     "english": "Payment Error",
     "abbreviation": "PE",
     "description": "결제 과정에서 발생하는 문제로 인해 결제가 실패하는 것."
   },
   {
+    "id": 96,
     "korean": "시스템 점검",
     "english": "System Check",
     "abbreviation": "SC",
     "description": "서비스 개선 또는 안정화를 위해 일시적으로 접속을 차단하는 작업."
   },
   {
+    "id": 97,
     "korean": "모바일 앱",
     "english": "Mobile App",
     "abbreviation": "APP",
     "description": "스마트폰이나 태블릿에서 사용하는 응용 프로그램."
   },
   {
+    "id": 98,
     "korean": "웹사이트",
     "english": "Website",
     "abbreviation": "WEB",
     "description": "인터넷에 접속하여 정보를 얻거나 거래하는 공간."
   },
   {
+    "id": 99,
     "korean": "온라인 쇼핑",
     "english": "Online Shopping",
     "abbreviation": "OLS",
     "description": "인터넷을 통해 상품을 구매하는 행위."
   },
   {
+    "id": 100,
     "korean": "오프라인 매장",
     "english": "Offline Store",
     "abbreviation": "OFS",
     "description": "직접 방문하여 상품을 볼 수 있는 실제 상점."
   },
   {
+    "id": 101,
     "korean": "매장 픽업",
     "english": "Store Pickup",
     "abbreviation": "SPU",
     "description": "온라인으로 주문하고 가까운 매장에서 직접 수령하는 방식."
   },
   {
+    "id": 102,
     "korean": "드라이브 스루",
     "english": "Drive Thru",
     "abbreviation": "DT",
     "description": "차에 탄 채로 주문 및 수령이 가능한 서비스."
   },
   {
+    "id": 103,
     "korean": "전자상거래",
     "english": "E-Commerce",
     "abbreviation": "EC",
     "description": "인터넷 등 전자 매체를 이용한 상거래."
   },
   {
+    "id": 104,
     "korean": "라이브 커머스",
     "english": "Live Commerce",
     "abbreviation": "LC",
     "description": "실시간 영상 스트리밍을 통해 상품을 판매하는 방식."
   },
   {
+    "id": 105,
     "korean": "소셜 미디어",
     "english": "Social Media",
     "abbreviation": "SM",
     "description": "사람들이 소통하고 정보를 공유하는 온라인 플랫폼."
   },
   {
+    "id": 106,
     "korean": "사용자 경험",
     "english": "User Experience",
     "abbreviation": "UX",
     "description": "사용자가 서비스나 상품을 이용하면서 느끼는 전반적인 경험."
   },
   {
+    "id": 107,
     "korean": "사용자 인터페이스",
     "english": "User Interface",
     "abbreviation": "UI",
     "description": "사용자가 시스템과 상호작용하는 화면이나 디자인."
   },
   {
+    "id": 108,
     "korean": "자동 응답 시스템",
     "english": "Interactive Voice Response",
     "abbreviation": "IVR",
     "description": "전화로 미리 녹음된 음성 안내를 듣고 버튼을 눌러 원하는 서비스를 선택하는 시스템."
   },
   {
+    "id": 109,
     "korean": "챗봇",
     "english": "Chatbot",
     "abbreviation": "CB",
     "description": "사람처럼 대화하며 정보를 제공하는 인공지능 프로그램."
   },
   {
+    "id": 110,
     "korean": "개인 맞춤 추천",
     "english": "Personalized Recommendation",
     "abbreviation": "PR",
     "description": "개인의 구매 기록이나 관심사에 맞춰 상품을 추천하는 것."
   },
   {
+    "id": 111,
     "korean": "접근성",
     "english": "Accessibility",
     "abbreviation": "ACC",
     "description": "누구나 제약 없이 웹사이트나 서비스를 이용할 수 있는 정도."
   },
   {
+    "id": 112,
     "korean": "유효 기간",
     "english": "Expiry Date",
     "abbreviation": "ED",
     "description": "상품을 사용하거나 섭취해도 안전한 기한."
   },
   {
+    "id": 113,
     "korean": "권장 소비 기한",
     "english": "Best Before Date",
     "abbreviation": "BBD",
     "description": "상품의 품질이 가장 좋다고 권장하는 기한."
   },
   {
+    "id": 114,
     "korean": "제조 일자",
     "english": "Manufacture Date",
     "abbreviation": "MD",
     "description": "상품이 생산된 날짜."
   },
   {
+    "id": 115,
     "korean": "원산지",
     "english": "Origin",
     "abbreviation": "ORG",
     "description": "상품이 생산되거나 가공된 국가 또는 지역."
   },
   {
+    "id": 116,
     "korean": "수입품",
     "english": "Imported Goods",
     "abbreviation": "IM",
     "description": "해외에서 들여온 상품."
   },
   {
+    "id": 117,
     "korean": "국내산",
     "english": "Domestic Product",
     "abbreviation": "DP",
     "description": "자국 내에서 생산된 상품."
   },
   {
+    "id": 118,
     "korean": "정품",
     "english": "Genuine Product",
     "abbreviation": "GP",
     "description": "위조품이 아닌, 본래 상표의 제조사에서 만든 상품."
   },
   {
+    "id": 119,
     "korean": "병행 수입",
     "english": "Parallel Import",
     "abbreviation": "PI",
     "description": "정식 수입업체 외의 다른 경로로 수입된 정품."
   },
   {
+    "id": 120,
     "korean": "소비자 피해 보상",
     "english": "Consumer Compensation",
     "abbreviation": "CC",
     "description": "상품이나 서비스로 인해 피해를 입었을 때 손해를 보상하는 것."
   },
   {
+    "id": 121,
     "korean": "소비자 보호원",
     "english": "Consumer Agency",
     "abbreviation": "CA",
     "description": "소비자의 권익을 보호하는 기관."
   },
   {
+    "id": 122,
     "korean": "판매자",
     "english": "Seller",
     "abbreviation": "SEL",
     "description": "상품을 소비자에게 파는 주체."
   },
   {
+    "id": 123,
     "korean": "제조사",
     "english": "Manufacturer",
     "abbreviation": "MNF",
     "description": "상품을 직접 만드는 회사."
   },
   {
+    "id": 124,
     "korean": "브랜드",
     "english": "Brand",
     "abbreviation": "BND",
     "description": "상품의 이름, 로고 등으로 형성된 이미지나 상표."
   },
   {
+    "id": 125,
     "korean": "직영점",
     "english": "Directly Managed Store",
     "abbreviation": "DMS",
     "description": "본사가 직접 운영하는 매장."
   },
   {
+    "id": 126,
     "korean": "가맹점",
     "english": "Franchise Store",
     "abbreviation": "FS",
     "description": "본사의 상표와 시스템을 빌려 독립적으로 운영하는 매장."
   },
   {
+    "id": 127,
     "korean": "백화점",
     "english": "Department Store",
     "abbreviation": "DS",
     "description": "다양한 고급 상품을 판매하는 대형 소매점."
   },
   {
+    "id": 128,
     "korean": "대형 마트",
     "english": "Hypermarket",
     "abbreviation": "HM",
     "description": "식품부터 공산품까지 대량으로 판매하는 큰 규모의 마트."
   },
   {
+    "id": 129,
     "korean": "편의점",
     "english": "Convenience Store",
     "abbreviation": "CS",
     "description": "일상용품을 주로 취급하며 24시간 운영하는 작은 소매점."
   },
   {
+    "id": 130,
     "korean": "팝업 스토어",
     "english": "Pop-up Store",
     "abbreviation": "PS",
     "description": "짧은 기간 동안만 운영하는 임시 매장."
   },
   {
+    "id": 131,
     "korean": "온라인 전용",
     "english": "Online Exclusive",
     "abbreviation": "OE",
     "description": "오직 온라인에서만 구매할 수 있는 상품."
   },
   {
+    "id": 132,
     "korean": "오프라인 전용",
     "english": "Offline Exclusive",
     "abbreviation": "OFX",
     "description": "오직 오프라인 매장에서만 구매할 수 있는 상품."
   },
   {
+    "id": 133,
     "korean": "정기 구독",
     "english": "Subscription",
     "abbreviation": "SUB",
     "description": "일정 기간마다 상품이나 서비스를 자동으로 받는 방식."
   },
   {
+    "id": 134,
     "korean": "샘플",
     "english": "Sample",
     "abbreviation": "SPL",
     "description": "본품을 구매하기 전에 사용해 볼 수 있도록 제공되는 소량의 상품."
   },
   {
+    "id": 135,
     "korean": "체험분",
     "english": "Trial Size",
     "abbreviation": "TS",
     "description": "본품보다 적은 용량으로 시험 사용을 위해 제공되는 상품."
   },
   {
+    "id": 136,
     "korean": "묶음 할인",
     "english": "Volume Discount",
     "abbreviation": "VD",
     "description": "다량 구매 시 적용되는 할인 혜택."
   },
   {
+    "id": 137,
     "korean": "시간 한정 특가",
     "english": "Time Sale",
     "abbreviation": "TS",
     "description": "특정 시간 동안만 제공되는 특별 할인 가격."
   },
   {
+    "id": 138,
     "korean": "선착순",
     "english": "First Come First Served",
     "abbreviation": "FCFS",
     "description": "먼저 주문하거나 도착한 순서대로 혜택을 제공하는 방식."
   },
   {
+    "id": 139,
     "korean": "배송 추적",
     "english": "Track and Trace",
     "abbreviation": "TT",
     "description": "운송 단계별 위치 정보를 확인하는 것."
   },
   {
+    "id": 140,
     "korean": "안심 번호",
     "english": "Safe Number",
     "abbreviation": "SN",
     "description": "개인 전화번호 대신 임시로 부여되어 사용 후 폐기되는 번호."
   },
   {
+    "id": 141,
     "korean": "콜센터",
     "english": "Call Center",
     "abbreviation": "CC",
     "description": "전화로 고객 응대 업무를 하는 곳."
   },
   {
+    "id": 142,
     "korean": "보증 기간",
     "english": "Warranty Period",
     "abbreviation": "WP",
     "description": "상품의 고장 시 무상 수리를 약속하는 기간."
   },
   {
+    "id": 143,
     "korean": "AS (사후 서비스)",
     "english": "After Service",
     "abbreviation": "AS",
     "description": "상품 구매 후 발생하는 문제에 대한 수리, 교환 등의 서비스."
   },
   {
+    "id": 144,
     "korean": "품질 보증서",
     "english": "Quality Guarantee",
     "abbreviation": "QG",
     "description": "상품의 품질을 보증하는 문서."
   },
   {
+    "id": 145,
     "korean": "비밀 유지",
     "english": "Confidentiality",
     "abbreviation": "CF",
     "description": "고객의 정보를 외부에 노출하지 않고 보호하는 것."
   },
   {
+    "id": 146,
     "korean": "약관",
     "english": "Terms and Conditions",
     "abbreviation": "T&C",
     "description": "서비스 이용에 필요한 규정 및 조건."
   },
   {
+    "id": 147,
     "korean": "개인 정보 처리 방침",
     "english": "Privacy Policy",
     "abbreviation": "PP",
     "description": "개인 정보를 수집, 이용, 보호하는 방법에 대한 규정."
   },
   {
+    "id": 148,
     "korean": "이용 동의",
     "english": "User Agreement",
     "abbreviation": "UA",
     "description": "서비스 약관에 동의하는 행위."
   },
   {
+    "id": 149,
     "korean": "본인 인증",
     "english": "Identity Verification",
     "abbreviation": "IV",
     "description": "사용자가 본인임을 확인하는 절차."
   },
   {
+    "id": 150,
     "korean": "캡차",
     "english": "Captcha",
     "abbreviation": "CP",
     "description": "컴퓨터가 아닌 사람임을 증명하기 위한 보안 문자 확인 절차."
   },
   {
+    "id": 151,
     "korean": "보안 문자",
     "english": "Security Code",
     "abbreviation": "SC",
     "description": "본인 인증 등에 사용되는 임시 숫자나 문자."
   },
   {
+    "id": 152,
     "korean": "결제 비밀번호",
     "english": "Payment Password",
     "abbreviation": "PPW",
     "description": "간편 결제 시 사용하는 별도의 비밀번호."
   },
   {
+    "id": 153,
     "korean": "다회용 포장재",
     "english": "Reusable Packaging",
     "abbreviation": "RP",
     "description": "한 번 쓰고 버리지 않고 여러 번 재사용할 수 있는 포장재."
   },
   {
+    "id": 154,
     "korean": "친환경 제품",
     "english": "Eco-Friendly Product",
     "abbreviation": "EP",
     "description": "환경 오염을 최소화하며 생산된 제품."
   },
   {
+    "id": 155,
     "korean": "무해성",
     "english": "Non-Toxicity",
     "abbreviation": "NT",
     "description": "인체나 환경에 해로운 성분이 없는 특성."
   },
   {
+    "id": 156,
     "korean": "유기농",
     "english": "Organic",
     "abbreviation": "ORG",
     "description": "화학 비료나 농약을 사용하지 않고 재배된."
   },
   {
+    "id": 157,
     "korean": "비건",
     "english": "Vegan",
     "abbreviation": "VGN",
     "description": "동물성 원료를 사용하지 않은 제품."
   },
   {
+    "id": 158,
     "korean": "신선 식품",
     "english": "Fresh Food",
     "abbreviation": "FF",
     "description": "냉장/냉동 보관이 필요하며 유통 기한이 짧은 식품."
   },
   {
+    "id": 159,
     "korean": "냉장 보관",
     "english": "Refrigerated Storage",
     "abbreviation": "RS",
     "description": "일정 온도(보통 0~10°C)를 유지하며 보관하는 것."
   },
   {
+    "id": 160,
     "korean": "냉동 보관",
     "english": "Frozen Storage",
     "abbreviation": "FZ",
     "description": "0°C 이하의 온도를 유지하며 보관하는 것."
   },
   {
+    "id": 161,
     "korean": "상온 보관",
     "english": "Room Temperature Storage",
     "abbreviation": "RTS",
     "description": "일반적인 실내 온도에서 보관하는 것."
   },
   {
+    "id": 162,
     "korean": "즉시 진열 가능 상품",
     "english": "Floor Ready Merchandise",
     "abbreviation": "FRM",
     "description": "매장에 도착 후 포장만 풀면 바로 진열할 수 있도록 완비된 상품."
   },
   {
+    "id": 163,
     "korean": "보관 온도",
     "english": "Storage Temperature",
     "abbreviation": "ST",
     "description": "상품의 품질 유지를 위해 필요한 온도."
   },
   {
+    "id": 164,
     "korean": "위생",
     "english": "Hygiene",
     "abbreviation": "HYG",
     "description": "청결하고 안전한 상태 유지."
   },
   {
+    "id": 165,
     "korean": "유통 기한",
     "english": "Expiration Date",
     "abbreviation": "EXP",
     "description": "상품이 소비자에게 판매될 수 있는 최종 날짜."
   },
   {
+    "id": 166,
     "korean": "재입고 알림",
     "english": "Restock Notification",
     "abbreviation": "RN",
     "description": "품절된 상품이 다시 들어왔을 때 알려주는 서비스."
   },
   {
+    "id": 167,
     "korean": "가격 비교",
     "english": "Price Comparison",
     "abbreviation": "PC",
     "description": "여러 판매처의 가격을 비교하는 행위."
   },
   {
+    "id": 168,
     "korean": "최저가",
     "english": "Lowest Price",
     "abbreviation": "LP",
     "description": "가장 낮은 판매 가격."
   },
   {
+    "id": 169,
     "korean": "최고가",
     "english": "Highest Price",
     "abbreviation": "HP",
     "description": "가장 높은 판매 가격."
   },
   {
+    "id": 170,
     "korean": "적정 가격",
     "english": "Fair Price",
     "abbreviation": "FP",
     "description": "소비자와 판매자가 합의할 수 있는 합리적인 가격."
   },
   {
+    "id": 171,
     "korean": "가격 변동",
     "english": "Price Fluctuation",
     "abbreviation": "PF",
     "description": "시간에 따라 상품 가격이 오르거나 내리는 현상."
   },
   {
+    "id": 172,
     "korean": "예상 배송일",
     "english": "Estimated Delivery Date",
     "abbreviation": "EDD",
     "description": "상품이 도착할 것으로 예상되는 날짜."
   },
   {
+    "id": 173,
     "korean": "추가 옵션",
     "english": "Add-on Option",
     "abbreviation": "AO",
     "description": "기본 상품 외에 추가로 선택할 수 있는 항목."
   },
   {
+    "id": 174,
     "korean": "판매 수량",
     "english": "Sales Volume",
     "abbreviation": "SV",
     "description": "특정 기간 동안 팔린 상품의 총 수량."
   },
   {
+    "id": 175,
     "korean": "고객 만족도",
     "english": "Customer Satisfaction",
     "abbreviation": "CSAT",
     "description": "상품이나 서비스에 대해 고객이 느끼는 만족의 정도."
   },
   {
+    "id": 176,
     "korean": "순수 추천 지수",
     "english": "Net Promoter Score",
     "abbreviation": "NPS",
     "description": "고객이 이 상품/서비스를 타인에게 추천할 의향이 얼마나 높은지를 나타내는 지수."
   },
   {
+    "id": 177,
     "korean": "평균 구매 금액",
     "english": "Average Order Value",
     "abbreviation": "AOV",
     "description": "한 번 주문할 때 평균적으로 소비하는 금액."
   },
   {
+    "id": 178,
     "korean": "반품률",
     "english": "Return Rate",
     "abbreviation": "RR",
     "description": "판매된 상품 중 반품된 비율."
   },
   {
+    "id": 179,
     "korean": "교환율",
     "english": "Exchange Rate",
     "abbreviation": "ER",
     "description": "판매된 상품 중 교환된 비율."
   },
   {
+    "id": 180,
     "korean": "주문 건수",
     "english": "Order Count",
     "abbreviation": "OC",
     "description": "총 주문이 발생한 횟수."
   },
   {
+    "id": 181,
     "korean": "구매 횟수",
     "english": "Purchase Frequency",
     "abbreviation": "PF",
     "description": "한 고객이 일정 기간 동안 구매한 횟수."
   },
   {
+    "id": 182,
     "korean": "재구매",
     "english": "Repurchase",
     "abbreviation": "RP",
     "description": "한 번 구매했던 상품을 다시 사는 행위."
   },
   {
+    "id": 183,
     "korean": "단골 고객",
     "english": "Repeat Customer",
     "abbreviation": "RC",
     "description": "반복적으로 상품을 구매하는 고객."
   },
   {
+    "id": 184,
     "korean": "대기 시간",
     "english": "Waiting Time",
     "abbreviation": "WT",
     "description": "서비스를 이용하기 위해 기다려야 하는 시간."
   },
   {
+    "id": 185,
     "korean": "처리 시간",
     "english": "Processing Time",
     "abbreviation": "PT",
     "description": "주문, 결제, 배송 등의 업무를 처리하는 데 걸리는 시간."
   },
   {
+    "id": 186,
     "korean": "업무 시간",
     "english": "Business Hours",
     "abbreviation": "BH",
     "description": "회사나 매장이 운영되는 시간."
   },
   {
+    "id": 187,
     "korean": "휴무일",
     "english": "Holiday/Closed Day",
     "abbreviation": "HD",
     "description": "정기적으로 문을 닫는 날."
   },
   {
+    "id": 188,
     "korean": "온라인 결제",
     "english": "Online Payment",
     "abbreviation": "OP",
     "description": "인터넷이나 앱을 통해 이루어지는 결제."
   },
   {
+    "id": 189,
     "korean": "오프라인 결제",
     "english": "Offline Payment",
     "abbreviation": "OFP",
     "description": "실제 매장에서 이루어지는 결제."
   },
   {
+    "id": 190,
     "korean": "일시불",
     "english": "One-Time Payment",
     "abbreviation": "OTP",
     "description": "상품 대금을 한 번에 전액 지불하는 방식."
   },
   {
+    "id": 191,
     "korean": "할부",
     "english": "Installment Payment",
     "abbreviation": "IP",
     "description": "상품 대금을 여러 개월에 걸쳐 나누어 지불하는 방식."
   },
   {
+    "id": 192,
     "korean": "창고 관리 시스템",
     "english": "Warehouse Management System",
     "abbreviation": "WMS",
     "description": "창고 내 상품의 위치, 재고, 입출고 등을 효율적으로 관리하는 시스템."
   },
   {
+    "id": 193,
     "korean": "공급망 관리",
     "english": "Supply Chain Management",
     "abbreviation": "SCM",
     "description": "원자재부터 최종 소비자에게 전달되기까지 모든 물류 흐름을 관리하는 통합 프로세스."
   },
   {
+    "id": 194,
     "korean": "입고",
     "english": "Receiving",
     "abbreviation": "RCV",
     "description": "외부에서 상품을 들여와 창고에 보관하는 작업."
   },
   {
+    "id": 195,
     "korean": "출하",
     "english": "Shipping/Dispatch",
     "abbreviation": "SHP",
     "description": "고객 주문에 맞춰 상품을 창고에서 내보내는 작업."
   },
   {
+    "id": 196,
     "korean": "피킹",
     "english": "Picking",
     "abbreviation": "PKG",
     "description": "출고를 위해 창고의 특정 위치에서 상품을 집는 작업."
   },
   {
+    "id": 197,
     "korean": "패킹",
     "english": "Packing",
     "abbreviation": "PCK",
     "description": "피킹한 상품을 운송을 위해 포장하는 작업."
   },
   {
+    "id": 198,
     "korean": "검수",
     "english": "Inspection/Verification",
     "abbreviation": "INSP",
     "description": "입고 또는 출고 시 상품의 수량 및 상태를 확인하는 작업."
   },
   {
+    "id": 199,
     "korean": "재고 실사",
     "english": "Inventory Audit",
     "abbreviation": "AUD",
     "description": "특정 시점에 창고 내 실제 재고 수량을 확인하는 작업."
   },
   {
+    "id": 200,
     "korean": "로케이션",
     "english": "Location",
     "abbreviation": "LOC",
     "description": "창고 내 상품이 보관되는 정확한 위치 주소."
   },
   {
+    "id": 201,
     "korean": "선입 선출",
     "english": "First-In, First-Out",
     "abbreviation": "FIFO",
     "description": "먼저 입고된 상품을 먼저 출고하는 재고 관리 원칙."
   },
   {
+    "id": 202,
     "korean": "후입 선출",
     "english": "Last-In, First-Out",
     "abbreviation": "LIFO",
     "description": "나중에 입고된 상품을 먼저 출고하는 재고 관리 방식 (회계 목적)."
   },
   {
+    "id": 203,
     "korean": "최소 주문 수량",
     "english": "Minimum Order Quantity",
     "abbreviation": "MOQ",
     "description": "공급업체가 요구하는 최소한의 주문 가능한 수량."
   },
   {
+    "id": 204,
     "korean": "리드타임",
     "english": "Lead Time",
     "abbreviation": "LT",
     "description": "주문 시점부터 상품이 인도되기까지 걸리는 총 시간."
   },
   {
+    "id": 205,
     "korean": "팔레트",
     "english": "Pallet",
     "abbreviation": "PAL",
     "description": "지게차 등으로 운반할 수 있도록 상품을 쌓는 받침대."
   },
   {
+    "id": 206,
     "korean": "컨베이어 벨트",
     "english": "Conveyor Belt",
     "abbreviation": "CVB",
     "description": "물품을 연속적으로 운반하는 장치."
   },
   {
+    "id": 207,
     "korean": "크로스 도킹",
     "english": "Cross-Docking",
     "abbreviation": "CD",
     "description": "입고된 상품을 보관 과정 없이 바로 출고 차량으로 옮기는 방식."
   },
   {
+    "id": 208,
     "korean": "SKU",
     "english": "Stock Keeping Unit",
     "abbreviation": "SKU",
     "description": "재고 관리를 위해 상품 하나하나에 부여하는 고유 식별 코드."
   },
   {
+    "id": 209,
     "korean": "낱개 판매",
     "english": "Unit Sale",
     "abbreviation": "USL",
     "description": "묶음이 아닌 개별 상품 단위로 판매하는 것."
   },
   {
+    "id": 210,
     "korean": "유통 마진",
     "english": "Distribution Margin",
     "abbreviation": "DM",
     "description": "상품의 최종 판매가에서 원가 및 중간 비용을 제외한 이익."
   },
   {
+    "id": 211,
     "korean": "총 매출",
     "english": "Gross Sales",
     "abbreviation": "GS",
     "description": "할인이나 반품을 제외하기 전의 전체 판매액."
   },
   {
+    "id": 212,
     "korean": "순 매출",
     "english": "Net Sales",
     "abbreviation": "NS",
     "description": "총 매출에서 할인, 반품, 에누리 등을 제외한 실제 판매액."
   },
   {
+    "id": 213,
     "korean": "객단가",
     "english": "Average Transaction Value",
     "abbreviation": "ATV",
     "description": "고객 한 명이 한 번 구매할 때 평균적으로 소비하는 금액."
   },
   {
+    "id": 214,
     "korean": "재고 회전율",
     "english": "Inventory Turnover Ratio",
     "abbreviation": "ITR",
     "description": "재고가 팔리고 교체되는 속도를 나타내는 지표."
   },
   {
+    "id": 215,
     "korean": "판매 채널",
     "english": "Sales Channel",
     "abbreviation": "SCL",
     "description": "상품이 소비자에게 도달하는 경로 (온라인, 오프라인, 도매 등)."
   },
   {
+    "id": 216,
     "korean": "B2B",
     "english": "Business to Business",
     "abbreviation": "B2B",
     "description": "기업과 기업 간의 거래."
   },
   {
+    "id": 217,
     "korean": "B2C",
     "english": "Business to Customer",
     "abbreviation": "B2C",
     "description": "기업과 소비자 간의 거래."
   },
   {
+    "id": 218,
     "korean": "D2C",
     "english": "Direct to Customer",
     "abbreviation": "D2C",
     "description": "중간 유통 단계를 거치지 않고 제조사가 소비자에게 직접 판매하는 방식."
   },
   {
+    "id": 219,
     "korean": "도매",
     "english": "Wholesale",
     "abbreviation": "WL",
     "description": "상품을 대량으로 구매하여 소매상에게 판매하는 행위."
   },
   {
+    "id": 220,
     "korean": "소매",
     "english": "Retail",
     "abbreviation": "RTL",
     "description": "최종 소비자에게 상품을 판매하는 행위."
   },
   {
+    "id": 221,
     "korean": "납품가",
     "english": "Supply Price",
     "abbreviation": "SP",
     "description": "공급업체가 유통업체에게 상품을 넘기는 가격."
   },
   {
+    "id": 222,
     "korean": "공정 거래",
     "english": "Fair Trade",
     "abbreviation": "FT",
     "description": "개발도상국 생산자에게 공정한 가격을 지불하는 윤리적 거래."
   },
   {
+    "id": 223,
     "korean": "독점 판매",
     "english": "Exclusive Distribution",
     "abbreviation": "ED",
     "description": "특정 유통업체에게만 상품을 판매할 수 있는 권리를 부여하는 것."
   },
   {
+    "id": 224,
     "korean": "수요 예측",
     "english": "Demand Forecasting",
     "abbreviation": "DF",
     "description": "미래에 발생할 것으로 예상되는 상품 수요를 미리 추정하는 것."
   },
   {
+    "id": 225,
     "korean": "상품 구색",
     "english": "Product Assortment",
     "abbreviation": "PA",
     "description": "매장이나 쇼핑몰에서 판매하는 상품의 종류 및 다양성."
   },
   {
+    "id": 226,
     "korean": "PB 상품",
     "english": "Private Brand Product",
     "abbreviation": "PB",
     "description": "유통업체가 직접 기획하고 개발하여 판매하는 자체 브랜드 상품."
   },
   {
+    "id": 227,
     "korean": "OEM",
     "english": "Original Equipment Manufacturer",
     "abbreviation": "OEM",
     "description": "제조사가 주문자의 설계에 따라 상품을 생산하는 방식."
   },
   {
+    "id": 228,
     "korean": "ODM",
     "english": "Original Development Manufacturer",
     "abbreviation": "ODM",
     "description": "제조사가 자체적으로 상품을 개발하고 주문자의 브랜드로 납품하는 방식."
   },
   {
+    "id": 229,
     "korean": "상품 기획자",
     "english": "Merchandiser",
     "abbreviation": "MD",
     "description": "상품을 기획하고 공급, 판매 전략을 수립하는 직무."
   },
   {
+    "id": 230,
     "korean": "진열대",
     "english": "Display Shelf",
     "abbreviation": "DS",
     "description": "매장에서 상품을 보기 좋게 올려두는 선반이나 가구."
   },
   {
+    "id": 231,
     "korean": "매대",
     "english": "Selling Counter",
     "abbreviation": "SC",
     "description": "계산이나 상품 전시를 위해 사용하는 카운터."
   },
   {
+    "id": 232,
     "korean": "POP 광고",
     "english": "Point of Purchase Advertising",
     "abbreviation": "POP",
     "description": "구매가 이루어지는 지점 근처에서 소비자의 구매를 유도하는 광고물."
   },
   {
+    "id": 233,
     "korean": "시즌 상품",
     "english": "Seasonal Product",
     "abbreviation": "SP",
     "description": "특정 계절이나 시기에만 판매량이 집중되는 상품."
   },
   {
+    "id": 234,
     "korean": "충동 구매",
     "english": "Impulse Buying",
     "abbreviation": "IB",
     "description": "계획 없이 순간적인 욕구로 상품을 구매하는 행위."
   },
   {
+    "id": 235,
     "korean": "쇼윈도",
     "english": "Show Window",
     "abbreviation": "SW",
     "description": "매장 외부에서 상품을 전시하여 고객을 유인하는 창문."
   },
   {
+    "id": 236,
     "korean": "재고 소진",
     "english": "Inventory Clearance",
     "abbreviation": "IC",
     "description": "남아있는 상품을 모두 판매하기 위해 대폭 할인하는 판매 전략."
   },
   {
+    "id": 237,
     "korean": "판매 촉진",
     "english": "Sales Promotion",
     "abbreviation": "SP",
     "description": "상품 구매를 유도하기 위한 모든 활동."
   },
   {
+    "id": 238,
     "korean": "시식/시향",
     "english": "Tasting/Sampling",
     "abbreviation": "TST",
     "description": "상품을 구매하기 전에 미리 맛보거나 냄새를 맡아보는 것."
   },
   {
+    "id": 239,
     "korean": "롤링 프로모션",
     "english": "Rolling Promotion",
     "abbreviation": "RP",
     "description": "일정 기간 반복적으로 진행되는 할인 행사."
   },
   {
+    "id": 240,
     "korean": "구매 전환율",
     "english": "Conversion Rate",
     "abbreviation": "CR",
     "description": "웹사이트 방문자 중 실제로 구매를 완료한 비율."
   },
   {
+    "id": 241,
     "korean": "장바구니 이탈률",
     "english": "Cart Abandonment Rate",
     "abbreviation": "CAR",
     "description": "장바구니에 상품을 담고도 구매를 완료하지 않은 비율."
   },
   {
+    "id": 242,
     "korean": "A/B 테스트",
     "english": "A/B Testing",
     "abbreviation": "ABT",
     "description": "두 가지 디자인이나 기능을 비교하여 더 나은 성과를 내는 쪽을 선택하는 실험."
   },
   {
+    "id": 243,
     "korean": "검색 엔진 최적화",
     "english": "Search Engine Optimization",
     "abbreviation": "SEO",
     "description": "검색 결과 상위에 노출되도록 웹사이트를 개선하는 작업."
   },
   {
+    "id": 244,
     "korean": "키워드 광고",
     "english": "Keyword Advertising",
     "abbreviation": "KA",
     "description": "특정 검색어에 노출되도록 구매하는 온라인 광고."
   },
   {
+    "id": 245,
     "korean": "랜딩 페이지",
     "english": "Landing Page",
     "abbreviation": "LP",
     "description": "온라인 광고나 검색 결과 클릭 후 처음 도달하는 웹페이지."
   },
   {
+    "id": 246,
     "korean": "클릭률",
     "english": "Click-Through Rate",
     "abbreviation": "CTR",
     "description": "광고나 링크가 노출된 횟수 대비 클릭된 횟수의 비율."
   },
   {
+    "id": 247,
     "korean": "체류 시간",
     "english": "Dwell Time",
     "abbreviation": "DT",
     "description": "사용자가 웹페이지에 머무르는 평균 시간."
   },
   {
+    "id": 248,
     "korean": "이탈률",
     "english": "Bounce Rate",
     "abbreviation": "BR",
     "description": "웹사이트에 들어왔다가 아무 행동 없이 바로 나가는 비율."
   },
   {
+    "id": 249,
     "korean": "서버",
     "english": "Server",
     "abbreviation": "SRV",
     "description": "웹사이트나 데이터 등을 저장하고 서비스를 제공하는 컴퓨터 시스템."
   },
   {
+    "id": 250,
     "korean": "데이터베이스",
     "english": "Database",
     "abbreviation": "DB",
     "description": "정형화된 데이터를 모아 관리하는 시스템."
   },
   {
+    "id": 251,
     "korean": "API",
     "english": "Application Programming Interface",
     "abbreviation": "API",
     "description": "서로 다른 프로그램들이 정보를 주고받을 수 있게 하는 통신 규약."
   },
   {
+    "id": 252,
     "korean": "클라우드 컴퓨팅",
     "english": "Cloud Computing",
     "abbreviation": "CC",
     "description": "인터넷을 통해 서버, 스토리지 등의 IT 자원을 사용하는 서비스."
   },
   {
+    "id": 253,
     "korean": "개인 정보 보호",
     "english": "Privacy Protection",
     "abbreviation": "PP",
     "description": "개인의 식별 정보를 안전하게 관리하는 것."
   },
   {
+    "id": 254,
     "korean": "보안 인증",
     "english": "Security Certification",
     "abbreviation": "SC",
     "description": "웹사이트의 안전성과 신뢰성을 증명하는 절차."
   },
   {
+    "id": 255,
     "korean": "사용자 후킹",
     "english": "User Hooking",
     "abbreviation": "UH",
     "description": "사용자의 흥미를 끌어 서비스에 몰입하게 만드는 전략."
   },
   {
+    "id": 256,
     "korean": "다크 패턴",
     "english": "Dark Pattern",
     "abbreviation": "DP",
     "description": "사용자를 속여 특정 행동을 유도하는 비윤리적인 UI 디자인."
   },
   {
+    "id": 257,
     "korean": "주문서",
     "english": "Order Sheet",
     "abbreviation": "OS",
     "description": "고객이 구매를 요청한 상품 목록과 정보가 담긴 서류."
   },
   {
+    "id": 258,
     "korean": "결제 승인",
     "english": "Payment Authorization",
     "abbreviation": "AUTH",
     "description": "금융 기관에서 결제를 허락하는 과정."
   },
   {
+    "id": 259,
     "korean": "미수금",
     "english": "Accounts Receivable",
     "abbreviation": "AR",
     "description": "상품을 판매하고 아직 받지 못한 대금."
   },
   {
+    "id": 260,
     "korean": "채권 추심",
     "english": "Debt Collection",
     "abbreviation": "DC",
     "description": "기한 내에 갚지 않은 대금을 받아내는 행위."
   },
   {
+    "id": 261,
     "korean": "클레임",
     "english": "Claim",
     "abbreviation": "CLM",
     "description": "상품이나 서비스에 문제가 발생했을 때 제기하는 이의나 요구."
   },
   {
+    "id": 262,
     "korean": "C/S",
     "english": "Customer Service",
     "abbreviation": "CS",
     "description": "고객 응대 및 문제 해결 업무."
   },
   {
+    "id": 263,
     "korean": "상담 이력",
     "english": "Consultation History",
     "abbreviation": "CH",
     "description": "고객과의 과거 문의 및 상담 기록."
   },
   {
+    "id": 264,
     "korean": "본인 확인",
     "english": "Identity Confirmation",
     "abbreviation": "IC",
     "description": "주문자 또는 회원 본인이 맞는지 확인하는 절차."
   },
   {
+    "id": 265,
     "korean": "해피콜",
     "english": "Happy Call",
     "abbreviation": "HC",
     "description": "상품 배송 또는 서비스 이용 후 만족도를 확인하기 위해 거는 전화."
   },
   {
+    "id": 266,
     "korean": "지연 배송",
     "english": "Delayed Delivery",
     "abbreviation": "DD",
     "description": "약속된 날짜보다 늦게 상품이 도착하는 것."
   },
   {
+    "id": 267,
     "korean": "배송 불가",
     "english": "Undeliverable",
     "abbreviation": "UD",
     "description": "주소 불명 등의 이유로 상품 전달이 불가능한 상태."
   },
   {
+    "id": 268,
     "korean": "처리 시간",
     "english": "Handling Time",
     "abbreviation": "HT",
     "description": "주문 접수부터 출고까지 걸리는 시간."
   },
   {
+    "id": 269,
     "korean": "발주",
     "english": "Ordering/Purchase Order",
     "abbreviation": "PO",
     "description": "재고 확보를 위해 공급업체에 상품을 주문하는 행위."
   },
   {
+    "id": 270,
     "korean": "물류 창고",
     "english": "Logistics Warehouse",
     "abbreviation": "LW",
     "description": "상품의 보관, 분류, 포장, 출하 등의 물류 작업이 이루어지는 곳."
   },
   {
+    "id": 271,
     "korean": "바코드",
     "english": "Barcode",
     "abbreviation": "BC",
     "description": "상품 식별 및 재고 관리를 위해 사용되는 막대 형태의 코드."
   },
   {
+    "id": 272,
     "korean": "QR 코드",
     "english": "Quick Response Code",
     "abbreviation": "QC",
     "description": "흑백 격자무늬로 정보를 담는 2차원 코드."
   },
   {
+    "id": 273,
     "korean": "라벨",
     "english": "Label",
     "abbreviation": "LBL",
     "description": "상품에 붙어있는 정보 표지 (가격, 규격, 바코드 등)."
   },
   {
+    "id": 274,
     "korean": "품질 검사",
     "english": "Quality Control Check",
     "abbreviation": "QC",
     "description": "상품이 정해진 기준과 규격에 맞는지 확인하는 과정."
   },
   {
+    "id": 275,
     "korean": "불량품",
     "english": "Defective Product",
     "abbreviation": "DP",
     "description": "품질 기준에 미달하거나 하자가 있는 상품."
   },
   {
+    "id": 276,
     "korean": "폐기",
     "english": "Disposal/Scrap",
     "abbreviation": "DSP",
     "description": "판매나 사용이 불가능하여 버리는 행위."
   },
   {
+    "id": 277,
     "korean": "리콜",
     "english": "Recall",
     "abbreviation": "RCL",
     "description": "제조사나 판매자가 결함이 있는 상품을 회수하는 조치."
   },
   {
+    "id": 278,
     "korean": "유통 구조",
     "english": "Distribution Structure",
     "abbreviation": "DS",
     "description": "생산자부터 소비자에 이르기까지 상품이 이동하는 전체 단계."
   },
   {
+    "id": 279,
     "korean": "표준 규격",
     "english": "Standard Specification",
     "abbreviation": "SS",
     "description": "상품의 형태, 크기, 재질 등에 대한 공통된 기준."
   },
   {
+    "id": 280,
     "korean": "안전 인증",
     "english": "Safety Certification",
     "abbreviation": "SC",
     "description": "상품의 안전성을 공적으로 증명하는 절차."
   },
   {
+    "id": 281,
     "korean": "벌크 상품",
     "english": "Bulk Product",
     "abbreviation": "BLK",
     "description": "개별 포장 없이 대량으로 판매되는 상품."
   },
   {
+    "id": 282,
     "korean": "렌탈 서비스",
     "english": "Rental Service",
     "abbreviation": "RNT",
     "description": "일정 기간 동안 상품을 빌려주는 서비스."
   },
   {
+    "id": 283,
     "korean": "위약금",
     "english": "Penalty/Liquidated Damages",
     "abbreviation": "PN",
     "description": "계약 위반 시 지불해야 하는 벌칙금."
   },
   {
+    "id": 284,
     "korean": "공시 가격",
     "english": "Publicly Announced Price",
     "abbreviation": "PAP",
     "description": "정부나 기관이 공식적으로 발표한 가격."
   },
   {
+    "id": 285,
     "korean": "변동가",
     "english": "Variable Price",
     "abbreviation": "VP",
     "description": "시장 상황에 따라 가격이 수시로 변하는 가격."
   },
   {
+    "id": 286,
     "korean": "법인 카드",
     "english": "Corporate Card",
     "abbreviation": "CC",
     "description": "회사 명의로 발급되어 업무상 비용을 지출하는 카드."
   },
   {
+    "id": 287,
     "korean": "세무 조사",
     "english": "Tax Audit",
     "abbreviation": "TA",
     "description": "정부가 기업의 세금 납부 적정성을 확인하는 조사."
   },
   {
+    "id": 288,
     "korean": "계약서",
     "english": "Contract",
     "abbreviation": "CONT",
     "description": "거래 당사자 간의 권리와 의무를 명시한 문서."
   },
   {
+    "id": 289,
     "korean": "면세",
     "english": "Tax Exemption",
     "abbreviation": "TX",
     "description": "세금이 부과되지 않거나 면제되는 조건."
   },
   {
+    "id": 290,
     "korean": "부가가치세",
     "english": "Value Added Tax",
     "abbreviation": "VAT",
     "description": "상품 판매 또는 서비스 제공 시 부과되는 세금."
   },
   {
+    "id": 291,
     "korean": "현금 흐름",
     "english": "Cash Flow",
     "abbreviation": "CF",
     "description": "일정 기간 동안 현금이 들어오고 나가는 움직임."
   },
   {
+    "id": 292,
     "korean": "감사",
     "english": "Audit",
     "abbreviation": "AUD",
     "description": "재무 상태나 업무 처리의 적정성을 점검하는 행위."
   },
   {
+    "id": 293,
     "korean": "재무 제표",
     "english": "Financial Statements",
     "abbreviation": "FS",
     "description": "기업의 재무 상태와 경영 성과를 나타내는 문서."
   },
   {
+    "id": 294,
     "korean": "공시",
     "english": "Disclosure",
     "abbreviation": "DISC",
     "description": "기업의 중요한 정보를 외부에 공개하는 행위."
   },
   {
+    "id": 295,
     "korean": "탄소 발자국",
     "english": "Carbon Footprint",
-    "abbreviation": "CF",
+    "abbreviation": "CFP",
     "description": "제품의 생산부터 폐기까지 전 과정에서 발생하는 온실가스 총량."
   },
   {
+    "id": 296,
     "korean": "리퍼비시 상품",
     "english": "Refurbished Product",
     "abbreviation": "REF",
     "description": "반품되거나 문제가 있어 수리 후 다시 판매하는 상품."
   },
   {
+    "id": 297,
     "korean": "업사이클링",
     "english": "Upcycling",
     "abbreviation": "UC",
     "description": "버려지는 물건에 디자인을 더해 가치 있는 새 제품으로 만드는 것."
   },
   {
+    "id": 298,
     "korean": "공정 무역",
     "english": "Fair Trade",
     "abbreviation": "FT",
     "description": "윤리적인 방식으로 생산자에게 정당한 대가를 지불하는 무역."
   },
   {
+    "id": 299,
     "korean": "친환경 인증",
     "english": "Eco-Friendly Certification",
     "abbreviation": "ECC",
     "description": "환경 기준을 충족했음을 인정하는 증명."
   },
   {
+    "id": 300,
     "korean": "재활용률",
     "english": "Recycling Rate",
     "abbreviation": "RR",
     "description": "전체 폐기물 중 재활용되는 비율."
   },
   {
+    "id": 301,
     "korean": "지속 가능성",
     "english": "Sustainability",
     "abbreviation": "SUST",
     "description": "환경, 사회, 경제적 측면에서 오래 유지될 수 있는 능력."
   },
   {
+    "id": 302,
     "korean": "제로 웨이스트",
     "english": "Zero Waste",
     "abbreviation": "ZW",
     "description": "쓰레기 배출을 최소화하려는 라이프스타일."
   },
   {
+    "id": 303,
     "korean": "윤리적 소비",
     "english": "Ethical Consumption",
     "abbreviation": "EC",
     "description": "환경, 인권 등을 고려하여 상품을 구매하는 행위."
   },
   {
-    "korean": "비대면 결제",
-    "english": "Contactless Payment",
-    "abbreviation": "CP",
-    "description": "접촉 없이 이루어지는 결제 (NFC, QR 등)."
-  },
-  {
-    "korean": "생체 인증",
-    "english": "Biometric Authentication",
-    "abbreviation": "BA",
-    "description": "지문, 홍채 등 신체 정보를 이용한 본인 확인."
-  },
-  {
-    "korean": "자동 결제",
-    "english": "Automatic Payment",
-    "abbreviation": "AP",
-    "description": "정기적으로 자동으로 대금이 청구되는 결제."
-  },
-  {
-    "korean": "PG사",
-    "english": "Payment Gateway Provider",
-    "abbreviation": "PG",
-    "description": "온라인 쇼핑몰과 금융기관 간의 결제 과정을 중개하는 회사."
-  },
-  {
-    "korean": "FBA",
-    "english": "Fulfillment By Amazon",
-    "abbreviation": "FBA",
-    "description": "아마존이 판매자의 재고 보관, 포장, 배송, CS를 대행하는 서비스."
-  },
-  {
-    "korean": "제휴 마케팅",
-    "english": "Affiliate Marketing",
-    "abbreviation": "AM",
-    "description": "다른 웹사이트나 채널을 통해 판매를 유도하고 수수료를 지급하는 방식."
-  },
-  {
-    "korean": "바이럴 마케팅",
-    "english": "Viral Marketing",
-    "abbreviation": "VM",
-    "description": "상품 정보가 입소문처럼 빠르게 퍼져나가도록 하는 마케팅."
-  },
-  {
-    "korean": "인플루언서",
-    "english": "Influencer",
-    "abbreviation": "INFL",
-    "description": "소셜 미디어 등에서 큰 영향력을 가진 사람."
-  },
-  {
-    "korean": "라이브 스트리밍",
-    "english": "Live Streaming",
-    "abbreviation": "LS",
-    "description": "실시간으로 영상을 송출하는 것."
-  },
-  {
-    "korean": "쇼호스트",
-    "english": "Show Host",
-    "abbreviation": "SH",
-    "description": "TV 홈쇼핑이나 라이브 커머스에서 상품을 소개하는 진행자."
-  },
-  {
-    "korean": "협찬",
-    "english": "Sponsorship",
-    "abbreviation": "SPN",
-    "description": "대가 없이 상품이나 서비스를 제공하여 홍보를 얻는 행위."
-  },
-  {
-    "korean": "콘텐츠 마케팅",
-    "english": "Content Marketing",
-    "abbreviation": "CM",
-    "description": "유익하거나 흥미로운 콘텐츠를 제작하여 고객을 유인하는 마케팅."
-  },
-  {
-    "korean": "온디맨드",
-    "english": "On-Demand",
-    "abbreviation": "OD",
-    "description": "소비자의 요청에 따라 즉시 서비스나 상품을 제공하는 방식."
-  },
-  {
-    "korean": "O2O",
-    "english": "Online to Offline",
-    "abbreviation": "O2O",
-    "description": "온라인 고객을 오프라인 매장으로 유도하거나 그 반대의 서비스."
-  },
-  {
-    "korean": "옴니 채널",
-    "english": "Omni-Channel",
-    "abbreviation": "OC",
-    "description": "모든 판매 채널을 유기적으로 통합하여 일관된 고객 경험을 제공하는 전략."
-  },
-  {
-    "korean": "멀티 채널",
-    "english": "Multi-Channel",
-    "abbreviation": "MC",
-    "description": "여러 개의 판매 채널을 동시에 운영하는 방식."
-  },
-  {
-    "korean": "펀딩",
-    "english": "Funding/Crowdfunding",
-    "abbreviation": "CF",
-    "description": "대중으로부터 자금을 모아 프로젝트나 상품을 개발하는 것."
-  },
-  {
-    "korean": "와디즈",
-    "english": "Wadiz",
-    "abbreviation": "WDZ",
-    "description": "국내의 대표적인 크라우드 펀딩 플랫폼."
-  },
-  {
-    "korean": "예약 주문",
-    "english": "Backorder",
-    "abbreviation": "BO",
-    "description": "현재 재고가 없어 나중에 입고되면 보내주기로 하고 미리 받는 주문."
-  },
-  {
-    "korean": "시즌 오프",
-    "english": "Season Off",
-    "abbreviation": "SO",
-    "description": "특정 시즌이 끝나고 남은 상품을 대폭 할인하여 판매하는 것."
-  },
-  {
-    "korean": "특가",
-    "english": "Special Offer",
-    "abbreviation": "SO",
-    "description": "특정 기간 동안 매우 저렴하게 판매하는 가격."
-  },
-  {
-    "korean": "쿠폰 코드",
-    "english": "Coupon Code",
-    "abbreviation": "CC",
-    "description": "온라인에서 할인 혜택을 적용하기 위해 입력하는 문자열."
-  },
-  {
-    "korean": "선착순 마감",
-    "english": "First Come, First Serve Closure",
-    "abbreviation": "FCFS",
-    "description": "정해진 수량이나 기간이 다 되어 혜택 제공을 종료하는 것."
-  },
-  {
-    "korean": "대기 번호",
-    "english": "Waiting Number",
-    "abbreviation": "WN",
-    "description": "서비스나 상품을 받기 위해 기다리는 순서."
-  },
-  {
-    "korean": "1+1 행사",
-    "english": "Buy One Get One Free",
-    "abbreviation": "BOGO",
-    "description": "상품 하나를 사면 같은 상품을 하나 더 주는 판매 방식."
-  },
-  {
-    "korean": "사은품 증정",
-    "english": "Free Gift Offering",
-    "abbreviation": "FGO",
-    "description": "구매 금액이나 조건에 따라 추가 선물을 제공하는 것."
-  },
-  {
-    "korean": "무이자 할부",
-    "english": "Interest-Free Installment",
-    "abbreviation": "IFI",
-    "description": "할부 구매 시 이자를 면제해 주는 혜택."
-  },
-  {
-    "korean": "전용 상품",
-    "english": "Exclusive Product",
-    "abbreviation": "EXP",
-    "description": "특정 채널이나 고객만을 위해 판매되는 상품."
-  },
-  {
-    "korean": "희소성 마케팅",
-    "english": "Scarcity Marketing",
-    "abbreviation": "SM",
-    "description": "상품의 수량이나 기간을 제한하여 구매를 촉진하는 전략."
-  },
-  {
-    "korean": "보관료",
-    "english": "Storage Fee",
-    "abbreviation": "SF",
-    "description": "창고에 상품을 보관하는 대가로 지불하는 비용."
-  },
-  {
-    "korean": "지입 차",
-    "english": "Consignment Vehicle",
-    "abbreviation": "CV",
-    "description": "화물차를 소유한 운송인이 회사에 등록하여 운송 업무를 수행하는 방식."
-  },
-  {
-    "korean": "4PL",
-    "english": "Fourth Party Logistics",
-    "abbreviation": "4PL",
-    "description": "공급망 전체를 기획, 설계, 운영, 관리하는 통합 물류 솔루션."
-  },
-  {
-    "korean": "드랍 쉬핑",
-    "english": "Drop Shipping",
-    "abbreviation": "DS",
-    "description": "판매자가 재고 없이 주문을 받으면 공급업체가 고객에게 직접 배송하는 방식."
-  },
-  {
-    "korean": "포워딩",
-    "english": "Forwarding",
-    "abbreviation": "FWD",
-    "description": "국제 운송을 중개하고 대행하는 서비스."
-  },
-  {
-    "korean": "관세",
-    "english": "Customs Duty",
-    "abbreviation": "CD",
-    "description": "국경을 통과하는 상품에 부과되는 세금."
-  },
-  {
-    "korean": "무역 대금",
-    "english": "Trade Payment",
-    "abbreviation": "TP",
-    "description": "국제 거래에서 상품에 대해 지불하는 금액."
-  },
-  {
-    "korean": "수출",
-    "english": "Export",
-    "abbreviation": "EXPT",
-    "description": "자국의 상품을 외국으로 판매하는 행위."
-  },
-  {
-    "korean": "수입",
-    "english": "Import",
-    "abbreviation": "IMPT",
-    "description": "외국의 상품을 자국으로 들여오는 행위."
-  },
-  {
-    "korean": "인코텀즈",
-    "english": "Incoterms",
-    "abbreviation": "INC",
-    "description": "국제 무역 거래 조건에 관한 국제 규칙."
-  },
-  {
-    "korean": "통관",
-    "english": "Customs Clearance",
-    "abbreviation": "CC",
-    "description": "수출입 상품이 국경을 합법적으로 통과하는 절차."
-  },
-  {
-    "korean": "보세 창고",
-    "english": "Bonded Warehouse",
-    "abbreviation": "BW",
-    "description": "통관 절차가 완료되지 않은 수입품을 보관하는 창고."
-  },
-  {
-    "korean": "배송 대행지",
-    "english": "Shipping Agent",
-    "abbreviation": "SA",
-    "description": "해외 직구 시 상품을 대신 받아 국내로 재배송해 주는 주소."
-  },
-  {
-    "korean": "블랙 컨슈머",
-    "english": "Black Consumer",
-    "abbreviation": "BC",
-    "description": "악의적으로 환불, 교환, 컴플레인을 제기하는 소비자."
-  },
-  {
-    "korean": "진상 고객",
-    "english": "Difficult Customer",
-    "abbreviation": "DC",
-    "description": "비합리적인 요구를 하거나 직원을 힘들게 하는 고객."
-  },
-  {
-    "korean": "고객 여정",
-    "english": "Customer Journey",
-    "abbreviation": "CJ",
-    "description": "고객이 상품을 인지하고 구매하며 재구매하기까지의 모든 과정."
-  },
-  {
-    "korean": "바이럴 루프",
-    "english": "Viral Loop",
-    "abbreviation": "VL",
-    "description": "고객이 다른 고객을 끌어들이는 순환적인 구조."
-  },
-  {
-    "korean": "로열티 프로그램",
-    "english": "Loyalty Program",
-    "abbreviation": "LP",
-    "description": "충성도 높은 고객에게 혜택을 제공하여 재구매를 유도하는 제도."
-  },
-  {
-    "korean": "세그먼트",
-    "english": "Segment",
-    "abbreviation": "SGM",
-    "description": "고객을 특정 기준에 따라 분류한 집단."
-  },
-  {
-    "korean": "타겟 마케팅",
-    "english": "Target Marketing",
-    "abbreviation": "TM",
-    "description": "특정 세그먼트를 대상으로 집중적으로 진행하는 마케팅."
-  },
-  {
-    "korean": "콜드 스타트",
-    "english": "Cold Start",
-    "abbreviation": "CS",
-    "description": "신규 고객에게 추천 정보를 제공할 데이터가 없는 초기 상태."
-  },
-  {
-    "korean": "가입 경로",
-    "english": "Sign-up Channel",
-    "abbreviation": "SC",
-    "description": "고객이 서비스를 알게 되고 가입한 경로."
-  },
-  {
-    "korean": "미끼 상품",
-    "english": "Loss Leader",
-    "abbreviation": "LL",
-    "description": "원가 이하로 판매하여 고객을 유인하는 상품."
-  },
-  {
-    "korean": "고가 정책",
-    "english": "Premium Pricing",
-    "abbreviation": "PP",
-    "description": "경쟁 상품보다 높은 가격으로 품질과 이미지를 강조하는 전략."
-  },
-  {
-    "korean": "박리다매",
-    "english": "High Volume, Low Margin",
-    "abbreviation": "HVLM",
-    "description": "이익을 적게 보고 많이 파는 판매 전략."
-  },
-  {
-    "korean": "가격 탄력성",
-    "english": "Price Elasticity",
-    "abbreviation": "PE",
-    "description": "가격 변화에 따른 수요량의 변화 정도."
-  },
-  {
-    "korean": "할증료",
-    "english": "Surcharge",
-    "abbreviation": "SC",
-    "description": "기본 요금 외에 추가로 붙는 비용."
-  },
-  {
-    "korean": "수급 불균형",
-    "english": "Supply-Demand Imbalance",
-    "abbreviation": "SDI",
-    "description": "공급량과 수요량이 일치하지 않는 상태."
-  },
-  {
-    "korean": "이윤",
-    "english": "Profit",
-    "abbreviation": "PFT",
-    "description": "매출액에서 비용을 제외하고 남은 순수 이익."
-  },
-  {
-    "korean": "재고 부담",
-    "english": "Inventory Burden",
-    "abbreviation": "IB",
-    "description": "팔리지 않은 재고를 보유함으로써 발생하는 비용과 위험."
-  },
-  {
-    "korean": "재고 소진율",
-    "english": "Inventory Sell-Through Rate",
-    "abbreviation": "STR",
-    "description": "입고된 재고 중 일정 기간 내 판매된 비율."
-  },
-  {
-    "korean": "손익분기점",
-    "english": "Break-Even Point",
-    "abbreviation": "BEP",
-    "description": "이익도 손해도 아닌 상태가 되는 매출액 또는 판매량."
-  },
-  {
-    "korean": "마일리지",
-    "english": "Mileage",
-    "abbreviation": "MLG",
-    "description": "항공사나 쇼핑몰 등에서 제공하는 적립금."
-  },
-  {
-    "korean": "e-Gift Card",
-    "english": "Electronic Gift Card",
-    "abbreviation": "EGC",
-    "description": "실물 카드 없이 모바일로 전송되는 상품권."
-  },
-  {
-    "korean": "포인트 통합",
-    "english": "Point Integration",
-    "abbreviation": "PI",
-    "description": "여러 제휴사의 포인트를 하나로 합쳐 사용할 수 있게 하는 것."
-  },
-  {
-    "korean": "비활성 계정",
-    "english": "Dormant Account",
-    "abbreviation": "DA",
-    "description": "장기간 접속이나 활동이 없는 회원 계정."
-  },
-  {
-    "korean": "개인 정보 유출",
-    "english": "Personal Data Leak",
-    "abbreviation": "PDL",
-    "description": "고객의 개인 정보가 외부로 새어 나가는 사고."
-  },
-  {
-    "korean": "고객 만족 경영",
-    "english": "Customer Satisfaction Management",
-    "abbreviation": "CSM",
-    "description": "고객의 만족을 기업 경영의 최우선 목표로 삼는 전략."
-  },
-  {
-    "korean": "내부 통제",
-    "english": "Internal Control",
-    "abbreviation": "IC",
-    "description": "기업의 목표 달성을 위해 내부 시스템을 감시하고 조정하는 활동."
-  },
-  {
-    "korean": "무단 도용",
-    "english": "Unauthorized Use",
-    "abbreviation": "UU",
-    "description": "허락 없이 타인의 이미지, 문구 등을 사용하는 행위."
-  },
-  {
-    "korean": "저작권",
-    "english": "Copyright",
-    "abbreviation": "CPY",
-    "description": "창작물을 만든 사람의 권리."
-  },
-  {
-    "korean": "상표권",
-    "english": "Trademark Right",
-    "abbreviation": "TR",
-    "description": "등록된 상표를 독점적으로 사용할 수 있는 권리."
-  },
-  {
-    "korean": "특허권",
-    "english": "Patent Right",
-    "abbreviation": "PR",
-    "description": "발명에 대해 독점적인 권리를 가질 수 있는 권리."
-  },
-  {
-    "korean": "배타적 권리",
-    "english": "Exclusive Right",
-    "abbreviation": "ER",
-    "description": "다른 사람이 사용할 수 없도록 특정 주체에게만 주어진 권리."
-  },
-  {
-    "korean": "소송",
-    "english": "Litigation",
-    "abbreviation": "LITI",
-    "description": "법원에 분쟁 해결을 요청하는 행위."
-  },
-  {
-    "korean": "약관 동의",
-    "english": "Terms of Service Agreement",
-    "abbreviation": "TSA",
-    "description": "서비스 이용 전 약관 내용을 읽고 승인하는 행위."
-  },
-  {
-    "korean": "불가항력",
-    "english": "Force Majeure",
-    "abbreviation": "FM",
-    "description": "자연재해 등 당사자의 통제 범위를 벗어난 사건."
-  },
-  {
-    "korean": "보상 판매",
-    "english": "Trade-In",
-    "abbreviation": "TI",
-    "description": "기존 사용하던 제품을 반납하고 새 제품을 할인된 가격에 구매하는 방식."
-  },
-  {
-    "korean": "폐쇄몰",
-    "english": "Closed Mall",
-    "abbreviation": "CLM",
-    "description": "특정 집단(직원, 회원 등)에게만 접근이 허용된 쇼핑몰."
-  },
-  {
-    "korean": "제휴사",
-    "english": "Affiliate Partner",
-    "abbreviation": "AP",
-    "description": "공동의 이익을 위해 사업적으로 협력하는 회사."
-  },
-  {
-    "korean": "벤더",
-    "english": "Vendor",
-    "abbreviation": "VND",
-    "description": "상품이나 서비스를 공급하는 업체."
-  },
-  {
-    "korean": "협력업체",
-    "english": "Partner Company",
-    "abbreviation": "PCP",
-    "description": "업무를 함께 수행하는 회사."
-  },
-  {
-    "korean": "총판",
-    "english": "General Distributor",
-    "abbreviation": "GD",
-    "description": "특정 지역이나 시장에서 독점적으로 상품 판매를 책임지는 대리점."
-  },
-  {
-    "korean": "가이드라인",
-    "english": "Guideline",
-    "abbreviation": "GL",
-    "description": "업무나 행동의 방향을 제시하는 지침."
-  },
-  {
-    "korean": "매뉴얼",
-    "english": "Manual",
-    "abbreviation": "MNL",
-    "description": "특정 작업을 수행하는 절차를 상세히 기록한 문서."
-  },
-  {
-    "korean": "표준화",
-    "english": "Standardization",
-    "abbreviation": "STD",
-    "description": "품질, 형식, 방법 등을 일정하게 통일하는 작업."
-  },
-  {
-    "korean": "전산화",
-    "english": "Computerization",
-    "abbreviation": "CMP",
-    "description": "수동으로 하던 업무를 컴퓨터 시스템으로 처리하는 것."
-  },
-  {
-    "korean": "데이터 마이닝",
-    "english": "Data Mining",
-    "abbreviation": "DM",
-    "description": "대규모 데이터에서 유의미한 패턴과 규칙을 찾아내는 분석 기법."
-  },
-  {
-    "korean": "빅데이터",
-    "english": "Big Data",
-    "abbreviation": "BD",
-    "description": "기존 데이터 처리 시스템으로는 분석이 어려운 대규모 데이터."
-  },
-  {
-    "korean": "인공지능",
-    "english": "Artificial Intelligence",
-    "abbreviation": "AI",
-    "description": "인간의 학습 능력, 추론 능력 등을 컴퓨터 프로그램으로 구현한 기술."
-  },
-  {
-    "korean": "머신러닝",
-    "english": "Machine Learning",
-    "abbreviation": "ML",
-    "description": "데이터 학습을 통해 스스로 성능을 향상시키는 인공지능 분야."
-  },
-  {
-    "korean": "딥러닝",
-    "english": "Deep Learning",
-    "abbreviation": "DL",
-    "description": "여러 층의 신경망을 이용하는 머신러닝의 한 분야."
-  },
-  {
-    "korean": "로봇 프로세스 자동화",
-    "english": "Robotic Process Automation",
-    "abbreviation": "RPA",
-    "description": "사람이 반복하는 업무를 로봇 소프트웨어가 자동 처리하는 기술."
-  },
-  {
-    "korean": "스마트 팩토리",
-    "english": "Smart Factory",
-    "abbreviation": "SF",
-    "description": "AI, 빅데이터 등을 활용하여 생산 과정을 자동화하는 공장."
-  },
-  {
-    "korean": "메타버스 커머스",
-    "english": "Metaverse Commerce",
-    "abbreviation": "MC",
-    "description": "3차원 가상세계에서 상품을 판매하고 구매하는 행위."
-  },
-  {
-    "korean": "가상 현실",
-    "english": "Virtual Reality",
-    "abbreviation": "VR",
-    "description": "컴퓨터로 만든 가상의 환경을 현실처럼 느끼게 하는 기술."
-  },
-  {
-    "korean": "증강 현실",
-    "english": "Augmented Reality",
-    "abbreviation": "AR",
-    "description": "실제 환경에 가상의 이미지를 덧입혀 보여주는 기술."
-  },
-  {
-    "korean": "무인 매장",
-    "english": "Unmanned Store",
-    "abbreviation": "US",
-    "description": "직원 없이 자동화된 시스템으로 운영되는 상점."
-  },
-  {
-    "korean": "키오스크",
-    "english": "Kiosk",
-    "abbreviation": "KSK",
-    "description": "터치스크린 방식으로 주문 및 결제가 가능한 무인 단말기."
-  },
-  {
-    "korean": "셀프 계산대",
-    "english": "Self-Checkout",
-    "abbreviation": "SCO",
-    "description": "고객이 직접 상품을 스캔하고 결제하는 계산대."
-  },
-  {
-    "korean": "생애 가치",
-    "english": "Customer Lifetime Value",
-    "abbreviation": "CLV",
-    "description": "한 고객이 기업과 거래하는 전 기간에 걸쳐 창출하는 총 이익."
-  },
-  {
-    "korean": "이탈 고객",
-    "english": "Churn Customer",
-    "abbreviation": "CC",
-    "description": "더 이상 서비스를 이용하지 않기로 결정한 고객."
-  },
-  {
-    "korean": "휴면 고객",
-    "english": "Dormant Customer",
-    "abbreviation": "DC",
-    "description": "일정 기간 구매 활동이 없는 고객."
-  },
-  {
-    "korean": "잠재 고객",
-    "english": "Prospect/Lead",
-    "abbreviation": "PRO",
-    "description": "미래에 상품을 구매할 가능성이 있는 고객."
-  },
-  {
-    "korean": "충성 고객",
-    "english": "Loyal Customer",
-    "abbreviation": "LC",
-    "description": "특정 브랜드나 매장만 고집하여 반복적으로 구매하는 고객."
-  },
-  {
-    "korean": "고객 유지",
-    "english": "Customer Retention",
-    "abbreviation": "CR",
-    "description": "기존 고객이 계속 서비스를 이용하도록 관리하는 활동."
-  },
-  {
-    "korean": "이메일 마케팅",
-    "english": "Email Marketing",
-    "abbreviation": "EM",
-    "description": "이메일을 통해 상품 정보나 프로모션을 전달하는 마케팅."
-  },
-  {
-    "korean": "푸시 알림",
-    "english": "Push Notification",
-    "abbreviation": "PN",
-    "description": "앱을 사용하지 않을 때도 휴대폰 화면에 뜨는 알림 메시지."
-  },
-  {
-    "korean": "팝업 창",
-    "english": "Pop-up Window",
-    "abbreviation": "PW",
-    "description": "웹페이지 접속 시 자동으로 뜨는 작은 알림 창."
-  },
-  {
-    "korean": "쿠키",
-    "english": "Cookie",
-    "abbreviation": "CKE",
-    "description": "웹사이트 접속 정보를 사용자 컴퓨터에 저장하는 파일."
-  },
-  {
-    "korean": "브라우저",
-    "english": "Browser",
-    "abbreviation": "BRW",
-    "description": "웹사이트에 접속하고 내용을 볼 수 있게 하는 프로그램."
-  },
-  {
-    "korean": "캐시",
-    "english": "Cache",
-    "abbreviation": "CSH",
-    "description": "자주 사용하는 데이터나 이미지를 임시로 저장해 두는 공간."
-  },
-  {
-    "korean": "세션",
-    "english": "Session",
-    "abbreviation": "SESS",
-    "description": "사용자가 웹사이트에 접속하여 로그아웃할 때까지의 활동 기간."
-  },
-  {
-    "korean": "트래픽",
-    "english": "Traffic",
-    "abbreviation": "TRF",
-    "description": "웹사이트에 접속하는 데이터 통신량."
-  },
-  {
-    "korean": "대역폭",
-    "english": "Bandwidth",
-    "abbreviation": "BW",
-    "description": "일정 시간 동안 전송할 수 있는 데이터의 최대량."
-  },
-  {
-    "korean": "해킹",
-    "english": "Hacking",
-    "abbreviation": "HACK",
-    "description": "컴퓨터 시스템에 불법적으로 침입하여 정보를 훔치거나 파괴하는 행위."
-  },
-  {
-    "korean": "랜섬웨어",
-    "english": "Ransomware",
-    "abbreviation": "RW",
-    "description": "시스템을 잠근 후 금전을 요구하는 악성 프로그램."
-  },
-  {
-    "korean": "방화벽",
-    "english": "Firewall",
-    "abbreviation": "FW",
-    "description": "외부의 불법 침입으로부터 내부 네트워크를 보호하는 보안 시스템."
-  },
-  {
-    "korean": "암호화",
-    "english": "Encryption",
-    "abbreviation": "ENC",
-    "description": "정보를 알아볼 수 없는 형태로 변환하여 보안을 강화하는 작업."
-  },
-  {
-    "korean": "복호화",
-    "english": "Decryption",
-    "abbreviation": "DEC",
-    "description": "암호화된 정보를 다시 원래 형태로 되돌리는 작업."
-  },
-  {
-    "korean": "인증서",
-    "english": "Certificate",
-    "abbreviation": "CRT",
-    "description": "정보의 신뢰성과 본인 여부를 증명하는 전자 문서."
-  },
-  {
-    "korean": "가상 사설망",
-    "english": "Virtual Private Network",
-    "abbreviation": "VPN",
-    "description": "공중망을 이용하여 마치 사설망처럼 안전하게 통신할 수 있게 하는 기술."
-  },
-  {
-    "korean": "고객 생애 가치",
-    "english": "Customer Lifetime Value",
-    "abbreviation": "CLV",
-    "description": "한 고객이 기업과 거래하는 전체 기간 동안 창출하는 총 이익."
-  },
-  {
-    "korean": "재구매 의향",
-    "english": "Repurchase Intention",
-    "abbreviation": "RI",
-    "description": "고객이 해당 상품이나 서비스를 다시 구매할 의도."
-  },
-  {
-    "korean": "평균 응대 시간",
-    "english": "Average Handling Time",
-    "abbreviation": "AHT",
-    "description": "고객 상담 시작부터 종료까지 걸리는 평균 시간."
-  },
-  {
-    "korean": "첫 접촉 해결률",
-    "english": "First Contact Resolution",
-    "abbreviation": "FCR",
-    "description": "고객이 첫 문의에서 문제를 해결하여 재문의가 발생하지 않는 비율."
-  },
-  {
-    "korean": "이탈률",
-    "english": "Churn Rate",
-    "abbreviation": "CR",
-    "description": "일정 기간 동안 서비스를 더 이상 이용하지 않게 된 고객의 비율."
-  },
-  {
-    "korean": "신속한 응대",
-    "english": "Quick Response",
-    "abbreviation": "QR",
-    "description": "고객의 문의나 요청에 빠르게 답변하거나 조치하는 것."
-  },
-  {
-    "korean": "고객 경험",
-    "english": "Customer Experience",
-    "abbreviation": "CX",
-    "description": "고객이 기업/브랜드와 상호작용하는 모든 과정에서 느끼는 총체적 경험."
-  },
-  {
-    "korean": "보이스 오브 커스터머",
-    "english": "Voice of Customer",
-    "abbreviation": "VOC",
-    "description": "고객의 의견, 불만, 제안 등 모든 피드백."
-  },
-  {
-    "korean": "문의 유형 분류",
-    "english": "Inquiry Type Classification",
-    "abbreviation": "ITC",
-    "description": "고객 문의를 접수 목적에 따라 종류별로 나누는 작업."
-  },
-  {
-    "korean": "상담 품질 평가",
-    "english": "Call Quality Assessment",
-    "abbreviation": "CQA",
-    "description": "고객 응대 서비스의 질을 평가하는 것."
-  },
-  {
-    "korean": "상담 대기열",
-    "english": "Call Queue",
-    "abbreviation": "CQ",
-    "description": "상담원 연결을 기다리는 고객들의 순서."
-  },
-  {
-    "korean": "콜백 서비스",
-    "english": "Callback Service",
-    "abbreviation": "CBS",
-    "description": "상담 대기 중인 고객에게 나중에 전화해 주는 서비스."
-  },
-  {
-    "korean": "악성 민원인",
-    "english": "Vexatious Complainant",
-    "abbreviation": "VC",
-    "description": "상습적이고 비합리적인 요구를 하는 고객."
-  },
-  {
-    "korean": "에스컬레이션",
-    "english": "Escalation",
-    "abbreviation": "ESCL",
-    "description": "일반적인 CS로 해결되지 않아 상위 관리자에게 인계되는 문제."
-  },
-  {
-    "korean": "재고 자산",
-    "english": "Inventory Asset",
-    "abbreviation": "IA",
-    "description": "판매를 목적으로 보유하고 있는 모든 상품."
-  },
-  {
-    "korean": "재고 부족",
-    "english": "Stockout",
-    "abbreviation": "SO",
-    "description": "고객 주문 시 판매할 재고가 없는 상태."
-  },
-  {
-    "korean": "안전 재고",
-    "english": "Safety Stock",
-    "abbreviation": "SS",
-    "description": "예측하지 못한 수요 증가나 공급 지연에 대비해 비축하는 재고."
-  },
-  {
-    "korean": "결품",
-    "english": "Missing Item",
-    "abbreviation": "MI",
-    "description": "주문에 포함되어야 할 상품이 빠져있는 상태."
-  },
-  {
-    "korean": "가용 재고",
-    "english": "Available Stock",
-    "abbreviation": "AS",
-    "description": "즉시 판매 또는 출고 가능한 현재 재고 수량."
-  },
-  {
-    "korean": "재고 조정",
-    "english": "Inventory Adjustment",
-    "abbreviation": "IADJ",
-    "description": "실제 재고와 시스템 상 재고의 차이를 맞추는 작업."
-  },
-  {
-    "korean": "재고 평가 손실",
-    "english": "Inventory Valuation Loss",
-    "abbreviation": "IVL",
-    "description": "재고 가치가 하락하여 발생하는 손실."
-  },
-  {
-    "korean": "순환 실사",
-    "english": "Cycle Count",
-    "abbreviation": "CC",
-    "description": "정기적인 전수 실사 대신 소수의 상품을 주기적으로 확인하는 재고 실사 방법."
-  },
-  {
-    "korean": "로트 번호",
-    "english": "Lot Number",
-    "abbreviation": "LN",
-    "description": "특정 기간 생산된 상품에 부여되는 식별 번호 (추적용)."
-  },
-  {
-    "korean": "창고 레이아웃",
-    "english": "Warehouse Layout",
-    "abbreviation": "WL",
-    "description": "창고 내 동선, 보관 위치 등을 설계하는 배치도."
-  },
-  {
-    "korean": "집하",
-    "english": "Collection",
-    "abbreviation": "COL",
-    "description": "택배사에서 판매자로부터 상품을 수거하는 과정."
-  },
-  {
-    "korean": "분류",
-    "english": "Sorting",
-    "abbreviation": "SRT",
-    "description": "수거된 상품을 배송 지역별로 나누는 작업."
-  },
-  {
-    "korean": "허브 터미널",
-    "english": "Hub Terminal",
-    "abbreviation": "HT",
-    "description": "전국 각지의 화물을 모아 분류하고 다시 각 지역으로 보내는 중심 물류 거점."
-  },
-  {
-    "korean": "라스트 마일",
-    "english": "Last Mile",
-    "abbreviation": "LM",
-    "description": "상품이 최종 물류 거점에서 소비자에게 전달되는 최종 단계."
-  },
-  {
-    "korean": "3자 물류",
-    "english": "Third Party Logistics",
-    "abbreviation": "3PL",
-    "description": "물류 업무를 전문 업체에 아웃소싱하는 것."
-  },
-  {
-    "korean": "4자 물류",
-    "english": "Fourth Party Logistics",
-    "abbreviation": "4PL",
-    "description": "물류 기획, 컨설팅, 관리를 포함하여 공급망 전체를 관리하는 서비스."
-  },
-  {
-    "korean": "물류 거점",
-    "english": "Logistics Center",
-    "abbreviation": "LC",
-    "description": "물품의 보관 및 유통을 위한 핵심 시설."
-  },
-  {
-    "korean": "크로스 도킹",
-    "english": "Cross-Docking",
-    "abbreviation": "CD",
-    "description": "창고 보관 과정 없이 상품을 바로 하차장에서 출하장으로 옮겨 배송하는 방식."
-  },
-  {
-    "korean": "물류 비용",
-    "english": "Logistics Cost",
-    "abbreviation": "LGC",
-    "description": "운송, 보관, 포장, 하역 등에 소요되는 모든 비용."
-  },
-  {
-    "korean": "온도 제어",
-    "english": "Temperature Control",
-    "abbreviation": "TC",
-    "description": "냉장/냉동 상품의 적정 온도를 유지하는 관리."
-  },
-  {
-    "korean": "적재",
-    "english": "Loading",
-    "abbreviation": "LDG",
-    "description": "상품을 운송 차량에 싣는 작업."
-  },
-  {
-    "korean": "하역",
-    "english": "Unloading",
-    "abbreviation": "ULD",
-    "description": "운송 차량에서 상품을 내리는 작업."
-  },
-  {
-    "korean": "팔레트당 수량",
-    "english": "Quantity Per Pallet",
-    "abbreviation": "QPP",
-    "description": "하나의 팔레트에 적재할 수 있는 상품의 최대 수량."
-  },
-  {
-    "korean": "컨테이너",
-    "english": "Container",
-    "abbreviation": "CTN",
-    "description": "해상 및 육상 운송에 사용되는 대형 규격 화물 상자."
-  },
-  {
-    "korean": "도로운송",
-    "english": "Road Transport",
-    "abbreviation": "RT",
-    "description": "트럭 등 차량을 이용한 육상 운송."
-  },
-  {
-    "korean": "해상운송",
-    "english": "Ocean Freight",
-    "abbreviation": "OFR",
-    "description": "선박을 이용한 국제 운송."
-  },
-  {
-    "korean": "항공운송",
-    "english": "Air Freight",
-    "abbreviation": "AFR",
-    "description": "항공기를 이용한 신속 운송."
-  },
-  {
-    "korean": "화물",
-    "english": "Cargo",
-    "abbreviation": "CGO",
-    "description": "운송을 목적으로 하는 상품."
-  },
-  {
-    "korean": "복합운송",
-    "english": "Multimodal Transport",
-    "abbreviation": "MMT",
-    "description": "두 가지 이상의 운송 수단을 연계하여 운송하는 것."
-  },
-  {
-    "korean": "운송장 (선하증권)",
-    "english": "Bill of Lading",
-    "abbreviation": "B/L",
-    "description": "해상 운송 시 화물 수령을 증명하고 운송 계약을 나타내는 유가증권."
-  },
-  {
-    "korean": "보험료",
-    "english": "Insurance Premium",
-    "abbreviation": "IP",
-    "description": "운송 중 발생할 수 있는 손해에 대비하여 지불하는 비용."
-  },
-  {
-    "korean": "관세",
-    "english": "Customs Duty",
-    "abbreviation": "CD",
-    "description": "수입 상품에 부과되는 세금."
-  },
-  {
-    "korean": "수출입 신고",
-    "english": "Import/Export Declaration",
-    "abbreviation": "IED",
-    "description": "세관에 수출입 사실을 신고하는 절차."
-  },
-  {
-    "korean": "통관 수수료",
-    "english": "Customs Clearance Fee",
-    "abbreviation": "CCF",
-    "description": "통관 대행 서비스에 지불하는 수수료."
-  },
-  {
-    "korean": "FTA",
-    "english": "Free Trade Agreement",
-    "abbreviation": "FTA",
-    "description": "국가 간 상품 이동 시 관세를 낮추거나 없애는 무역 협정."
-  },
-  {
-    "korean": "원산지 증명서",
-    "english": "Certificate of Origin",
-    "abbreviation": "CO",
-    "description": "상품의 생산 또는 가공 국가를 증명하는 서류."
-  },
-  {
-    "korean": "인코텀즈",
-    "english": "Incoterms",
-    "abbreviation": "INC",
-    "description": "무역 거래 조건에 관한 국제 규칙."
-  },
-  {
-    "korean": "배송 대행지",
-    "english": "Shipping Proxy/Agent",
-    "abbreviation": "SA",
-    "description": "해외 직구 시 현지에서 상품을 대신 받아 국내로 배송하는 서비스 업체."
-  },
-  {
-    "korean": "소싱",
-    "english": "Sourcing",
-    "abbreviation": "SRC",
-    "description": "상품을 구매할 공급업체나 생산지를 찾는 행위."
-  },
-  {
-    "korean": "납품",
-    "english": "Delivery/Supply",
-    "abbreviation": "SPLY",
-    "description": "판매자가 유통업체에게 상품을 공급하는 것."
-  },
-  {
-    "korean": "최종 결정권자",
-    "english": "Decision Maker",
-    "abbreviation": "DMK",
-    "description": "구매나 계약에 대한 최종 권한을 가진 사람."
-  },
-  {
-    "korean": "매입가",
-    "english": "Buying Price",
-    "abbreviation": "BP",
-    "description": "판매자가 상품을 공급업체로부터 구매하는 가격."
-  },
-  {
-    "korean": "순이익",
-    "english": "Net Profit",
-    "abbreviation": "NP",
-    "description": "매출에서 매출원가와 모든 비용을 제외한 최종 이익."
-  },
-  {
-    "korean": "총 이익",
-    "english": "Gross Profit",
-    "abbreviation": "GP",
-    "description": "매출에서 매출원가만을 제외한 이익."
-  },
-  {
-    "korean": "운영 비용",
-    "english": "Operating Expense",
-    "abbreviation": "OPEX",
-    "description": "기업 운영에 필요한 모든 비용 (인건비, 임차료 등)."
-  },
-  {
-    "korean": "원가",
-    "english": "Cost Price",
-    "abbreviation": "CP",
-    "description": "상품을 생산하거나 매입하는 데 들어간 비용."
-  },
-  {
-    "korean": "고정 비용",
-    "english": "Fixed Cost",
-    "abbreviation": "FC",
-    "description": "생산량이나 판매량에 관계없이 일정하게 발생하는 비용."
-  },
-  {
-    "korean": "변동 비용",
-    "english": "Variable Cost",
-    "abbreviation": "VC",
-    "description": "생산량이나 판매량에 따라 변동하는 비용."
-  },
-  {
-    "korean": "간접 비용",
-    "english": "Indirect Cost",
-    "abbreviation": "IC",
-    "description": "특정 상품이나 활동에 직접적으로 귀속시키기 어려운 비용."
-  },
-  {
-    "korean": "마케팅 비용",
-    "english": "Marketing Cost",
-    "abbreviation": "MC",
-    "description": "광고, 홍보, 프로모션 등에 지출하는 비용."
-  },
-  {
-    "korean": "투자 대비 수익률",
-    "english": "Return On Investment",
-    "abbreviation": "ROI",
-    "description": "투자 금액 대비 얻은 이익의 비율."
-  },
-  {
-    "korean": "광고 수익률",
-    "english": "Return On Ad Spend",
-    "abbreviation": "ROAS",
-    "description": "광고 지출액 대비 광고를 통해 얻은 매출액."
-  },
-  {
-    "korean": "고객 획득 비용",
-    "english": "Customer Acquisition Cost",
-    "abbreviation": "CAC",
-    "description": "신규 고객 한 명을 확보하는 데 드는 평균 비용."
-  },
-  {
-    "korean": "콘텐츠 마케팅",
-    "english": "Content Marketing",
-    "abbreviation": "CM",
-    "description": "가치 있는 콘텐츠를 제작하여 잠재 고객을 유인하는 마케팅."
-  },
-  {
-    "korean": "바이럴 마케팅",
-    "english": "Viral Marketing",
-    "abbreviation": "VM",
-    "description": "입소문을 통해 정보가 확산되도록 유도하는 마케팅."
-  },
-  {
-    "korean": "인플루언서 마케팅",
-    "english": "Influencer Marketing",
-    "abbreviation": "IM",
-    "description": "소셜 미디어 등 영향력 있는 사람을 활용하는 마케팅."
-  },
-  {
-    "korean": "퍼포먼스 마케팅",
-    "english": "Performance Marketing",
-    "abbreviation": "PM",
-    "description": "데이터와 지표를 기반으로 성과를 측정하며 진행하는 마케팅."
-  },
-  {
-    "korean": "리타겟팅",
-    "english": "Retargeting",
-    "abbreviation": "RTG",
-    "description": "웹사이트에 방문했던 사용자에게 다시 광고를 노출하는 기법."
-  },
-  {
-    "korean": "고객 여정 맵",
-    "english": "Customer Journey Map",
-    "abbreviation": "CJM",
-    "description": "고객이 제품/서비스와 상호작용하는 모든 단계를 시각화한 지도."
-  },
-  {
-    "korean": "퍼널 분석",
-    "english": "Funnel Analysis",
-    "abbreviation": "FA",
-    "description": "고객이 구매로 전환되는 단계별 경로와 이탈 지점을 분석하는 기법."
-  },
-  {
-    "korean": "코호트 분석",
-    "english": "Cohort Analysis",
-    "abbreviation": "COA",
-    "description": "특정 시기에 공통된 경험을 한 고객 집단(코호트)의 행동을 추적 분석하는 것."
-  },
-  {
-    "korean": "재방문율",
-    "english": "Repeat Visit Rate",
-    "abbreviation": "RVR",
-    "description": "웹사이트에 다시 방문한 고객의 비율."
-  },
-  {
-    "korean": "스크롤 뎁스",
-    "english": "Scroll Depth",
-    "abbreviation": "SD",
-    "description": "사용자가 웹페이지를 얼마나 깊이 읽었는지 측정하는 지표."
-  },
-  {
-    "korean": "A/B 테스트",
-    "english": "A/B Testing",
-    "abbreviation": "ABT",
-    "description": "두 가지 버전(A안, B안)을 비교하여 더 효과적인 디자인이나 기능을 찾는 실험."
-  },
-  {
-    "korean": "랜딩 페이지",
-    "english": "Landing Page",
-    "abbreviation": "LP",
-    "description": "광고 클릭 후 사용자가 처음 도달하는 웹페이지."
-  },
-  {
-    "korean": "CTA 버튼",
-    "english": "Call To Action Button",
-    "abbreviation": "CTA",
-    "description": "고객의 행동(구매, 가입 등)을 유도하는 버튼."
-  },
-  {
-    "korean": "위젯",
-    "english": "Widget",
-    "abbreviation": "WGT",
-    "description": "웹사이트에 추가 기능을 제공하는 작은 소프트웨어 모듈."
-  },
-  {
-    "korean": "쿠키",
-    "english": "Cookie",
-    "abbreviation": "CKE",
-    "description": "웹사이트 접속 정보를 사용자 컴퓨터에 저장하는 파일."
-  },
-  {
-    "korean": "세션",
-    "english": "Session",
-    "abbreviation": "SESS",
-    "description": "사용자가 웹사이트에 접속하여 활동하는 일련의 과정."
-  },
-  {
-    "korean": "트래픽",
-    "english": "Traffic",
-    "abbreviation": "TRF",
-    "description": "웹사이트에 접속하는 데이터 통신량."
-  },
-  {
-    "korean": "서버 다운",
-    "english": "Server Down",
-    "abbreviation": "SD",
-    "description": "서버가 작동을 멈춰 웹사이트 접속이 불가능한 상태."
-  },
-  {
-    "korean": "백업",
-    "english": "Backup",
-    "abbreviation": "BKUP",
-    "description": "데이터 손실에 대비하여 정보를 별도로 저장해 두는 것."
-  },
-  {
-    "korean": "데이터베이스 관리 시스템",
-    "english": "Database Management System",
-    "abbreviation": "DBMS",
-    "description": "데이터베이스를 효율적으로 관리하는 소프트웨어."
-  },
-  {
-    "korean": "API 연동",
-    "english": "API Integration",
-    "abbreviation": "API",
-    "description": "서로 다른 시스템 간에 기능을 연결하여 데이터를 주고받게 하는 것."
-  },
-  {
-    "korean": "클라우드 기반",
-    "english": "Cloud-Based",
-    "abbreviation": "CB",
-    "description": "인터넷상의 서버를 통해 서비스를 제공하는 방식."
-  },
-  {
-    "korean": "시스템 보안",
-    "english": "System Security",
-    "abbreviation": "SS",
-    "description": "전산 시스템을 해킹이나 외부 위협으로부터 보호하는 것."
-  },
-  {
-    "korean": "암호화",
-    "english": "Encryption",
-    "abbreviation": "ENC",
-    "description": "데이터를 보호하기 위해 알아볼 수 없는 형태로 변환하는 기술."
-  },
-  {
-    "korean": "방화벽",
-    "english": "Firewall",
-    "abbreviation": "FW",
-    "description": "외부 네트워크의 불법 침입을 막는 보안 시스템."
-  },
-  {
-    "korean": "해킹",
-    "english": "Hacking",
-    "abbreviation": "HACK",
-    "description": "시스템에 무단 침입하여 데이터를 탈취하거나 파괴하는 행위."
-  },
-  {
-    "korean": "개인 정보 파기",
-    "english": "Personal Data Destruction",
-    "abbreviation": "PDD",
-    "description": "개인 정보를 복구할 수 없도록 완전히 삭제하는 것."
-  },
-  {
-    "korean": "데이터 마이닝",
-    "english": "Data Mining",
-    "abbreviation": "DM",
-    "description": "대규모 데이터에서 유의미한 패턴을 찾아내는 분석 기법."
-  },
-  {
-    "korean": "머신러닝",
-    "english": "Machine Learning",
-    "abbreviation": "ML",
-    "description": "컴퓨터가 데이터 학습을 통해 스스로 성능을 향상시키는 기술."
-  },
-  {
-    "korean": "인공지능 추천",
-    "english": "AI Recommendation",
-    "abbreviation": "AIR",
-    "description": "인공지능이 고객의 선호도를 분석하여 상품을 제안하는 것."
-  },
-  {
-    "korean": "동적 가격 책정",
-    "english": "Dynamic Pricing",
-    "abbreviation": "DP",
-    "description": "수요, 경쟁, 재고 등에 따라 가격을 실시간으로 변동하는 전략."
-  },
-  {
-    "korean": "손익분기점",
-    "english": "Break-Even Point",
-    "abbreviation": "BEP",
-    "description": "매출액이 총 비용과 같아져 이익도 손실도 아닌 지점."
-  },
-  {
-    "korean": "마진율",
-    "english": "Margin Rate",
-    "abbreviation": "MR",
-    "description": "매출액 대비 이익이 차지하는 비율."
-  },
-  {
-    "korean": "가격 탄력성",
-    "english": "Price Elasticity",
-    "abbreviation": "PE",
-    "description": "가격 변화에 따른 수요량의 민감도."
-  },
-  {
-    "korean": "박리다매",
-    "english": "High Volume, Low Margin",
-    "abbreviation": "HVLM",
-    "description": "이윤을 적게 붙여서 대량으로 판매하는 방식."
-  },
-  {
-    "korean": "고가 정책",
-    "english": "Premium Pricing",
-    "abbreviation": "PP",
-    "description": "높은 가격을 책정하여 고급 이미지를 구축하는 전략."
-  },
-  {
-    "korean": "저가 정책",
-    "english": "Low Pricing",
-    "abbreviation": "LP",
-    "description": "시장 평균보다 낮은 가격으로 경쟁력을 확보하는 전략."
-  },
-  {
-    "korean": "미끼 상품",
-    "english": "Loss Leader",
-    "abbreviation": "LL",
-    "description": "고객 유인을 위해 원가 이하로 판매하는 상품."
-  },
-  {
-    "korean": "시즌 오프",
-    "english": "Season Off",
-    "abbreviation": "SO",
-    "description": "특정 시즌이 끝난 후 남은 상품을 할인 판매하는 것."
-  },
-  {
-    "korean": "균일가",
-    "english": "Fixed Price",
-    "abbreviation": "FP",
-    "description": "상품 종류나 가치에 상관없이 가격을 동일하게 책정하는 것."
-  },
-  {
-    "korean": "할증료",
-    "english": "Surcharge",
-    "abbreviation": "SC",
-    "description": "특정 상황이나 조건 때문에 추가로 부과하는 요금."
-  },
-  {
-    "korean": "무이자 할부",
-    "english": "Interest-Free Installment",
-    "abbreviation": "IFI",
-    "description": "할부 기간 동안 이자가 없는 결제 방식."
-  },
-  {
-    "korean": "리퍼비시 상품",
-    "english": "Refurbished Product",
-    "abbreviation": "REF",
-    "description": "반품, 전시 등으로 회수된 후 정비를 거쳐 재판매하는 상품."
-  },
-  {
-    "korean": "벌크 상품",
-    "english": "Bulk Product",
-    "abbreviation": "BLK",
-    "description": "개별 포장 없이 대량으로 판매되는 상품 (대용량)."
-  },
-  {
-    "korean": "매장 레이아웃",
-    "english": "Store Layout",
-    "abbreviation": "SL",
-    "description": "매장 내 상품 진열, 동선 등을 설계하는 배치 구조."
-  },
-  {
-    "korean": "VMD",
-    "english": "Visual Merchandising",
-    "abbreviation": "VMD",
-    "description": "상품 전시를 통해 고객에게 시각적인 매력을 전달하는 활동."
-  },
-  {
-    "korean": "팝업 스토어",
-    "english": "Pop-up Store",
-    "abbreviation": "PS",
-    "description": "짧은 기간 동안만 운영하는 임시 매장."
-  },
-  {
-    "korean": "플래그십 스토어",
-    "english": "Flagship Store",
-    "abbreviation": "FS",
-    "description": "브랜드의 정체성과 가치를 가장 잘 보여주는 대표 매장."
-  },
-  {
-    "korean": "키오스크",
-    "english": "Kiosk",
-    "abbreviation": "KSK",
-    "description": "터치스크린 방식으로 주문, 결제가 가능한 무인 단말기."
-  },
-  {
-    "korean": "셀프 계산대",
-    "english": "Self-Checkout",
-    "abbreviation": "SCO",
-    "description": "고객이 직접 상품을 스캔하고 결제하는 시스템."
-  },
-  {
-    "korean": "POS 시스템",
-    "english": "Point of Sale System",
-    "abbreviation": "POS",
-    "description": "상품 판매, 재고, 매출 등을 관리하는 판매 시점 정보 관리 시스템."
-  },
-  {
-    "korean": "영업 시간",
-    "english": "Business Hours",
-    "abbreviation": "BH",
-    "description": "매장이나 회사가 운영되는 시간."
-  },
-  {
-    "korean": "폐점",
-    "english": "Store Closing",
-    "abbreviation": "CLSD",
-    "description": "매장 영업을 종료하는 것."
-  },
-  {
-    "korean": "도난 방지 태그",
-    "english": "Anti-Theft Tag",
-    "abbreviation": "ATT",
-    "description": "상품 도난을 막기 위해 부착하는 보안 장치."
-  },
-  {
-    "korean": "재고 손실률",
-    "english": "Shrinkage Rate",
-    "abbreviation": "SR",
-    "description": "도난, 파손, 행정 착오 등으로 인해 발생하는 재고 손실 비율."
-  },
-  {
-    "korean": "매장 안전 수칙",
-    "english": "Store Safety Rules",
-    "abbreviation": "SSR",
-    "description": "매장 내에서 지켜야 할 안전 규정."
-  },
-  {
-    "korean": "고객 동선",
-    "english": "Customer Flow",
-    "abbreviation": "CF",
-    "description": "매장 내에서 고객이 이동하는 경로."
-  },
-  {
-    "korean": "카운터",
-    "english": "Counter",
-    "abbreviation": "CTR",
-    "description": "계산 및 고객 응대가 이루어지는 곳."
-  },
-  {
-    "korean": "마네킹",
-    "english": "Mannequin",
-    "abbreviation": "MNQ",
-    "description": "옷이나 액세서리를 전시하는 인체 모형."
-  },
-  {
-    "korean": "진열 표준",
-    "english": "Display Standard",
-    "abbreviation": "DSP",
-    "description": "상품을 진열할 때 지켜야 할 통일된 기준."
-  },
-  {
-    "korean": "온디맨드 서비스",
-    "english": "On-Demand Service",
-    "abbreviation": "ODS",
-    "description": "고객의 요청에 따라 즉시 제공되는 서비스."
-  },
-  {
-    "korean": "O2O 서비스",
-    "english": "Online to Offline Service",
-    "abbreviation": "O2O",
-    "description": "온라인과 오프라인을 연계하여 고객을 유도하는 서비스."
-  },
-  {
-    "korean": "옴니 채널",
-    "english": "Omni-Channel",
-    "abbreviation": "OC",
-    "description": "모든 채널을 통합하여 일관된 고객 경험을 제공하는 전략."
-  },
-  {
-    "korean": "라이브 커머스",
-    "english": "Live Commerce",
-    "abbreviation": "LC",
-    "description": "실시간 동영상 스트리밍을 통해 상품을 판매하는 방식."
-  },
-  {
-    "korean": "쇼호스트",
-    "english": "Show Host",
-    "abbreviation": "SH",
-    "description": "라이브 커머스 방송 진행자."
-  },
-  {
-    "korean": "메타버스 커머스",
-    "english": "Metaverse Commerce",
-    "abbreviation": "MTC",
-    "description": "가상 세계에서 이루어지는 상거래."
-  },
-  {
-    "korean": "가상현실",
-    "english": "Virtual Reality",
-    "abbreviation": "VR",
-    "description": "컴퓨터로 만든 가상의 환경을 현실처럼 체험하는 기술."
-  },
-  {
-    "korean": "증강현실",
-    "english": "Augmented Reality",
-    "abbreviation": "AR",
-    "description": "실제 환경에 가상 이미지를 덧입혀 보여주는 기술."
-  },
-  {
-    "korean": "사용자 생성 콘텐츠",
-    "english": "User Generated Content",
-    "abbreviation": "UGC",
-    "description": "사용자가 직접 만들어서 올린 콘텐츠 (리뷰, 영상 등)."
-  },
-  {
-    "korean": "마일리지",
-    "english": "Mileage",
-    "abbreviation": "MLG",
-    "description": "구매 금액에 따라 적립되어 현금처럼 사용할 수 있는 포인트."
-  },
-  {
-    "korean": "e-Gift Card",
-    "english": "Electronic Gift Card",
-    "abbreviation": "EGC",
-    "description": "실물 카드 없이 모바일로 전송되는 상품권."
-  },
-  {
-    "korean": "포인트 통합",
-    "english": "Point Integration",
-    "abbreviation": "PI",
-    "description": "여러 제휴사의 포인트를 하나로 합쳐 사용할 수 있게 하는 것."
-  },
-  {
-    "korean": "멤버십 등급",
-    "english": "Membership Tier",
-    "abbreviation": "MT",
-    "description": "누적 구매액 등에 따라 고객에게 부여하는 회원 자격 단계."
-  },
-  {
-    "korean": "우수 고객",
-    "english": "VIP Customer",
-    "abbreviation": "VIP",
-    "description": "매출 기여도가 높거나 충성도가 높은 고객."
-  },
-  {
-    "korean": "휴면 고객",
-    "english": "Dormant Customer",
-    "abbreviation": "DC",
-    "description": "일정 기간 동안 구매 활동이 없는 고객."
-  },
-  {
-    "korean": "이탈 고객",
-    "english": "Churn Customer",
-    "abbreviation": "CC",
-    "description": "서비스를 더 이상 이용하지 않기로 결정한 고객."
-  },
-  {
-    "korean": "고객 재활성화",
-    "english": "Customer Reactivation",
-    "abbreviation": "CRA",
-    "description": "휴면 고객이나 이탈 고객을 다시 활동하도록 유도하는 것."
-  },
-  {
-    "korean": "타겟 마케팅",
-    "english": "Target Marketing",
-    "abbreviation": "TM",
-    "description": "특정 고객 집단(세그먼트)을 목표로 하는 마케팅."
-  },
-  {
-    "korean": "잠재 고객",
-    "english": "Prospect/Lead",
-    "abbreviation": "PRO",
-    "description": "미래에 상품을 구매할 가능성이 있는 사람."
-  },
-  {
-    "korean": "콜드 리드",
-    "english": "Cold Lead",
-    "abbreviation": "CL",
-    "description": "구매 의도가 아직 낮은 잠재 고객."
-  },
-  {
-    "korean": "핫 리드",
-    "english": "Hot Lead",
-    "abbreviation": "HL",
-    "description": "구매 의도가 매우 높아 조만간 구매할 가능성이 높은 잠재 고객."
-  },
-  {
-    "korean": "데이터 보호 책임자",
-    "english": "Data Protection Officer",
-    "abbreviation": "DPO",
-    "description": "개인 정보 보호 관련 업무를 총괄하는 책임자."
-  },
-  {
-    "korean": "개인 정보 처리 방침",
-    "english": "Privacy Policy",
-    "abbreviation": "PP",
-    "description": "개인 정보의 수집, 이용, 제공에 관한 규정."
-  },
-  {
-    "korean": "이용 약관",
-    "english": "Terms of Service",
-    "abbreviation": "TOS",
-    "description": "서비스 이용에 대한 법적인 계약 내용."
-  },
-  {
-    "korean": "무단 도용",
-    "english": "Unauthorized Use",
-    "abbreviation": "UU",
-    "description": "허락 없이 타인의 이미지, 콘텐츠 등을 사용하는 행위."
-  },
-  {
-    "korean": "저작권 침해",
-    "english": "Copyright Infringement",
-    "abbreviation": "CI",
-    "description": "저작권자의 권리를 침해하는 행위."
-  },
-  {
-    "korean": "상표권",
-    "english": "Trademark Right",
-    "abbreviation": "TR",
-    "description": "특정 상표를 독점적으로 사용할 수 있는 권리."
-  },
-  {
-    "korean": "특허권",
-    "english": "Patent Right",
-    "abbreviation": "PR",
-    "description": "발명에 대해 독점적인 권리를 가질 수 있는 권리."
-  },
-  {
-    "korean": "공정 거래",
-    "english": "Fair Trade",
-    "abbreviation": "FT",
-    "description": "기업 간에 공정하고 합법적인 거래를 하는 것."
-  },
-  {
-    "korean": "소비자 보호법",
-    "english": "Consumer Protection Act",
-    "abbreviation": "CPA",
-    "description": "소비자의 권익을 보호하기 위한 법률."
-  },
-  {
-    "korean": "상품 리콜",
-    "english": "Product Recall",
-    "abbreviation": "RCL",
-    "description": "결함이 있는 상품을 제조사나 판매자가 회수하는 조치."
-  },
-  {
-    "korean": "품질 보증서",
-    "english": "Warranty Certificate",
-    "abbreviation": "WC",
-    "description": "상품의 품질을 보장하는 문서."
-  },
-  {
-    "korean": "AS 규정",
-    "english": "After Service Policy",
-    "abbreviation": "ASP",
-    "description": "상품 구매 후 발생하는 문제에 대한 수리, 교환 등의 서비스 규정."
-  },
-  {
-    "korean": "보증 기간",
-    "english": "Warranty Period",
-    "abbreviation": "WP",
-    "description": "무상 수리나 교환이 가능한 기간."
-  },
-  {
-    "korean": "위약금",
-    "english": "Penalty Fee",
-    "abbreviation": "PF",
-    "description": "계약 사항을 위반했을 때 지불해야 하는 벌칙금."
-  },
-  {
-    "korean": "전자 영수증",
-    "english": "Electronic Receipt",
-    "abbreviation": "ER",
-    "description": "종이가 아닌 디지털 형태로 발급되는 결제 증명서."
-  },
-  {
-    "korean": "현금 영수증",
-    "english": "Cash Receipt",
-    "abbreviation": "CR",
-    "description": "현금 결제 시 발급받는 소득 공제용 증명서."
-  },
-  {
-    "korean": "세금 계산서",
-    "english": "Tax Invoice",
-    "abbreviation": "TI",
-    "description": "사업자 간 거래에 사용되는 세금 증빙 서류."
-  },
-  {
-    "korean": "부가가치세",
-    "english": "Value Added Tax",
-    "abbreviation": "VAT",
-    "description": "상품 판매나 서비스 제공 시 부과되는 간접세."
-  },
-  {
-    "korean": "면세",
-    "english": "Tax Exemption",
-    "abbreviation": "TX",
-    "description": "세금이 부과되지 않는 조건."
-  },
-  {
-    "korean": "법인 카드",
-    "english": "Corporate Card",
-    "abbreviation": "CC",
-    "description": "회사 명의로 발급된 업무용 카드."
-  },
-  {
-    "korean": "내부 통제",
-    "english": "Internal Control",
-    "abbreviation": "IC",
-    "description": "기업의 목표 달성을 위해 업무 프로세스를 감시하고 조정하는 활동."
-  },
-  {
-    "korean": "감사",
-    "english": "Audit",
-    "abbreviation": "AUD",
-    "description": "재무 상태나 업무 처리의 적정성을 점검하는 행위."
-  },
-  {
-    "korean": "근로 계약서",
-    "english": "Labor Contract",
-    "abbreviation": "LC",
-    "description": "근로자와 회사 간의 고용 조건에 대한 서류."
-  },
-  {
-    "korean": "산업 안전 보건",
-    "english": "Industrial Safety and Health",
-    "abbreviation": "ISH",
-    "description": "작업 환경에서 발생할 수 있는 위험을 예방하는 활동."
-  },
-  {
-    "korean": "직무 교육",
-    "english": "Job Training",
-    "abbreviation": "JT",
-    "description": "직무 수행에 필요한 지식과 기술을 습득하게 하는 교육."
-  },
-  {
-    "korean": "유기농 인증",
-    "english": "Organic Certification",
-    "abbreviation": "OC",
-    "description": "화학 비료나 농약 없이 재배되었음을 증명하는 인증."
-  },
-  {
-    "korean": "친환경 포장",
-    "english": "Eco-Friendly Packaging",
-    "abbreviation": "EFP",
-    "description": "환경에 미치는 영향을 최소화한 포장재."
-  },
-  {
-    "korean": "재활용률",
-    "english": "Recycling Rate",
-    "abbreviation": "RR",
-    "description": "전체 폐기물 중 재활용되는 비율."
-  },
-  {
-    "korean": "탄소 발자국",
-    "english": "Carbon Footprint",
-    "abbreviation": "CFP",
-    "description": "제품의 전 과정에서 발생하는 온실가스 총량."
-  },
-  {
-    "korean": "지속 가능 경영",
-    "english": "Sustainable Management",
-    "abbreviation": "SM",
-    "description": "환경적, 사회적 책임을 다하며 이익을 추구하는 경영 방식."
-  },
-  {
-    "korean": "비건 인증",
-    "english": "Vegan Certification",
-    "abbreviation": "VC",
-    "description": "동물성 원료를 사용하지 않았음을 증명하는 인증."
-  },
-  {
-    "korean": "콜드체인",
-    "english": "Cold Chain",
-    "abbreviation": "CC",
-    "description": "신선 식품 운송 및 보관 시 저온 상태를 지속적으로 유지하는 시스템."
-  },
-  {
-    "korean": "신선도 유지 기간",
-    "english": "Freshness Retention Period",
-    "abbreviation": "FRP",
-    "description": "식품의 신선함이 유지되는 기간."
-  },
-  {
-    "korean": "상온 보관",
-    "english": "Room Temperature Storage",
-    "abbreviation": "RTS",
-    "description": "일반적인 실내 온도에서 보관하는 것 (1~30°C)."
-  },
-  {
-    "korean": "냉장 보관",
-    "english": "Refrigerated Storage",
-    "abbreviation": "RS",
-    "description": "냉장 온도에서 보관하는 것 (0~10°C)."
-  },
-  {
-    "korean": "냉동 보관",
-    "english": "Frozen Storage",
-    "abbreviation": "FS",
-    "description": "냉동 온도에서 보관하는 것 (0°C 이하)."
-  },
-  {
-    "korean": "출하 준비 완료",
-    "english": "Ready To Ship",
-    "abbreviation": "RTS",
-    "description": "상품 포장이 완료되어 배송사 인계 직전 상태."
-  },
-  {
-    "korean": "배송 지연",
-    "english": "Delivery Delay",
-    "abbreviation": "DD",
-    "description": "예정된 배송일보다 늦어지는 것."
-  },
-  {
-    "korean": "재배송",
-    "english": "Redelivery",
-    "abbreviation": "RD",
-    "description": "배송 실패 후 다시 상품을 보내는 것."
-  },
-  {
-    "korean": "고객 미수령",
-    "english": "Customer Non-Receipt",
-    "abbreviation": "CNR",
-    "description": "상품이 배송되었으나 고객이 수령하지 못한 상태."
-  },
-  {
-    "korean": "도서 산간 추가 비용",
-    "english": "Island/Mountain Surcharge",
-    "abbreviation": "IMS",
-    "description": "외곽 지역 배송 시 추가되는 운송 비용."
-  },
-  {
-    "korean": "지역 택배사",
-    "english": "Local Courier",
-    "abbreviation": "LC",
-    "description": "특정 지역의 배송을 전담하는 택배사."
-  },
-  {
-    "korean": "위탁 배송",
-    "english": "Consignment Delivery",
-    "abbreviation": "CD",
-    "description": "판매자가 직접 배송하지 않고 다른 업체에 위임하는 방식."
-  },
-  {
-    "korean": "드랍 쉬핑",
-    "english": "Drop Shipping",
-    "abbreviation": "DS",
-    "description": "판매자가 재고 없이 주문을 받으면 공급업체가 고객에게 직접 배송하는 방식."
-  },
-  {
-    "korean": "직구",
-    "english": "Direct Purchase",
-    "abbreviation": "DP",
-    "description": "해외 온라인 쇼핑몰에서 소비자가 직접 구매하는 것."
-  },
-  {
-    "korean": "역직구",
-    "english": "Reverse Direct Purchase",
-    "abbreviation": "RDP",
-    "description": "국내 쇼핑몰에서 해외 소비자가 직접 구매하는 것."
-  },
-  {
-    "korean": "해외 직배송",
-    "english": "International Direct Delivery",
-    "abbreviation": "IDD",
-    "description": "해외 판매자가 고객에게 직접 배송하는 방식."
-  },
-  {
-    "korean": "결제 대행",
-    "english": "Payment Agency",
-    "abbreviation": "PA",
-    "description": "온라인 쇼핑몰의 결제를 중개하는 서비스."
-  },
-  {
-    "korean": "PG사",
-    "english": "Payment Gateway Provider",
-    "abbreviation": "PG",
-    "description": "결제 승인 및 대금 처리를 대행하는 회사."
-  },
-  {
-    "korean": "에스크로 서비스",
-    "english": "Escrow Service",
-    "abbreviation": "ESC",
-    "description": "소비자의 결제 대금을 제3자가 보관하다가 거래 완료 후 판매자에게 지급하는 서비스."
-  },
-  {
-    "korean": "간편 송금",
-    "english": "Simple Remittance",
-    "abbreviation": "SR",
-    "description": "복잡한 절차 없이 모바일로 쉽게 돈을 보내는 방식."
-  },
-  {
-    "korean": "선불 카드",
-    "english": "Prepaid Card",
-    "abbreviation": "PC",
-    "description": "미리 금액을 충전하여 사용하는 카드."
-  },
-  {
-    "korean": "제로페이",
-    "english": "Zero Pay",
-    "abbreviation": "ZP",
-    "description": "계좌 이체 기반의 모바일 직불 결제 서비스."
-  },
-  {
+    "id": 304,
     "korean": "비대면 결제",
     "english": "Contactless Payment",
     "abbreviation": "CLP",
     "description": "접촉 없이 이루어지는 결제 (NFC, QR 등)."
   },
   {
+    "id": 305,
+    "korean": "생체 인증",
+    "english": "Biometric Authentication",
+    "abbreviation": "BA",
+    "description": "지문, 홍채 등 신체 정보를 이용한 본인 확인."
+  },
+  {
+    "id": 306,
+    "korean": "자동 결제",
+    "english": "Automatic Payment",
+    "abbreviation": "AP",
+    "description": "정기적으로 자동으로 대금이 청구되는 결제."
+  },
+  {
+    "id": 307,
+    "korean": "PG사",
+    "english": "Payment Gateway Provider",
+    "abbreviation": "PG",
+    "description": "온라인 쇼핑몰과 금융기관 간의 결제 과정을 중개하는 회사."
+  },
+  {
+    "id": 308,
+    "korean": "FBA",
+    "english": "Fulfillment By Amazon",
+    "abbreviation": "FBA",
+    "description": "아마존이 판매자의 재고 보관, 포장, 배송, CS를 대행하는 서비스."
+  },
+  {
+    "id": 309,
+    "korean": "제휴 마케팅",
+    "english": "Affiliate Marketing",
+    "abbreviation": "AM",
+    "description": "다른 웹사이트나 채널을 통해 판매를 유도하고 수수료를 지급하는 방식."
+  },
+  {
+    "id": 310,
+    "korean": "바이럴 마케팅",
+    "english": "Viral Marketing",
+    "abbreviation": "VM",
+    "description": "상품 정보가 입소문처럼 빠르게 퍼져나가도록 하는 마케팅."
+  },
+  {
+    "id": 311,
+    "korean": "인플루언서",
+    "english": "Influencer",
+    "abbreviation": "INFL",
+    "description": "소셜 미디어 등에서 큰 영향력을 가진 사람."
+  },
+  {
+    "id": 312,
+    "korean": "라이브 스트리밍",
+    "english": "Live Streaming",
+    "abbreviation": "LS",
+    "description": "실시간 영상 송출."
+  },
+  {
+    "id": 313,
+    "korean": "쇼호스트",
+    "english": "Show Host",
+    "abbreviation": "SH",
+    "description": "TV 홈쇼핑이나 라이브 커머스에서 상품을 소개하는 진행자."
+  },
+  {
+    "id": 314,
+    "korean": "협찬",
+    "english": "Sponsorship",
+    "abbreviation": "SPN",
+    "description": "대가 없이 상품이나 서비스를 제공하여 홍보를 얻는 행위."
+  },
+  {
+    "id": 315,
+    "korean": "콘텐츠 마케팅",
+    "english": "Content Marketing",
+    "abbreviation": "CM",
+    "description": "유익하거나 흥미로운 콘텐츠를 제작하여 고객을 유인하는 마케팅."
+  },
+  {
+    "id": 316,
+    "korean": "온디맨드",
+    "english": "On-Demand",
+    "abbreviation": "OD",
+    "description": "소비자의 요청에 따라 즉시 서비스나 상품을 제공하는 방식."
+  },
+  {
+    "id": 317,
+    "korean": "O2O",
+    "english": "Online to Offline",
+    "abbreviation": "O2O",
+    "description": "온라인 고객을 오프라인 매장으로 유도하거나 그 반대의 서비스."
+  },
+  {
+    "id": 318,
+    "korean": "옴니 채널",
+    "english": "Omni-Channel",
+    "abbreviation": "OC",
+    "description": "모든 판매 채널을 유기적으로 통합하여 일관된 고객 경험을 제공하는 전략."
+  },
+  {
+    "id": 319,
+    "korean": "멀티 채널",
+    "english": "Multi-Channel",
+    "abbreviation": "MC",
+    "description": "여러 개의 판매 채널을 동시에 운영하는 방식."
+  },
+  {
+    "id": 320,
+    "korean": "펀딩",
+    "english": "Funding/Crowdfunding",
+    "abbreviation": "CF",
+    "description": "대중으로부터 자금을 모아 프로젝트나 상품을 개발하는 것."
+  },
+  {
+    "id": 321,
+    "korean": "와디즈",
+    "english": "Wadiz",
+    "abbreviation": "WDZ",
+    "description": "국내의 대표적인 크라우드 펀딩 플랫폼."
+  },
+  {
+    "id": 322,
+    "korean": "예약 주문",
+    "english": "Backorder",
+    "abbreviation": "BO",
+    "description": "현재 재고가 없어 나중에 입고되면 보내주기로 하고 미리 받는 주문."
+  },
+  {
+    "id": 323,
+    "korean": "시즌 오프",
+    "english": "Season Off",
+    "abbreviation": "SO",
+    "description": "특정 시즌이 끝나고 남은 상품을 대폭 할인하여 판매하는 것."
+  },
+  {
+    "id": 324,
+    "korean": "특가",
+    "english": "Special Offer",
+    "abbreviation": "SO",
+    "description": "특정 기간 동안 매우 저렴하게 판매하는 가격."
+  },
+  {
+    "id": 325,
+    "korean": "쿠폰 코드",
+    "english": "Coupon Code",
+    "abbreviation": "CC",
+    "description": "온라인에서 할인 혜택을 적용하기 위해 입력하는 문자열."
+  },
+  {
+    "id": 326,
+    "korean": "선착순 마감",
+    "english": "First Come, First Serve Closure",
+    "abbreviation": "FCFS",
+    "description": "정해진 수량이나 기간이 다 되어 혜택 제공을 종료하는 것."
+  },
+  {
+    "id": 327,
+    "korean": "대기 번호",
+    "english": "Waiting Number",
+    "abbreviation": "WN",
+    "description": "서비스나 상품을 받기 위해 기다리는 순서."
+  },
+  {
+    "id": 328,
+    "korean": "1+1 행사",
+    "english": "Buy One Get One Free",
+    "abbreviation": "BOGO",
+    "description": "상품 하나를 사면 같은 상품을 하나 더 주는 판매 방식."
+  },
+  {
+    "id": 329,
+    "korean": "사은품 증정",
+    "english": "Free Gift Offering",
+    "abbreviation": "FGO",
+    "description": "구매 금액이나 조건에 따라 추가 선물을 제공하는 것."
+  },
+  {
+    "id": 330,
+    "korean": "무이자 할부",
+    "english": "Interest-Free Installment",
+    "abbreviation": "IFI",
+    "description": "할부 구매 시 이자를 면제해 주는 혜택."
+  },
+  {
+    "id": 331,
+    "korean": "전용 상품",
+    "english": "Exclusive Product",
+    "abbreviation": "EXP",
+    "description": "특정 채널이나 고객만을 위해 판매되는 상품."
+  },
+  {
+    "id": 332,
+    "korean": "희소성 마케팅",
+    "english": "Scarcity Marketing",
+    "abbreviation": "SM",
+    "description": "상품의 수량이나 기간을 제한하여 구매를 촉진하는 전략."
+  },
+  {
+    "id": 333,
+    "korean": "보관료",
+    "english": "Storage Fee",
+    "abbreviation": "SF",
+    "description": "창고에 상품을 보관하는 대가로 지불하는 비용."
+  },
+  {
+    "id": 334,
+    "korean": "지입 차",
+    "english": "Consignment Vehicle",
+    "abbreviation": "CV",
+    "description": "화물차를 소유한 운송인이 회사에 등록하여 운송 업무를 수행하는 방식."
+  },
+  {
+    "id": 335,
+    "korean": "4PL",
+    "english": "Fourth Party Logistics",
+    "abbreviation": "4PL",
+    "description": "공급망 전체를 기획, 설계, 운영, 관리하는 통합 물류 솔루션."
+  },
+  {
+    "id": 336,
+    "korean": "드랍 쉬핑",
+    "english": "Drop Shipping",
+    "abbreviation": "DS",
+    "description": "판매자가 재고 없이 주문을 받으면 공급업체가 고객에게 직접 배송하는 방식."
+  },
+  {
+    "id": 337,
+    "korean": "포워딩",
+    "english": "Forwarding",
+    "abbreviation": "FWD",
+    "description": "국제 운송을 중개하고 대행하는 서비스."
+  },
+  {
+    "id": 338,
+    "korean": "관세",
+    "english": "Customs Duty",
+    "abbreviation": "CD",
+    "description": "국경을 통과하는 상품에 부과되는 세금."
+  },
+  {
+    "id": 339,
+    "korean": "무역 대금",
+    "english": "Trade Payment",
+    "abbreviation": "TP",
+    "description": "국제 거래에서 상품에 대해 지불하는 금액."
+  },
+  {
+    "id": 340,
+    "korean": "수출",
+    "english": "Export",
+    "abbreviation": "EXPT",
+    "description": "자국의 상품을 외국으로 판매하는 행위."
+  },
+  {
+    "id": 341,
+    "korean": "수입",
+    "english": "Import",
+    "abbreviation": "IMPT",
+    "description": "외국의 상품을 자국으로 들여오는 행위."
+  },
+  {
+    "id": 342,
+    "korean": "인코텀즈",
+    "english": "Incoterms",
+    "abbreviation": "INC",
+    "description": "국제 무역 거래 조건에 관한 국제 규칙."
+  },
+  {
+    "id": 343,
+    "korean": "통관",
+    "english": "Customs Clearance",
+    "abbreviation": "CC",
+    "description": "수출입 상품이 국경을 합법적으로 통과하는 절차."
+  },
+  {
+    "id": 344,
+    "korean": "보세 창고",
+    "english": "Bonded Warehouse",
+    "abbreviation": "BW",
+    "description": "통관 절차가 완료되지 않은 수입품을 보관하는 창고."
+  },
+  {
+    "id": 345,
+    "korean": "배송 대행지",
+    "english": "Shipping Proxy/Agent",
+    "abbreviation": "SA",
+    "description": "해외 직구 시 상품을 대신 받아 국내로 재배송해 주는 주소."
+  },
+  {
+    "id": 346,
+    "korean": "블랙 컨슈머",
+    "english": "Black Consumer",
+    "abbreviation": "BC",
+    "description": "악의적으로 환불, 교환, 컴플레인을 제기하는 소비자."
+  },
+  {
+    "id": 347,
+    "korean": "진상 고객",
+    "english": "Difficult Customer",
+    "abbreviation": "DC",
+    "description": "비합리적인 요구를 하거나 직원을 힘들게 하는 고객."
+  },
+  {
+    "id": 348,
+    "korean": "고객 여정",
+    "english": "Customer Journey",
+    "abbreviation": "CJ",
+    "description": "고객이 상품을 인지하고 구매하며 재구매하기까지의 모든 과정."
+  },
+  {
+    "id": 349,
+    "korean": "바이럴 루프",
+    "english": "Viral Loop",
+    "abbreviation": "VL",
+    "description": "고객이 다른 고객을 끌어들이는 순환적인 구조."
+  },
+  {
+    "id": 350,
+    "korean": "로열티 프로그램",
+    "english": "Loyalty Program",
+    "abbreviation": "LP",
+    "description": "충성도 높은 고객에게 혜택을 제공하여 재구매를 유도하는 제도."
+  },
+  {
+    "id": 351,
+    "korean": "세그먼트",
+    "english": "Segment",
+    "abbreviation": "SGM",
+    "description": "고객을 특정 기준에 따라 분류한 집단."
+  },
+  {
+    "id": 352,
+    "korean": "타겟 마케팅",
+    "english": "Target Marketing",
+    "abbreviation": "TM",
+    "description": "특정 세그먼트를 대상으로 집중적으로 진행하는 마케팅."
+  },
+  {
+    "id": 353,
+    "korean": "콜드 스타트",
+    "english": "Cold Start",
+    "abbreviation": "CS",
+    "description": "신규 고객에게 추천 정보를 제공할 데이터가 없는 초기 상태."
+  },
+  {
+    "id": 354,
+    "korean": "가입 경로",
+    "english": "Sign-up Channel",
+    "abbreviation": "SC",
+    "description": "고객이 서비스를 알게 되고 가입한 경로."
+  },
+  {
+    "id": 355,
+    "korean": "미끼 상품",
+    "english": "Loss Leader",
+    "abbreviation": "LL",
+    "description": "원가 이하로 판매하여 고객을 유인하는 상품."
+  },
+  {
+    "id": 356,
+    "korean": "고가 정책",
+    "english": "Premium Pricing",
+    "abbreviation": "PP",
+    "description": "경쟁 상품보다 높은 가격으로 품질과 이미지를 강조하는 전략."
+  },
+  {
+    "id": 357,
+    "korean": "박리다매",
+    "english": "High Volume, Low Margin",
+    "abbreviation": "HVLM",
+    "description": "이익을 적게 보고 많이 파는 판매 전략."
+  },
+  {
+    "id": 358,
+    "korean": "가격 탄력성",
+    "english": "Price Elasticity",
+    "abbreviation": "PE",
+    "description": "가격 변화에 따른 수요량의 변화 정도."
+  },
+  {
+    "id": 359,
+    "korean": "할증료",
+    "english": "Surcharge",
+    "abbreviation": "SC",
+    "description": "기본 요금 외에 추가로 붙는 비용."
+  },
+  {
+    "id": 360,
+    "korean": "수급 불균형",
+    "english": "Supply-Demand Imbalance",
+    "abbreviation": "SDI",
+    "description": "공급량과 수요량이 일치하지 않는 상태."
+  },
+  {
+    "id": 361,
+    "korean": "이윤",
+    "english": "Profit",
+    "abbreviation": "PFT",
+    "description": "매출액에서 비용을 제외하고 남은 순수 이익."
+  },
+  {
+    "id": 362,
+    "korean": "재고 부담",
+    "english": "Inventory Burden",
+    "abbreviation": "IB",
+    "description": "팔리지 않은 재고를 보유함으로써 발생하는 비용과 위험."
+  },
+  {
+    "id": 363,
+    "korean": "재고 소진율",
+    "english": "Inventory Sell-Through Rate",
+    "abbreviation": "STR",
+    "description": "입고된 재고 중 일정 기간 내 판매된 비율."
+  },
+  {
+    "id": 364,
+    "korean": "손익분기점",
+    "english": "Break-Even Point",
+    "abbreviation": "BEP",
+    "description": "이익도 손해도 아닌 상태가 되는 매출액 또는 판매량."
+  },
+  {
+    "id": 365,
+    "korean": "마일리지",
+    "english": "Mileage",
+    "abbreviation": "MLG",
+    "description": "항공사나 쇼핑몰 등에서 제공하는 적립금."
+  },
+  {
+    "id": 366,
+    "korean": "e-Gift Card",
+    "english": "Electronic Gift Card",
+    "abbreviation": "EGC",
+    "description": "실물 카드 없이 모바일로 전송되는 상품권."
+  },
+  {
+    "id": 367,
+    "korean": "포인트 통합",
+    "english": "Point Integration",
+    "abbreviation": "PI",
+    "description": "여러 제휴사의 포인트를 하나로 합쳐 사용할 수 있게 하는 것."
+  },
+  {
+    "id": 368,
+    "korean": "비활성 계정",
+    "english": "Dormant Account",
+    "abbreviation": "DA",
+    "description": "장기간 접속이나 활동이 없는 회원 계정."
+  },
+  {
+    "id": 369,
+    "korean": "개인 정보 유출",
+    "english": "Personal Data Leak",
+    "abbreviation": "PDL",
+    "description": "고객의 개인 정보가 외부로 새어 나가는 사고."
+  },
+  {
+    "id": 370,
+    "korean": "고객 만족 경영",
+    "english": "Customer Satisfaction Management",
+    "abbreviation": "CSM",
+    "description": "고객의 만족을 기업 경영의 최우선 목표로 삼는 전략."
+  },
+  {
+    "id": 371,
+    "korean": "내부 통제",
+    "english": "Internal Control",
+    "abbreviation": "IC",
+    "description": "기업의 목표 달성을 위해 내부 시스템을 감시하고 조정하는 활동."
+  },
+  {
+    "id": 372,
+    "korean": "무단 도용",
+    "english": "Unauthorized Use",
+    "abbreviation": "UU",
+    "description": "허락 없이 타인의 이미지, 문구 등을 사용하는 행위."
+  },
+  {
+    "id": 373,
+    "korean": "저작권",
+    "english": "Copyright",
+    "abbreviation": "CPY",
+    "description": "창작물을 만든 사람의 권리."
+  },
+  {
+    "id": 374,
+    "korean": "상표권",
+    "english": "Trademark Right",
+    "abbreviation": "TR",
+    "description": "등록된 상표를 독점적으로 사용할 수 있는 권리."
+  },
+  {
+    "id": 375,
+    "korean": "특허권",
+    "english": "Patent Right",
+    "abbreviation": "PR",
+    "description": "발명에 대해 독점적인 권리를 가질 수 있는 권리."
+  },
+  {
+    "id": 376,
+    "korean": "배타적 권리",
+    "english": "Exclusive Right",
+    "abbreviation": "ER",
+    "description": "다른 사람이 사용할 수 없도록 특정 주체에게만 주어진 권리."
+  },
+  {
+    "id": 377,
+    "korean": "소송",
+    "english": "Litigation",
+    "abbreviation": "LITI",
+    "description": "법원에 분쟁 해결을 요청하는 행위."
+  },
+  {
+    "id": 378,
+    "korean": "약관 동의",
+    "english": "Terms of Service Agreement",
+    "abbreviation": "TSA",
+    "description": "서비스 이용 전 약관 내용을 읽고 승인하는 행위."
+  },
+  {
+    "id": 379,
+    "korean": "불가항력",
+    "english": "Force Majeure",
+    "abbreviation": "FM",
+    "description": "자연재해 등 당사자의 통제 범위를 벗어난 사건."
+  },
+  {
+    "id": 380,
+    "korean": "보상 판매",
+    "english": "Trade-In",
+    "abbreviation": "TI",
+    "description": "기존 사용하던 제품을 반납하고 새 제품을 할인된 가격에 구매하는 방식."
+  },
+  {
+    "id": 381,
+    "korean": "폐쇄몰",
+    "english": "Closed Mall",
+    "abbreviation": "CLM",
+    "description": "특정 집단(직원, 회원 등)에게만 접근이 허용된 쇼핑몰."
+  },
+  {
+    "id": 382,
+    "korean": "제휴사",
+    "english": "Affiliate Partner",
+    "abbreviation": "AP",
+    "description": "공동의 이익을 위해 사업적으로 협력하는 회사."
+  },
+  {
+    "id": 383,
+    "korean": "벤더",
+    "english": "Vendor",
+    "abbreviation": "VND",
+    "description": "상품이나 서비스를 공급하는 업체."
+  },
+  {
+    "id": 384,
+    "korean": "협력업체",
+    "english": "Partner Company",
+    "abbreviation": "PCP",
+    "description": "업무를 함께 수행하는 회사."
+  },
+  {
+    "id": 385,
+    "korean": "총판",
+    "english": "General Distributor",
+    "abbreviation": "GD",
+    "description": "특정 지역이나 시장에서 독점적으로 상품 판매를 책임지는 대리점."
+  },
+  {
+    "id": 386,
+    "korean": "가이드라인",
+    "english": "Guideline",
+    "abbreviation": "GL",
+    "description": "업무나 행동의 방향을 제시하는 지침."
+  },
+  {
+    "id": 387,
+    "korean": "매뉴얼",
+    "english": "Manual",
+    "abbreviation": "MNL",
+    "description": "특정 작업을 수행하는 절차를 상세히 기록한 문서."
+  },
+  {
+    "id": 388,
+    "korean": "표준화",
+    "english": "Standardization",
+    "abbreviation": "STD",
+    "description": "품질, 형식, 방법 등을 일정하게 통일하는 작업."
+  },
+  {
+    "id": 389,
+    "korean": "전산화",
+    "english": "Computerization",
+    "abbreviation": "CMP",
+    "description": "수동으로 하던 업무를 컴퓨터 시스템으로 처리하는 것."
+  },
+  {
+    "id": 390,
+    "korean": "데이터 마이닝",
+    "english": "Data Mining",
+    "abbreviation": "DM",
+    "description": "대규모 데이터에서 유의미한 패턴과 규칙을 찾아내는 분석 기법."
+  },
+  {
+    "id": 391,
+    "korean": "빅데이터",
+    "english": "Big Data",
+    "abbreviation": "BD",
+    "description": "기존 데이터 처리 시스템으로는 분석이 어려운 대규모 데이터."
+  },
+  {
+    "id": 392,
+    "korean": "인공지능",
+    "english": "Artificial Intelligence",
+    "abbreviation": "AI",
+    "description": "인간의 학습 능력, 추론 능력 등을 컴퓨터 프로그램으로 구현한 기술."
+  },
+  {
+    "id": 393,
+    "korean": "머신러닝",
+    "english": "Machine Learning",
+    "abbreviation": "ML",
+    "description": "데이터 학습을 통해 스스로 성능을 향상시키는 인공지능 분야."
+  },
+  {
+    "id": 394,
+    "korean": "딥러닝",
+    "english": "Deep Learning",
+    "abbreviation": "DL",
+    "description": "여러 층의 신경망을 이용하는 머신러닝의 한 분야."
+  },
+  {
+    "id": 395,
+    "korean": "로봇 프로세스 자동화",
+    "english": "Robotic Process Automation",
+    "abbreviation": "RPA",
+    "description": "사람이 반복하는 업무를 로봇 소프트웨어가 자동 처리하는 기술."
+  },
+  {
+    "id": 396,
+    "korean": "스마트 팩토리",
+    "english": "Smart Factory",
+    "abbreviation": "SF",
+    "description": "AI, 빅데이터 등을 활용하여 생산 과정을 자동화하는 공장."
+  },
+  {
+    "id": 397,
+    "korean": "메타버스 커머스",
+    "english": "Metaverse Commerce",
+    "abbreviation": "MC",
+    "description": "3차원 가상세계에서 상품을 판매하고 구매하는 행위."
+  },
+  {
+    "id": 398,
+    "korean": "가상 현실",
+    "english": "Virtual Reality",
+    "abbreviation": "VR",
+    "description": "컴퓨터로 만든 가상의 환경을 현실처럼 느끼게 하는 기술."
+  },
+  {
+    "id": 399,
+    "korean": "증강 현실",
+    "english": "Augmented Reality",
+    "abbreviation": "AR",
+    "description": "실제 환경에 가상의 이미지를 덧입혀 보여주는 기술."
+  },
+  {
+    "id": 400,
+    "korean": "무인 매장",
+    "english": "Unmanned Store",
+    "abbreviation": "US",
+    "description": "직원 없이 자동화된 시스템으로 운영되는 상점."
+  },
+  {
+    "id": 401,
+    "korean": "키오스크",
+    "english": "Kiosk",
+    "abbreviation": "KSK",
+    "description": "터치스크린 방식으로 주문 및 결제가 가능한 무인 단말기."
+  },
+  {
+    "id": 402,
+    "korean": "셀프 계산대",
+    "english": "Self-Checkout",
+    "abbreviation": "SCO",
+    "description": "고객이 직접 상품을 스캔하고 결제하는 계산대."
+  },
+  {
+    "id": 403,
+    "korean": "생애 가치",
+    "english": "Customer Lifetime Value",
+    "abbreviation": "CLV",
+    "description": "한 고객이 기업과 거래하는 전 기간에 걸쳐 창출하는 총 이익."
+  },
+  {
+    "id": 404,
+    "korean": "이탈 고객",
+    "english": "Churn Customer",
+    "abbreviation": "CC",
+    "description": "더 이상 서비스를 이용하지 않기로 결정한 고객."
+  },
+  {
+    "id": 405,
+    "korean": "휴면 고객",
+    "english": "Dormant Customer",
+    "abbreviation": "DC",
+    "description": "일정 기간 구매 활동이 없는 고객."
+  },
+  {
+    "id": 406,
+    "korean": "잠재 고객",
+    "english": "Prospect/Lead",
+    "abbreviation": "PRO",
+    "description": "미래에 상품을 구매할 가능성이 있는 고객."
+  },
+  {
+    "id": 407,
+    "korean": "충성 고객",
+    "english": "Loyal Customer",
+    "abbreviation": "LC",
+    "description": "특정 브랜드나 매장만 고집하여 반복적으로 구매하는 고객."
+  },
+  {
+    "id": 408,
+    "korean": "고객 유지",
+    "english": "Customer Retention",
+    "abbreviation": "CR",
+    "description": "기존 고객이 계속 서비스를 이용하도록 관리하는 활동."
+  },
+  {
+    "id": 409,
+    "korean": "이메일 마케팅",
+    "english": "Email Marketing",
+    "abbreviation": "EM",
+    "description": "이메일을 통해 상품 정보나 프로모션을 전달하는 마케팅."
+  },
+  {
+    "id": 410,
+    "korean": "푸시 알림",
+    "english": "Push Notification",
+    "abbreviation": "PN",
+    "description": "앱을 사용하지 않을 때도 휴대폰 화면에 뜨는 알림 메시지."
+  },
+  {
+    "id": 411,
+    "korean": "팝업 창",
+    "english": "Pop-up Window",
+    "abbreviation": "PW",
+    "description": "웹페이지 접속 시 자동으로 뜨는 작은 알림 창."
+  },
+  {
+    "id": 412,
+    "korean": "쿠키",
+    "english": "Cookie",
+    "abbreviation": "CKE",
+    "description": "웹사이트 접속 정보를 사용자 컴퓨터에 저장하는 파일."
+  },
+  {
+    "id": 413,
+    "korean": "브라우저",
+    "english": "Browser",
+    "abbreviation": "BRW",
+    "description": "웹사이트에 접속하고 내용을 볼 수 있게 하는 프로그램."
+  },
+  {
+    "id": 414,
+    "korean": "캐시",
+    "english": "Cache",
+    "abbreviation": "CSH",
+    "description": "자주 사용하는 데이터나 이미지를 임시로 저장해 두는 공간."
+  },
+  {
+    "id": 415,
+    "korean": "세션",
+    "english": "Session",
+    "abbreviation": "SESS",
+    "description": "사용자가 웹사이트에 접속하여 로그아웃할 때까지의 활동 기간."
+  },
+  {
+    "id": 416,
+    "korean": "트래픽",
+    "english": "Traffic",
+    "abbreviation": "TRF",
+    "description": "웹사이트에 접속하는 데이터 통신량."
+  },
+  {
+    "id": 417,
+    "korean": "대역폭",
+    "english": "Bandwidth",
+    "abbreviation": "BW",
+    "description": "일정 시간 동안 전송할 수 있는 데이터의 최대량."
+  },
+  {
+    "id": 418,
+    "korean": "해킹",
+    "english": "Hacking",
+    "abbreviation": "HACK",
+    "description": "컴퓨터 시스템에 불법적으로 침입하여 정보를 훔치거나 파괴하는 행위."
+  },
+  {
+    "id": 419,
+    "korean": "랜섬웨어",
+    "english": "Ransomware",
+    "abbreviation": "RW",
+    "description": "시스템을 잠근 후 금전을 요구하는 악성 프로그램."
+  },
+  {
+    "id": 420,
+    "korean": "방화벽",
+    "english": "Firewall",
+    "abbreviation": "FW",
+    "description": "외부의 불법 침입으로부터 내부 네트워크를 보호하는 보안 시스템."
+  },
+  {
+    "id": 421,
+    "korean": "암호화",
+    "english": "Encryption",
+    "abbreviation": "ENC",
+    "description": "정보를 알아볼 수 없는 형태로 변환하여 보안을 강화하는 작업."
+  },
+  {
+    "id": 422,
+    "korean": "복호화",
+    "english": "Decryption",
+    "abbreviation": "DEC",
+    "description": "암호화된 정보를 다시 원래 형태로 되돌리는 작업."
+  },
+  {
+    "id": 423,
+    "korean": "인증서",
+    "english": "Certificate",
+    "abbreviation": "CRT",
+    "description": "정보의 신뢰성과 본인 여부를 증명하는 전자 문서."
+  },
+  {
+    "id": 424,
+    "korean": "가상 사설망",
+    "english": "Virtual Private Network",
+    "abbreviation": "VPN",
+    "description": "공중망을 이용하여 마치 사설망처럼 안전하게 통신할 수 있게 하는 기술."
+  },
+  {
+    "id": 425,
+    "korean": "고객 생애 가치",
+    "english": "Customer Lifetime Value",
+    "abbreviation": "CLV",
+    "description": "한 고객이 기업과 거래하는 전체 기간 동안 창출하는 총 이익."
+  },
+  {
+    "id": 426,
+    "korean": "재구매 의향",
+    "english": "Repurchase Intention",
+    "abbreviation": "RI",
+    "description": "고객이 해당 상품이나 서비스를 다시 구매할 의도."
+  },
+  {
+    "id": 427,
+    "korean": "평균 응대 시간",
+    "english": "Average Handling Time",
+    "abbreviation": "AHT",
+    "description": "고객 상담 시작부터 종료까지 걸리는 평균 시간."
+  },
+  {
+    "id": 428,
+    "korean": "첫 접촉 해결률",
+    "english": "First Contact Resolution",
+    "abbreviation": "FCR",
+    "description": "고객이 첫 문의에서 문제를 해결하여 재문의가 발생하지 않는 비율."
+  },
+  {
+    "id": 429,
+    "korean": "이탈률",
+    "english": "Churn Rate",
+    "abbreviation": "CR",
+    "description": "일정 기간 동안 서비스를 더 이상 이용하지 않게 된 고객의 비율."
+  },
+  {
+    "id": 430,
+    "korean": "신속한 응대",
+    "english": "Quick Response",
+    "abbreviation": "QR",
+    "description": "고객의 문의나 요청에 빠르게 답변하거나 조치하는 것."
+  },
+  {
+    "id": 431,
+    "korean": "고객 경험",
+    "english": "Customer Experience",
+    "abbreviation": "CX",
+    "description": "고객이 기업/브랜드와 상호작용하는 모든 과정에서 느끼는 총체적 경험."
+  },
+  {
+    "id": 432,
+    "korean": "보이스 오브 커스터머",
+    "english": "Voice of Customer",
+    "abbreviation": "VOC",
+    "description": "고객의 의견, 불만, 제안 등 모든 피드백."
+  },
+  {
+    "id": 433,
+    "korean": "문의 유형 분류",
+    "english": "Inquiry Type Classification",
+    "abbreviation": "ITC",
+    "description": "고객 문의를 접수 목적에 따라 종류별로 나누는 작업."
+  },
+  {
+    "id": 434,
+    "korean": "상담 품질 평가",
+    "english": "Call Quality Assessment",
+    "abbreviation": "CQA",
+    "description": "고객 응대 서비스의 질을 평가하는 것."
+  },
+  {
+    "id": 435,
+    "korean": "상담 대기열",
+    "english": "Call Queue",
+    "abbreviation": "CQ",
+    "description": "상담원 연결을 기다리는 고객들의 순서."
+  },
+  {
+    "id": 436,
+    "korean": "콜백 서비스",
+    "english": "Callback Service",
+    "abbreviation": "CBS",
+    "description": "상담 대기 중인 고객에게 나중에 전화해 주는 서비스."
+  },
+  {
+    "id": 437,
+    "korean": "악성 민원인",
+    "english": "Vexatious Complainant",
+    "abbreviation": "VC",
+    "description": "상습적이고 비합리적인 요구를 하는 고객."
+  },
+  {
+    "id": 438,
+    "korean": "에스컬레이션",
+    "english": "Escalation",
+    "abbreviation": "ESCL",
+    "description": "일반적인 CS로 해결되지 않아 상위 관리자에게 인계되는 문제."
+  },
+  {
+    "id": 439,
+    "korean": "재고 자산",
+    "english": "Inventory Asset",
+    "abbreviation": "IA",
+    "description": "판매를 목적으로 보유하고 있는 모든 상품."
+  },
+  {
+    "id": 440,
+    "korean": "재고 부족",
+    "english": "Stockout",
+    "abbreviation": "SO",
+    "description": "고객 주문 시 판매할 재고가 없는 상태."
+  },
+  {
+    "id": 441,
+    "korean": "안전 재고",
+    "english": "Safety Stock",
+    "abbreviation": "SS",
+    "description": "예측하지 못한 수요 증가나 공급 지연에 대비해 비축하는 재고."
+  },
+  {
+    "id": 442,
+    "korean": "결품",
+    "english": "Missing Item",
+    "abbreviation": "MI",
+    "description": "주문에 포함되어야 할 상품이 빠져있는 상태."
+  },
+  {
+    "id": 443,
+    "korean": "가용 재고",
+    "english": "Available Stock",
+    "abbreviation": "AS",
+    "description": "즉시 판매 또는 출고 가능한 현재 재고 수량."
+  },
+  {
+    "id": 444,
+    "korean": "재고 조정",
+    "english": "Inventory Adjustment",
+    "abbreviation": "IADJ",
+    "description": "실제 재고와 시스템 상 재고의 차이를 맞추는 작업."
+  },
+  {
+    "id": 445,
+    "korean": "재고 평가 손실",
+    "english": "Inventory Valuation Loss",
+    "abbreviation": "IVL",
+    "description": "재고 가치가 하락하여 발생하는 손실."
+  },
+  {
+    "id": 446,
+    "korean": "순환 실사",
+    "english": "Cycle Count",
+    "abbreviation": "CC",
+    "description": "정기적인 전수 실사 대신 소수의 상품을 주기적으로 확인하는 재고 실사 방법."
+  },
+  {
+    "id": 447,
+    "korean": "로트 번호",
+    "english": "Lot Number",
+    "abbreviation": "LN",
+    "description": "특정 기간 생산된 상품에 부여되는 식별 번호 (추적용)."
+  },
+  {
+    "id": 448,
+    "korean": "창고 레이아웃",
+    "english": "Warehouse Layout",
+    "abbreviation": "WL",
+    "description": "창고 내 동선, 보관 위치 등을 설계하는 배치도."
+  },
+  {
+    "id": 449,
+    "korean": "집하",
+    "english": "Collection",
+    "abbreviation": "COL",
+    "description": "택배사에서 판매자로부터 상품을 수거하는 과정."
+  },
+  {
+    "id": 450,
+    "korean": "분류",
+    "english": "Sorting",
+    "abbreviation": "SRT",
+    "description": "수거된 상품을 배송 지역별로 나누는 작업."
+  },
+  {
+    "id": 451,
+    "korean": "허브 터미널",
+    "english": "Hub Terminal",
+    "abbreviation": "HT",
+    "description": "전국 각지의 화물을 모아 분류하고 다시 각 지역으로 보내는 중심 물류 거점."
+  },
+  {
+    "id": 452,
+    "korean": "라스트 마일",
+    "english": "Last Mile",
+    "abbreviation": "LM",
+    "description": "상품이 최종 물류 거점에서 소비자에게 전달되는 최종 단계."
+  },
+  {
+    "id": 453,
+    "korean": "3자 물류",
+    "english": "Third Party Logistics",
+    "abbreviation": "3PL",
+    "description": "물류 업무를 전문 업체에 아웃소싱하는 것."
+  },
+  {
+    "id": 454,
+    "korean": "4자 물류",
+    "english": "Fourth Party Logistics",
+    "abbreviation": "4PL",
+    "description": "물류 기획, 컨설팅, 관리를 포함하여 공급망 전체를 관리하는 서비스."
+  },
+  {
+    "id": 455,
+    "korean": "물류 거점",
+    "english": "Logistics Center",
+    "abbreviation": "LC",
+    "description": "물품의 보관 및 유통을 위한 핵심 시설."
+  },
+  {
+    "id": 456,
+    "korean": "크로스 도킹",
+    "english": "Cross-Docking",
+    "abbreviation": "CD",
+    "description": "창고 보관 과정 없이 상품을 바로 하차장에서 출하장으로 옮겨 배송하는 방식."
+  },
+  {
+    "id": 457,
+    "korean": "물류 비용",
+    "english": "Logistics Cost",
+    "abbreviation": "LGC",
+    "description": "운송, 보관, 포장, 하역 등에 소요되는 모든 비용."
+  },
+  {
+    "id": 458,
+    "korean": "온도 제어",
+    "english": "Temperature Control",
+    "abbreviation": "TC",
+    "description": "냉장/냉동 상품의 적정 온도를 유지하는 관리."
+  },
+  {
+    "id": 459,
+    "korean": "적재",
+    "english": "Loading",
+    "abbreviation": "LDG",
+    "description": "상품을 운송 차량에 싣는 작업."
+  },
+  {
+    "id": 460,
+    "korean": "하역",
+    "english": "Unloading",
+    "abbreviation": "ULD",
+    "description": "운송 차량에서 상품을 내리는 작업."
+  },
+  {
+    "id": 461,
+    "korean": "팔레트당 수량",
+    "english": "Quantity Per Pallet",
+    "abbreviation": "QPP",
+    "description": "하나의 팔레트에 적재할 수 있는 상품의 최대 수량."
+  },
+  {
+    "id": 462,
+    "korean": "컨테이너",
+    "english": "Container",
+    "abbreviation": "CTN",
+    "description": "해상 및 육상 운송에 사용되는 대형 규격 화물 상자."
+  },
+  {
+    "id": 463,
+    "korean": "도로운송",
+    "english": "Road Transport",
+    "abbreviation": "RT",
+    "description": "트럭 등 차량을 이용한 육상 운송."
+  },
+  {
+    "id": 464,
+    "korean": "해상운송",
+    "english": "Ocean Freight",
+    "abbreviation": "OFR",
+    "description": "선박을 이용한 국제 운송."
+  },
+  {
+    "id": 465,
+    "korean": "항공운송",
+    "english": "Air Freight",
+    "abbreviation": "AFR",
+    "description": "항공기를 이용한 신속 운송."
+  },
+  {
+    "id": 466,
+    "korean": "화물",
+    "english": "Cargo",
+    "abbreviation": "CGO",
+    "description": "운송을 목적으로 하는 상품."
+  },
+  {
+    "id": 467,
+    "korean": "복합운송",
+    "english": "Multimodal Transport",
+    "abbreviation": "MMT",
+    "description": "두 가지 이상의 운송 수단을 연계하여 운송하는 것."
+  },
+  {
+    "id": 468,
+    "korean": "운송장 (선하증권)",
+    "english": "Bill of Lading",
+    "abbreviation": "B/L",
+    "description": "해상 운송 시 화물 수령을 증명하고 운송 계약을 나타내는 유가증권."
+  },
+  {
+    "id": 469,
+    "korean": "보험료",
+    "english": "Insurance Premium",
+    "abbreviation": "IP",
+    "description": "운송 중 발생할 수 있는 손해에 대비하여 지불하는 비용."
+  },
+  {
+    "id": 470,
+    "korean": "관세",
+    "english": "Customs Duty",
+    "abbreviation": "CD",
+    "description": "수입 상품에 부과되는 세금."
+  },
+  {
+    "id": 471,
+    "korean": "수출입 신고",
+    "english": "Import/Export Declaration",
+    "abbreviation": "IED",
+    "description": "세관에 수출입 사실을 신고하는 절차."
+  },
+  {
+    "id": 472,
+    "korean": "통관 수수료",
+    "english": "Customs Clearance Fee",
+    "abbreviation": "CCF",
+    "description": "통관 대행 서비스에 지불하는 수수료."
+  },
+  {
+    "id": 473,
+    "korean": "FTA",
+    "english": "Free Trade Agreement",
+    "abbreviation": "FTA",
+    "description": "국가 간 상품 이동 시 관세를 낮추거나 없애는 무역 협정."
+  },
+  {
+    "id": 474,
+    "korean": "원산지 증명서",
+    "english": "Certificate of Origin",
+    "abbreviation": "CO",
+    "description": "상품의 생산 또는 가공 국가를 증명하는 서류."
+  },
+  {
+    "id": 475,
+    "korean": "인코텀즈",
+    "english": "Incoterms",
+    "abbreviation": "INC",
+    "description": "무역 거래 조건에 관한 국제 규칙."
+  },
+  {
+    "id": 476,
+    "korean": "배송 대행지",
+    "english": "Shipping Proxy/Agent",
+    "abbreviation": "SA",
+    "description": "해외 직구 시 현지에서 상품을 대신 받아 국내로 재배송해 주는 주소."
+  },
+  {
+    "id": 477,
+    "korean": "소싱",
+    "english": "Sourcing",
+    "abbreviation": "SRC",
+    "description": "상품을 구매할 공급업체나 생산지를 찾는 행위."
+  },
+  {
+    "id": 478,
+    "korean": "납품",
+    "english": "Delivery/Supply",
+    "abbreviation": "SPLY",
+    "description": "판매자가 유통업체에게 상품을 공급하는 것."
+  },
+  {
+    "id": 479,
+    "korean": "최종 결정권자",
+    "english": "Decision Maker",
+    "abbreviation": "DMK",
+    "description": "구매나 계약에 대한 최종 권한을 가진 사람."
+  },
+  {
+    "id": 480,
+    "korean": "매입가",
+    "english": "Buying Price",
+    "abbreviation": "BP",
+    "description": "판매자가 상품을 공급업체로부터 구매하는 가격."
+  },
+  {
+    "id": 481,
+    "korean": "순이익",
+    "english": "Net Profit",
+    "abbreviation": "NP",
+    "description": "매출에서 매출원가와 모든 비용을 제외한 최종 이익."
+  },
+  {
+    "id": 482,
+    "korean": "총 이익",
+    "english": "Gross Profit",
+    "abbreviation": "GP",
+    "description": "매출에서 매출원가만을 제외한 이익."
+  },
+  {
+    "id": 483,
+    "korean": "운영 비용",
+    "english": "Operating Expense",
+    "abbreviation": "OPEX",
+    "description": "기업 운영에 필요한 모든 비용 (인건비, 임차료 등)."
+  },
+  {
+    "id": 484,
+    "korean": "원가",
+    "english": "Cost Price",
+    "abbreviation": "CP",
+    "description": "상품을 생산하거나 매입하는 데 들어간 비용."
+  },
+  {
+    "id": 485,
+    "korean": "고정 비용",
+    "english": "Fixed Cost",
+    "abbreviation": "FC",
+    "description": "생산량이나 판매량에 관계없이 일정하게 발생하는 비용."
+  },
+  {
+    "id": 486,
+    "korean": "변동 비용",
+    "english": "Variable Cost",
+    "abbreviation": "VC",
+    "description": "생산량이나 판매량에 따라 변동하는 비용."
+  },
+  {
+    "id": 487,
+    "korean": "간접 비용",
+    "english": "Indirect Cost",
+    "abbreviation": "IC",
+    "description": "특정 상품이나 활동에 직접적으로 귀속시키기 어려운 비용."
+  },
+  {
+    "id": 488,
+    "korean": "마케팅 비용",
+    "english": "Marketing Cost",
+    "abbreviation": "MC",
+    "description": "광고, 홍보, 프로모션 등에 지출하는 비용."
+  },
+  {
+    "id": 489,
+    "korean": "투자 대비 수익률",
+    "english": "Return On Investment",
+    "abbreviation": "ROI",
+    "description": "투자 금액 대비 얻은 이익의 비율."
+  },
+  {
+    "id": 490,
+    "korean": "광고 수익률",
+    "english": "Return On Ad Spend",
+    "abbreviation": "ROAS",
+    "description": "광고 지출액 대비 광고를 통해 얻은 매출액."
+  },
+  {
+    "id": 491,
+    "korean": "고객 획득 비용",
+    "english": "Customer Acquisition Cost",
+    "abbreviation": "CAC",
+    "description": "신규 고객 한 명을 확보하는 데 드는 평균 비용."
+  },
+  {
+    "id": 492,
+    "korean": "콘텐츠 마케팅",
+    "english": "Content Marketing",
+    "abbreviation": "CM",
+    "description": "가치 있는 콘텐츠를 제작하여 잠재 고객을 유인하는 마케팅."
+  },
+  {
+    "id": 493,
+    "korean": "바이럴 마케팅",
+    "english": "Viral Marketing",
+    "abbreviation": "VM",
+    "description": "입소문을 통해 정보가 확산되도록 유도하는 마케팅."
+  },
+  {
+    "id": 494,
+    "korean": "인플루언서 마케팅",
+    "english": "Influencer Marketing",
+    "abbreviation": "IM",
+    "description": "소셜 미디어 등 영향력 있는 사람을 활용하는 마케팅."
+  },
+  {
+    "id": 495,
+    "korean": "퍼포먼스 마케팅",
+    "english": "Performance Marketing",
+    "abbreviation": "PM",
+    "description": "데이터와 지표를 기반으로 성과를 측정하며 진행하는 마케팅."
+  },
+  {
+    "id": 496,
+    "korean": "리타겟팅",
+    "english": "Retargeting",
+    "abbreviation": "RTG",
+    "description": "웹사이트에 방문했던 사용자에게 다시 광고를 노출하는 기법."
+  },
+  {
+    "id": 497,
+    "korean": "고객 여정 맵",
+    "english": "Customer Journey Map",
+    "abbreviation": "CJM",
+    "description": "고객이 제품/서비스와 상호작용하는 모든 단계를 시각화한 지도."
+  },
+  {
+    "id": 498,
+    "korean": "퍼널 분석",
+    "english": "Funnel Analysis",
+    "abbreviation": "FA",
+    "description": "고객이 구매로 전환되는 단계별 경로와 이탈 지점을 분석하는 기법."
+  },
+  {
+    "id": 499,
+    "korean": "코호트 분석",
+    "english": "Cohort Analysis",
+    "abbreviation": "COA",
+    "description": "특정 시기에 공통된 경험을 한 고객 집단(코호트)의 행동을 추적 분석하는 것."
+  },
+  {
+    "id": 500,
+    "korean": "재방문율",
+    "english": "Repeat Visit Rate",
+    "abbreviation": "RVR",
+    "description": "웹사이트에 다시 방문한 고객의 비율."
+  },
+  {
+    "id": 501,
+    "korean": "스크롤 뎁스",
+    "english": "Scroll Depth",
+    "abbreviation": "SD",
+    "description": "사용자가 웹페이지를 얼마나 깊이 읽었는지 측정하는 지표."
+  },
+  {
+    "id": 502,
+    "korean": "A/B 테스트",
+    "english": "A/B Testing",
+    "abbreviation": "ABT",
+    "description": "두 가지 버전(A안, B안)을 비교하여 더 효과적인 디자인이나 기능을 찾는 실험."
+  },
+  {
+    "id": 503,
+    "korean": "랜딩 페이지",
+    "english": "Landing Page",
+    "abbreviation": "LP",
+    "description": "광고 클릭 후 사용자가 처음 도달하는 웹페이지."
+  },
+  {
+    "id": 504,
+    "korean": "CTA 버튼",
+    "english": "Call To Action Button",
+    "abbreviation": "CTA",
+    "description": "고객의 행동(구매, 가입 등)을 유도하는 버튼."
+  },
+  {
+    "id": 505,
+    "korean": "위젯",
+    "english": "Widget",
+    "abbreviation": "WGT",
+    "description": "웹사이트에 추가 기능을 제공하는 작은 소프트웨어 모듈."
+  },
+  {
+    "id": 506,
+    "korean": "쿠키",
+    "english": "Cookie",
+    "abbreviation": "CKE",
+    "description": "웹사이트 접속 정보를 사용자 컴퓨터에 저장하는 파일."
+  },
+  {
+    "id": 507,
+    "korean": "세션",
+    "english": "Session",
+    "abbreviation": "SESS",
+    "description": "사용자가 웹사이트에 접속하여 활동하는 일련의 과정."
+  },
+  {
+    "id": 508,
+    "korean": "트래픽",
+    "english": "Traffic",
+    "abbreviation": "TRF",
+    "description": "웹사이트에 접속하는 데이터 통신량."
+  },
+  {
+    "id": 509,
+    "korean": "서버 다운",
+    "english": "Server Down",
+    "abbreviation": "SD",
+    "description": "서버가 작동을 멈춰 웹사이트 접속이 불가능한 상태."
+  },
+  {
+    "id": 510,
+    "korean": "백업",
+    "english": "Backup",
+    "abbreviation": "BKUP",
+    "description": "데이터 손실에 대비하여 정보를 별도로 저장해 두는 것."
+  },
+  {
+    "id": 511,
+    "korean": "데이터베이스 관리 시스템",
+    "english": "Database Management System",
+    "abbreviation": "DBMS",
+    "description": "데이터베이스를 효율적으로 관리하는 소프트웨어."
+  },
+  {
+    "id": 512,
+    "korean": "API 연동",
+    "english": "API Integration",
+    "abbreviation": "API",
+    "description": "서로 다른 시스템 간에 기능을 연결하여 데이터를 주고받게 하는 것."
+  },
+  {
+    "id": 513,
+    "korean": "클라우드 기반",
+    "english": "Cloud-Based",
+    "abbreviation": "CB",
+    "description": "인터넷상의 서버를 통해 서비스를 제공하는 방식."
+  },
+  {
+    "id": 514,
+    "korean": "시스템 보안",
+    "english": "System Security",
+    "abbreviation": "SS",
+    "description": "전산 시스템을 해킹이나 외부 위협으로부터 보호하는 것."
+  },
+  {
+    "id": 515,
+    "korean": "암호화",
+    "english": "Encryption",
+    "abbreviation": "ENC",
+    "description": "데이터를 보호하기 위해 알아볼 수 없는 형태로 변환하는 기술."
+  },
+  {
+    "id": 516,
+    "korean": "방화벽",
+    "english": "Firewall",
+    "abbreviation": "FW",
+    "description": "외부 네트워크의 불법 침입을 막는 보안 시스템."
+  },
+  {
+    "id": 517,
+    "korean": "해킹",
+    "english": "Hacking",
+    "abbreviation": "HACK",
+    "description": "시스템에 무단 침입하여 데이터를 탈취하거나 파괴하는 행위."
+  },
+  {
+    "id": 518,
+    "korean": "개인 정보 파기",
+    "english": "Personal Data Destruction",
+    "abbreviation": "PDD",
+    "description": "개인 정보를 복구할 수 없도록 완전히 삭제하는 것."
+  },
+  {
+    "id": 519,
+    "korean": "데이터 마이닝",
+    "english": "Data Mining",
+    "abbreviation": "DM",
+    "description": "대규모 데이터에서 유의미한 패턴을 찾아내는 분석 기법."
+  },
+  {
+    "id": 520,
+    "korean": "머신러닝",
+    "english": "Machine Learning",
+    "abbreviation": "ML",
+    "description": "컴퓨터가 데이터 학습을 통해 스스로 성능을 향상시키는 기술."
+  },
+  {
+    "id": 521,
+    "korean": "인공지능 추천",
+    "english": "AI Recommendation",
+    "abbreviation": "AIR",
+    "description": "인공지능이 고객의 선호도를 분석하여 상품을 제안하는 것."
+  },
+  {
+    "id": 522,
+    "korean": "동적 가격 책정",
+    "english": "Dynamic Pricing",
+    "abbreviation": "DP",
+    "description": "수요, 경쟁, 재고 등에 따라 가격을 실시간으로 변동하는 전략."
+  },
+  {
+    "id": 523,
+    "korean": "손익분기점",
+    "english": "Break-Even Point",
+    "abbreviation": "BEP",
+    "description": "매출액이 총 비용과 같아져 이익도 손실도 아닌 지점."
+  },
+  {
+    "id": 524,
+    "korean": "마진율",
+    "english": "Margin Rate",
+    "abbreviation": "MR",
+    "description": "매출액 대비 이익이 차지하는 비율."
+  },
+  {
+    "id": 525,
+    "korean": "가격 탄력성",
+    "english": "Price Elasticity",
+    "abbreviation": "PE",
+    "description": "가격 변화에 따른 수요량의 민감도."
+  },
+  {
+    "id": 526,
+    "korean": "박리다매",
+    "english": "High Volume, Low Margin",
+    "abbreviation": "HVLM",
+    "description": "이윤을 적게 붙여서 대량으로 판매하는 방식."
+  },
+  {
+    "id": 527,
+    "korean": "고가 정책",
+    "english": "Premium Pricing",
+    "abbreviation": "PP",
+    "description": "높은 가격을 책정하여 고급 이미지를 구축하는 전략."
+  },
+  {
+    "id": 528,
+    "korean": "저가 정책",
+    "english": "Low Pricing",
+    "abbreviation": "LP",
+    "description": "시장 평균보다 낮은 가격으로 경쟁력을 확보하는 전략."
+  },
+  {
+    "id": 529,
+    "korean": "미끼 상품",
+    "english": "Loss Leader",
+    "abbreviation": "LL",
+    "description": "고객 유인을 위해 원가 이하로 판매하는 상품."
+  },
+  {
+    "id": 530,
+    "korean": "시즌 오프",
+    "english": "Season Off",
+    "abbreviation": "SO",
+    "description": "특정 시즌이 끝난 후 남은 상품을 할인 판매하는 것."
+  },
+  {
+    "id": 531,
+    "korean": "균일가",
+    "english": "Fixed Price",
+    "abbreviation": "FP",
+    "description": "상품 종류나 가치에 상관없이 가격을 동일하게 책정하는 것."
+  },
+  {
+    "id": 532,
+    "korean": "할증료",
+    "english": "Surcharge",
+    "abbreviation": "SC",
+    "description": "특정 상황이나 조건 때문에 추가로 부과하는 요금."
+  },
+  {
+    "id": 533,
+    "korean": "무이자 할부",
+    "english": "Interest-Free Installment",
+    "abbreviation": "IFI",
+    "description": "할부 기간 동안 이자가 없는 결제 방식."
+  },
+  {
+    "id": 534,
+    "korean": "리퍼비시 상품",
+    "english": "Refurbished Product",
+    "abbreviation": "REF",
+    "description": "반품, 전시 등으로 회수된 후 정비를 거쳐 재판매하는 상품."
+  },
+  {
+    "id": 535,
+    "korean": "벌크 상품",
+    "english": "Bulk Product",
+    "abbreviation": "BLK",
+    "description": "개별 포장 없이 대량으로 판매되는 상품 (대용량)."
+  },
+  {
+    "id": 536,
+    "korean": "매장 레이아웃",
+    "english": "Store Layout",
+    "abbreviation": "SL",
+    "description": "매장 내 상품 진열, 동선 등을 설계하는 배치 구조."
+  },
+  {
+    "id": 537,
+    "korean": "VMD",
+    "english": "Visual Merchandising",
+    "abbreviation": "VMD",
+    "description": "상품 전시를 통해 고객에게 시각적인 매력을 전달하는 활동."
+  },
+  {
+    "id": 538,
+    "korean": "팝업 스토어",
+    "english": "Pop-up Store",
+    "abbreviation": "PS",
+    "description": "짧은 기간 동안만 운영하는 임시 매장."
+  },
+  {
+    "id": 539,
+    "korean": "플래그십 스토어",
+    "english": "Flagship Store",
+    "abbreviation": "FS",
+    "description": "브랜드의 정체성과 가치를 가장 잘 보여주는 대표 매장."
+  },
+  {
+    "id": 540,
+    "korean": "키오스크",
+    "english": "Kiosk",
+    "abbreviation": "KSK",
+    "description": "터치스크린 방식으로 주문, 결제가 가능한 무인 단말기."
+  },
+  {
+    "id": 541,
+    "korean": "셀프 계산대",
+    "english": "Self-Checkout",
+    "abbreviation": "SCO",
+    "description": "고객이 직접 상품을 스캔하고 결제하는 시스템."
+  },
+  {
+    "id": 542,
+    "korean": "POS 시스템",
+    "english": "Point of Sale System",
+    "abbreviation": "POS",
+    "description": "상품 판매, 재고, 매출 등을 관리하는 판매 시점 정보 관리 시스템."
+  },
+  {
+    "id": 543,
+    "korean": "영업 시간",
+    "english": "Business Hours",
+    "abbreviation": "BH",
+    "description": "매장이나 회사가 운영되는 시간."
+  },
+  {
+    "id": 544,
+    "korean": "폐점",
+    "english": "Store Closing",
+    "abbreviation": "CLSD",
+    "description": "매장 영업을 종료하는 것."
+  },
+  {
+    "id": 545,
+    "korean": "도난 방지 태그",
+    "english": "Anti-Theft Tag",
+    "abbreviation": "ATT",
+    "description": "상품 도난을 막기 위해 부착하는 보안 장치."
+  },
+  {
+    "id": 546,
+    "korean": "재고 손실률",
+    "english": "Shrinkage Rate",
+    "abbreviation": "SR",
+    "description": "도난, 파손, 행정 착오 등으로 인해 발생하는 재고 손실 비율."
+  },
+  {
+    "id": 547,
+    "korean": "매장 안전 수칙",
+    "english": "Store Safety Rules",
+    "abbreviation": "SSR",
+    "description": "매장 내에서 지켜야 할 안전 규정."
+  },
+  {
+    "id": 548,
+    "korean": "고객 동선",
+    "english": "Customer Flow",
+    "abbreviation": "CF",
+    "description": "매장 내에서 고객이 이동하는 경로."
+  },
+  {
+    "id": 549,
+    "korean": "카운터",
+    "english": "Counter",
+    "abbreviation": "CTR",
+    "description": "계산 및 고객 응대가 이루어지는 곳."
+  },
+  {
+    "id": 550,
+    "korean": "마네킹",
+    "english": "Mannequin",
+    "abbreviation": "MNQ",
+    "description": "옷이나 액세서리를 전시하는 인체 모형."
+  },
+  {
+    "id": 551,
+    "korean": "진열 표준",
+    "english": "Display Standard",
+    "abbreviation": "DSP",
+    "description": "상품을 진열할 때 지켜야 할 통일된 기준."
+  },
+  {
+    "id": 552,
+    "korean": "온디맨드 서비스",
+    "english": "On-Demand Service",
+    "abbreviation": "ODS",
+    "description": "고객의 요청에 따라 즉시 제공되는 서비스."
+  },
+  {
+    "id": 553,
+    "korean": "O2O 서비스",
+    "english": "Online to Offline Service",
+    "abbreviation": "O2O",
+    "description": "온라인과 오프라인을 연계하여 고객을 유도하는 서비스."
+  },
+  {
+    "id": 554,
+    "korean": "옴니 채널",
+    "english": "Omni-Channel",
+    "abbreviation": "OC",
+    "description": "모든 채널을 통합하여 일관된 고객 경험을 제공하는 전략."
+  },
+  {
+    "id": 555,
+    "korean": "라이브 커머스",
+    "english": "Live Commerce",
+    "abbreviation": "LC",
+    "description": "실시간 동영상 스트리밍을 통해 상품을 판매하는 방식."
+  },
+  {
+    "id": 556,
+    "korean": "쇼호스트",
+    "english": "Show Host",
+    "abbreviation": "SH",
+    "description": "라이브 커머스 방송 진행자."
+  },
+  {
+    "id": 557,
+    "korean": "메타버스 커머스",
+    "english": "Metaverse Commerce",
+    "abbreviation": "MTC",
+    "description": "가상 세계에서 이루어지는 상거래."
+  },
+  {
+    "id": 558,
+    "korean": "가상현실",
+    "english": "Virtual Reality",
+    "abbreviation": "VR",
+    "description": "컴퓨터로 만든 가상의 환경을 현실처럼 체험하는 기술."
+  },
+  {
+    "id": 559,
+    "korean": "증강현실",
+    "english": "Augmented Reality",
+    "abbreviation": "AR",
+    "description": "실제 환경에 가상 이미지를 덧입혀 보여주는 기술."
+  },
+  {
+    "id": 560,
+    "korean": "사용자 생성 콘텐츠",
+    "english": "User Generated Content",
+    "abbreviation": "UGC",
+    "description": "사용자가 직접 만들어서 올린 콘텐츠 (리뷰, 영상 등)."
+  },
+  {
+    "id": 561,
+    "korean": "마일리지",
+    "english": "Mileage",
+    "abbreviation": "MLG",
+    "description": "구매 금액에 따라 적립되어 현금처럼 사용할 수 있는 포인트."
+  },
+  {
+    "id": 562,
+    "korean": "e-Gift Card",
+    "english": "Electronic Gift Card",
+    "abbreviation": "EGC",
+    "description": "실물 카드 없이 모바일로 전송되는 상품권."
+  },
+  {
+    "id": 563,
+    "korean": "포인트 통합",
+    "english": "Point Integration",
+    "abbreviation": "PI",
+    "description": "여러 제휴사의 포인트를 하나로 합쳐 사용할 수 있게 하는 것."
+  },
+  {
+    "id": 564,
+    "korean": "멤버십 등급",
+    "english": "Membership Tier",
+    "abbreviation": "MT",
+    "description": "누적 구매액 등에 따라 고객에게 부여하는 회원 자격 단계."
+  },
+  {
+    "id": 565,
+    "korean": "우수 고객",
+    "english": "VIP Customer",
+    "abbreviation": "VIP",
+    "description": "매출 기여도가 높거나 충성도가 높은 고객."
+  },
+  {
+    "id": 566,
+    "korean": "휴면 고객",
+    "english": "Dormant Customer",
+    "abbreviation": "DC",
+    "description": "일정 기간 동안 구매 활동이 없는 고객."
+  },
+  {
+    "id": 567,
+    "korean": "이탈 고객",
+    "english": "Churn Customer",
+    "abbreviation": "CC",
+    "description": "서비스를 더 이상 이용하지 않기로 결정한 고객."
+  },
+  {
+    "id": 568,
+    "korean": "고객 재활성화",
+    "english": "Customer Reactivation",
+    "abbreviation": "CRA",
+    "description": "휴면 고객이나 이탈 고객을 다시 활동하도록 유도하는 것."
+  },
+  {
+    "id": 569,
+    "korean": "타겟 마케팅",
+    "english": "Target Marketing",
+    "abbreviation": "TM",
+    "description": "특정 고객 집단(세그먼트)을 목표로 하는 마케팅."
+  },
+  {
+    "id": 570,
+    "korean": "잠재 고객",
+    "english": "Prospect/Lead",
+    "abbreviation": "PRO",
+    "description": "미래에 상품을 구매할 가능성이 있는 사람."
+  },
+  {
+    "id": 571,
+    "korean": "콜드 리드",
+    "english": "Cold Lead",
+    "abbreviation": "CL",
+    "description": "구매 의도가 아직 낮은 잠재 고객."
+  },
+  {
+    "id": 572,
+    "korean": "핫 리드",
+    "english": "Hot Lead",
+    "abbreviation": "HL",
+    "description": "구매 의도가 매우 높아 조만간 구매할 가능성이 높은 잠재 고객."
+  },
+  {
+    "id": 573,
+    "korean": "데이터 보호 책임자",
+    "english": "Data Protection Officer",
+    "abbreviation": "DPO",
+    "description": "개인 정보 보호 관련 업무를 총괄하는 책임자."
+  },
+  {
+    "id": 574,
+    "korean": "개인 정보 처리 방침",
+    "english": "Privacy Policy",
+    "abbreviation": "PP",
+    "description": "개인 정보의 수집, 이용, 제공에 관한 규정."
+  },
+  {
+    "id": 575,
+    "korean": "이용 약관",
+    "english": "Terms of Service",
+    "abbreviation": "TOS",
+    "description": "서비스 이용에 대한 법적인 계약 내용."
+  },
+  {
+    "id": 576,
+    "korean": "무단 도용",
+    "english": "Unauthorized Use",
+    "abbreviation": "UU",
+    "description": "허락 없이 타인의 이미지, 콘텐츠 등을 사용하는 행위."
+  },
+  {
+    "id": 577,
+    "korean": "저작권 침해",
+    "english": "Copyright Infringement",
+    "abbreviation": "CI",
+    "description": "저작권자의 권리를 침해하는 행위."
+  },
+  {
+    "id": 578,
+    "korean": "상표권",
+    "english": "Trademark Right",
+    "abbreviation": "TR",
+    "description": "특정 상표를 독점적으로 사용할 수 있는 권리."
+  },
+  {
+    "id": 579,
+    "korean": "특허권",
+    "english": "Patent Right",
+    "abbreviation": "PR",
+    "description": "발명에 대해 독점적인 권리를 가질 수 있는 권리."
+  },
+  {
+    "id": 580,
+    "korean": "공정 거래",
+    "english": "Fair Trade",
+    "abbreviation": "FT",
+    "description": "기업 간에 공정하고 합법적인 거래를 하는 것."
+  },
+  {
+    "id": 581,
+    "korean": "소비자 보호법",
+    "english": "Consumer Protection Act",
+    "abbreviation": "CPA",
+    "description": "소비자의 권익을 보호하기 위한 법률."
+  },
+  {
+    "id": 582,
+    "korean": "상품 리콜",
+    "english": "Product Recall",
+    "abbreviation": "RCL",
+    "description": "결함이 있는 상품을 제조사나 판매자가 회수하는 조치."
+  },
+  {
+    "id": 583,
+    "korean": "품질 보증서",
+    "english": "Warranty Certificate",
+    "abbreviation": "WC",
+    "description": "상품의 품질을 보장하는 문서."
+  },
+  {
+    "id": 584,
+    "korean": "AS 규정",
+    "english": "After Service Policy",
+    "abbreviation": "ASP",
+    "description": "상품 구매 후 발생하는 문제에 대한 수리, 교환 등의 서비스 규정."
+  },
+  {
+    "id": 585,
+    "korean": "보증 기간",
+    "english": "Warranty Period",
+    "abbreviation": "WP",
+    "description": "무상 수리나 교환이 가능한 기간."
+  },
+  {
+    "id": 586,
+    "korean": "위약금",
+    "english": "Penalty Fee",
+    "abbreviation": "PF",
+    "description": "계약 사항을 위반했을 때 지불해야 하는 벌칙금."
+  },
+  {
+    "id": 587,
+    "korean": "전자 영수증",
+    "english": "Electronic Receipt",
+    "abbreviation": "ER",
+    "description": "종이가 아닌 디지털 형태로 발급되는 결제 증명서."
+  },
+  {
+    "id": 588,
+    "korean": "현금 영수증",
+    "english": "Cash Receipt",
+    "abbreviation": "CR",
+    "description": "현금 결제 시 발급받는 소득 공제용 증명서."
+  },
+  {
+    "id": 589,
+    "korean": "세금 계산서",
+    "english": "Tax Invoice",
+    "abbreviation": "TI",
+    "description": "사업자 간 거래에 사용되는 세금 증빙 서류."
+  },
+  {
+    "id": 590,
+    "korean": "부가가치세",
+    "english": "Value Added Tax",
+    "abbreviation": "VAT",
+    "description": "상품 판매나 서비스 제공 시 부과되는 간접세."
+  },
+  {
+    "id": 591,
+    "korean": "면세",
+    "english": "Tax Exemption",
+    "abbreviation": "TX",
+    "description": "세금이 부과되지 않는 조건."
+  },
+  {
+    "id": 592,
+    "korean": "법인 카드",
+    "english": "Corporate Card",
+    "abbreviation": "CC",
+    "description": "회사 명의로 발급된 업무용 카드."
+  },
+  {
+    "id": 593,
+    "korean": "내부 통제",
+    "english": "Internal Control",
+    "abbreviation": "IC",
+    "description": "기업의 목표 달성을 위해 업무 프로세스를 감시하고 조정하는 활동."
+  },
+  {
+    "id": 594,
+    "korean": "감사",
+    "english": "Audit",
+    "abbreviation": "AUD",
+    "description": "재무 상태나 업무 처리의 적정성을 점검하는 행위."
+  },
+  {
+    "id": 595,
+    "korean": "근로 계약서",
+    "english": "Labor Contract",
+    "abbreviation": "LC",
+    "description": "근로자와 회사 간의 고용 조건에 대한 서류."
+  },
+  {
+    "id": 596,
+    "korean": "산업 안전 보건",
+    "english": "Industrial Safety and Health",
+    "abbreviation": "ISH",
+    "description": "작업 환경에서 발생할 수 있는 위험을 예방하는 활동."
+  },
+  {
+    "id": 597,
+    "korean": "직무 교육",
+    "english": "Job Training",
+    "abbreviation": "JT",
+    "description": "직무 수행에 필요한 지식과 기술을 습득하게 하는 교육."
+  },
+  {
+    "id": 598,
+    "korean": "유기농 인증",
+    "english": "Organic Certification",
+    "abbreviation": "OC",
+    "description": "화학 비료나 농약 없이 재배되었음을 증명하는 인증."
+  },
+  {
+    "id": 599,
+    "korean": "친환경 포장",
+    "english": "Eco-Friendly Packaging",
+    "abbreviation": "EFP",
+    "description": "환경에 미치는 영향을 최소화한 포장재."
+  },
+  {
+    "id": 600,
+    "korean": "재활용률",
+    "english": "Recycling Rate",
+    "abbreviation": "RR",
+    "description": "전체 폐기물 중 재활용되는 비율."
+  },
+  {
+    "id": 601,
+    "korean": "탄소 발자국",
+    "english": "Carbon Footprint",
+    "abbreviation": "CFP",
+    "description": "제품의 전 과정에서 발생하는 온실가스 총량."
+  },
+  {
+    "id": 602,
+    "korean": "지속 가능 경영",
+    "english": "Sustainable Management",
+    "abbreviation": "SM",
+    "description": "환경적, 사회적 책임을 다하며 이익을 추구하는 경영 방식."
+  },
+  {
+    "id": 603,
+    "korean": "비건 인증",
+    "english": "Vegan Certification",
+    "abbreviation": "VC",
+    "description": "동물성 원료를 사용하지 않았음을 증명하는 인증."
+  },
+  {
+    "id": 604,
+    "korean": "콜드체인",
+    "english": "Cold Chain",
+    "abbreviation": "CC",
+    "description": "신선 식품 운송 및 보관 시 저온 상태를 지속적으로 유지하는 시스템."
+  },
+  {
+    "id": 605,
+    "korean": "신선도 유지 기간",
+    "english": "Freshness Retention Period",
+    "abbreviation": "FRP",
+    "description": "식품의 신선함이 유지되는 기간."
+  },
+  {
+    "id": 606,
+    "korean": "상온 보관",
+    "english": "Room Temperature Storage",
+    "abbreviation": "RTS",
+    "description": "일반적인 실내 온도에서 보관하는 것 (1~30°C)."
+  },
+  {
+    "id": 607,
+    "korean": "냉장 보관",
+    "english": "Refrigerated Storage",
+    "abbreviation": "RS",
+    "description": "냉장 온도에서 보관하는 것 (0~10°C)."
+  },
+  {
+    "id": 608,
+    "korean": "냉동 보관",
+    "english": "Frozen Storage",
+    "abbreviation": "FS",
+    "description": "냉동 온도에서 보관하는 것 (0°C 이하)."
+  },
+  {
+    "id": 609,
+    "korean": "출하 준비 완료",
+    "english": "Ready To Ship",
+    "abbreviation": "RTS",
+    "description": "상품 포장이 완료되어 배송사 인계 직전 상태."
+  },
+  {
+    "id": 610,
+    "korean": "배송 지연",
+    "english": "Delivery Delay",
+    "abbreviation": "DD",
+    "description": "예정된 배송일보다 늦어지는 것."
+  },
+  {
+    "id": 611,
+    "korean": "재배송",
+    "english": "Redelivery",
+    "abbreviation": "RD",
+    "description": "배송 실패 후 다시 상품을 보내는 것."
+  },
+  {
+    "id": 612,
+    "korean": "고객 미수령",
+    "english": "Customer Non-Receipt",
+    "abbreviation": "CNR",
+    "description": "상품이 배송되었으나 고객이 수령하지 못한 상태."
+  },
+  {
+    "id": 613,
+    "korean": "도서 산간 추가 비용",
+    "english": "Island/Mountain Surcharge",
+    "abbreviation": "IMS",
+    "description": "외곽 지역 배송 시 추가되는 운송 비용."
+  },
+  {
+    "id": 614,
+    "korean": "지역 택배사",
+    "english": "Local Courier",
+    "abbreviation": "LC",
+    "description": "특정 지역의 배송을 전담하는 택배사."
+  },
+  {
+    "id": 615,
+    "korean": "위탁 배송",
+    "english": "Consignment Delivery",
+    "abbreviation": "CD",
+    "description": "판매자가 직접 배송하지 않고 다른 업체에 위임하는 방식."
+  },
+  {
+    "id": 616,
+    "korean": "드랍 쉬핑",
+    "english": "Drop Shipping",
+    "abbreviation": "DS",
+    "description": "판매자가 재고 없이 주문을 받으면 공급업체가 고객에게 직접 배송하는 방식."
+  },
+  {
+    "id": 617,
+    "korean": "직구",
+    "english": "Direct Purchase",
+    "abbreviation": "DP",
+    "description": "해외 온라인 쇼핑몰에서 소비자가 직접 구매하는 것."
+  },
+  {
+    "id": 618,
+    "korean": "역직구",
+    "english": "Reverse Direct Purchase",
+    "abbreviation": "RDP",
+    "description": "국내 쇼핑몰에서 해외 소비자가 직접 구매하는 것."
+  },
+  {
+    "id": 619,
+    "korean": "해외 직배송",
+    "english": "International Direct Delivery",
+    "abbreviation": "IDD",
+    "description": "해외 판매자가 고객에게 직접 배송하는 방식."
+  },
+  {
+    "id": 620,
+    "korean": "결제 대행",
+    "english": "Payment Agency",
+    "abbreviation": "PA",
+    "description": "온라인 쇼핑몰의 결제를 중개하는 서비스."
+  },
+  {
+    "id": 621,
+    "korean": "PG사",
+    "english": "Payment Gateway Provider",
+    "abbreviation": "PG",
+    "description": "결제 승인 및 대금 처리를 대행하는 회사."
+  },
+  {
+    "id": 622,
+    "korean": "에스크로 서비스",
+    "english": "Escrow Service",
+    "abbreviation": "ESC",
+    "description": "소비자의 결제 대금을 제3자가 보관하다가 거래 완료 후 판매자에게 지급하는 서비스."
+  },
+  {
+    "id": 623,
+    "korean": "간편 송금",
+    "english": "Simple Remittance",
+    "abbreviation": "SR",
+    "description": "복잡한 절차 없이 모바일로 쉽게 돈을 보내는 방식."
+  },
+  {
+    "id": 624,
+    "korean": "선불 카드",
+    "english": "Prepaid Card",
+    "abbreviation": "PC",
+    "description": "미리 금액을 충전하여 사용하는 카드."
+  },
+  {
+    "id": 625,
+    "korean": "제로페이",
+    "english": "Zero Pay",
+    "abbreviation": "ZP",
+    "description": "계좌 이체 기반의 모바일 직불 결제 서비스."
+  },
+  {
+    "id": 626,
+    "korean": "비대면 결제",
+    "english": "Contactless Payment",
+    "abbreviation": "CLP",
+    "description": "접촉 없이 이루어지는 결제 (NFC, QR 등)."
+  },
+  {
+    "id": 627,
     "korean": "생체 인식 결제",
     "english": "Biometric Payment",
     "abbreviation": "BP",
     "description": "지문, 얼굴 등 신체 정보를 이용한 결제."
   },
   {
+    "id": 628,
     "korean": "재고 회전 기간",
     "english": "Inventory Holding Period",
     "abbreviation": "IHP",
     "description": "재고가 판매되는 데 걸리는 평균 기간."
   },
   {
+    "id": 629,
     "korean": "재고 불용 처리",
     "english": "Inventory Write-Off",
     "abbreviation": "IWO",
     "description": "사용 또는 판매 불가능한 재고를 장부상에서 제거하는 회계 처리."
   },
   {
+    "id": 630,
     "korean": "예측 발주",
     "english": "Forecast Ordering",
     "abbreviation": "FO",
     "description": "수요 예측을 기반으로 미리 상품을 주문하는 행위."
   },
   {
+    "id": 631,
     "korean": "리오더",
     "english": "Reorder",
     "abbreviation": "R/O",
     "description": "품절된 상품을 다시 주문하는 것."
   },
   {
+    "id": 632,
     "korean": "초도 물량",
     "english": "Initial Volume",
     "abbreviation": "IV",
     "description": "신상품 출시 시 처음으로 주문하거나 입고하는 물량."
   },
   {
+    "id": 633,
     "korean": "최적화",
     "english": "Optimization",
     "abbreviation": "OPT",
     "description": "효율성, 생산성 등을 최대화하는 작업."
   },
   {
+    "id": 634,
     "korean": "자동화",
     "english": "Automation",
     "abbreviation": "AUTO",
     "description": "사람의 개입 없이 기계나 시스템이 자동으로 업무를 처리하는 것."
   },
   {
+    "id": 635,
     "korean": "시스템 통합",
     "english": "System Integration",
     "abbreviation": "SI",
     "description": "여러 독립된 시스템을 하나의 시스템으로 연결하는 것."
   },
   {
+    "id": 636,
     "korean": "ERP 시스템",
     "english": "Enterprise Resource Planning",
     "abbreviation": "ERP",
     "description": "기업의 모든 자원(재무, 생산, 물류 등)을 통합 관리하는 시스템."
   },
   {
+    "id": 637,
     "korean": "TMS",
     "english": "Transportation Management System",
     "abbreviation": "TMS",
     "description": "운송 계획, 실행, 관리를 위한 시스템."
   },
   {
+    "id": 638,
     "korean": "FMS",
     "english": "Field Management System",
     "abbreviation": "FMS",
     "description": "현장 업무 및 인력을 관리하는 시스템."
   },
   {
+    "id": 639,
     "korean": "실시간 추적",
     "english": "Real-Time Tracking",
     "abbreviation": "RTT",
     "description": "운송 중인 상품의 위치를 즉시 확인하는 것."
   },
   {
+    "id": 640,
     "korean": "GPS",
     "english": "Global Positioning System",
     "abbreviation": "GPS",
     "description": "위성 항법 시스템을 이용한 위치 정보 확인."
   },
   {
+    "id": 641,
     "korean": "RFID",
     "english": "Radio Frequency Identification",
     "abbreviation": "RFID",
     "description": "무선 주파수를 이용하여 사물을 식별하는 기술."
   },
   {
+    "id": 642,
     "korean": "태그",
     "english": "Tag",
     "abbreviation": "TAG",
     "description": "상품에 부착하여 정보를 담는 장치."
   },
   {
+    "id": 643,
     "korean": "바코드 스캐너",
     "english": "Barcode Scanner",
     "abbreviation": "BCS",
     "description": "바코드를 읽어 상품 정보를 입력하는 장치."
   },
   {
+    "id": 644,
     "korean": "무인 운반 차량",
     "english": "Automated Guided Vehicle",
     "abbreviation": "AGV",
     "description": "정해진 경로를 따라 스스로 움직이는 무인 물류 운반 로봇."
   },
   {
+    "id": 645,
     "korean": "스마트 팩토리",
     "english": "Smart Factory",
     "abbreviation": "SF",
     "description": "빅데이터, AI 등을 활용하여 생산 과정을 지능화하는 공장."
   },
   {
+    "id": 646,
     "korean": "로봇 프로세스 자동화",
     "english": "Robotic Process Automation",
     "abbreviation": "RPA",
     "description": "반복적인 업무를 소프트웨어 로봇이 자동 처리하는 기술."
   },
   {
+    "id": 647,
     "korean": "인공지능",
     "english": "Artificial Intelligence",
     "abbreviation": "AI",
     "description": "인간의 지능이 필요한 작업을 수행하는 컴퓨터 시스템."
   },
   {
+    "id": 648,
     "korean": "빅데이터 분석",
     "english": "Big Data Analysis",
     "abbreviation": "BDA",
     "description": "대규모 데이터를 수집, 저장, 분석하는 기술."
   },
   {
+    "id": 649,
     "korean": "데이터 레이크",
     "english": "Data Lake",
     "abbreviation": "DLK",
     "description": "정형/비정형 데이터를 모두 원본 형태로 저장하는 대규모 저장소."
   },
   {
+    "id": 650,
     "korean": "데이터 웨어하우스",
     "english": "Data Warehouse",
     "abbreviation": "DWH",
     "description": "의사 결정 지원을 위해 정제된 데이터를 저장하는 시스템."
   },
   {
+    "id": 651,
     "korean": "데이터 시각화",
     "english": "Data Visualization",
     "abbreviation": "DV",
     "description": "데이터를 그래프나 차트 형태로 보기 쉽게 표현하는 것."
   },
   {
+    "id": 652,
     "korean": "개인화",
     "english": "Personalization",
     "abbreviation": "PERS",
     "description": "고객 개인의 특성에 맞춰 서비스나 상품을 맞춤 제공하는 것."
   },
   {
+    "id": 653,
     "korean": "추천 알고리즘",
     "english": "Recommendation Algorithm",
     "abbreviation": "RA",
     "description": "고객의 과거 행동을 분석하여 상품을 추천하는 시스템."
   },
   {
+    "id": 654,
     "korean": "맞춤형 광고",
     "english": "Customized Ad",
     "abbreviation": "CA",
     "description": "개인의 관심사나 구매 이력에 맞춰 노출되는 광고."
   },
   {
+    "id": 655,
     "korean": "쿠폰 발행",
     "english": "Coupon Issuance",
     "abbreviation": "CI",
     "description": "할인이나 혜택을 받을 수 있는 쿠폰을 제공하는 것."
   },
   {
+    "id": 656,
     "korean": "할인율",
     "english": "Discount Rate",
     "abbreviation": "DR",
     "description": "정가 대비 할인되는 금액의 비율."
   },
   {
+    "id": 657,
     "korean": "증정품",
     "english": "Free Gift",
     "abbreviation": "FG",
     "description": "상품 구매 시 추가로 제공하는 사은품."
   },
   {
+    "id": 658,
     "korean": "선착순 이벤트",
     "english": "First-Come Event",
     "abbreviation": "FCE",
     "description": "먼저 참여하는 순서대로 혜택을 제공하는 행사."
   },
   {
+    "id": 659,
     "korean": "재고 소진 할인",
     "english": "Clearance Sale",
     "abbreviation": "CS",
     "description": "남은 재고를 모두 팔기 위해 대폭 할인하는 행사."
   },
   {
+    "id": 660,
     "korean": "사내 복지몰",
     "english": "Employee Welfare Mall",
     "abbreviation": "EWM",
     "description": "기업 임직원에게만 제공되는 폐쇄형 쇼핑몰."
   },
   {
+    "id": 661,
     "korean": "제휴 마케팅",
     "english": "Affiliate Marketing",
     "abbreviation": "AM",
     "description": "다른 채널을 통해 판매를 유도하고 수수료를 지급하는 마케팅."
   },
   {
+    "id": 662,
     "korean": "협찬",
     "english": "Sponsorship",
     "abbreviation": "SPN",
     "description": "금전적 대가 대신 상품 제공으로 홍보 효과를 얻는 행위."
   },
   {
+    "id": 663,
     "korean": "광고 모델",
     "english": "Advertising Model",
     "abbreviation": "ADM",
     "description": "상품 홍보를 위해 고용된 인물."
   },
   {
+    "id": 664,
     "korean": "이미지 사용권",
     "english": "Image Usage Right",
     "abbreviation": "IUR",
     "description": "상품 사진이나 광고 이미지를 사용할 수 있는 권리."
   },
   {
+    "id": 665,
     "korean": "독점 계약",
     "english": "Exclusive Contract",
     "abbreviation": "EC",
     "description": "특정 업체에게만 판매나 유통 권한을 부여하는 계약."
   },
   {
+    "id": 666,
     "korean": "총판",
     "english": "General Distributor",
     "abbreviation": "GD",
     "description": "특정 지역/시장에서 상품의 판매 및 유통을 총괄하는 업체."
   },
   {
+    "id": 667,
     "korean": "대리점",
     "english": "Agency",
     "abbreviation": "AGY",
     "description": "제조업체나 총판을 대신하여 상품을 판매하는 업체."
   },
   {
+    "id": 668,
     "korean": "가맹점",
     "english": "Franchise Store",
     "abbreviation": "FS",
     "description": "본사의 브랜드와 운영 시스템을 빌려 독립적으로 운영하는 매장."
   },
   {
+    "id": 669,
     "korean": "직영점",
     "english": "Directly Managed Store",
     "abbreviation": "DMS",
     "description": "본사가 직접 소유하고 관리하는 매장."
   },
   {
+    "id": 670,
     "korean": "매장 직원 교육",
     "english": "Staff Training",
     "abbreviation": "ST",
     "description": "매장 직원의 서비스 품질 향상을 위한 교육."
   },
   {
+    "id": 671,
     "korean": "매뉴얼",
     "english": "Manual",
     "abbreviation": "MNL",
     "description": "업무 수행 절차를 상세히 기록한 지침서."
   },
   {
+    "id": 672,
     "korean": "품질 관리",
     "english": "Quality Control",
     "abbreviation": "QC",
     "description": "상품이나 서비스의 품질을 일정 기준 이상으로 유지하는 활동."
   },
   {
+    "id": 673,
     "korean": "검품",
     "english": "Inspection",
     "abbreviation": "INSP",
     "description": "상품의 상태, 수량 등을 확인하는 작업."
   },
   {
+    "id": 674,
     "korean": "불량률",
     "english": "Defect Rate",
     "abbreviation": "DFR",
     "description": "생산되거나 판매된 상품 중 불량품이 차지하는 비율."
   },
   {
+    "id": 675,
     "korean": "하자",
     "english": "Defect",
     "abbreviation": "DFT",
     "description": "상품에 있는 물리적 또는 기능적 결함."
   },
   {
+    "id": 676,
     "korean": "유효 기간 만료",
     "english": "Expiration",
     "abbreviation": "EXP",
     "description": "상품 사용 또는 판매가 가능한 기한이 끝남."
   },
   {
+    "id": 677,
     "korean": "폐기 처리",
     "english": "Disposal",
     "abbreviation": "DSP",
     "description": "판매나 사용이 불가능한 상품을 버리는 절차."
   },
   {
+    "id": 678,
     "korean": "환경 규제",
     "english": "Environmental Regulation",
     "abbreviation": "ER",
     "description": "환경 보호를 위해 기업 활동에 부과되는 법적 제한."
   },
   {
+    "id": 679,
     "korean": "ESG 경영",
     "english": "Environmental, Social, Governance",
     "abbreviation": "ESG",
     "description": "환경, 사회적 책임, 지배구조를 고려하는 경영 철학."
   },
   {
+    "id": 680,
     "korean": "상생 협력",
     "english": "Win-Win Cooperation",
     "abbreviation": "WWC",
     "description": "파트너 간의 공동 이익을 추구하는 협력 관계."
   },
   {
+    "id": 681,
     "korean": "납품 단가",
     "english": "Supply Unit Price",
     "abbreviation": "SUP",
     "description": "공급하는 상품 1개당 가격."
   },
   {
+    "id": 682,
     "korean": "수수료율",
     "english": "Commission Rate",
     "abbreviation": "CR",
     "description": "거래 금액 대비 판매자에게 부과되는 수수료의 비율."
   },
   {
+    "id": 683,
     "korean": "판매자 정산",
     "english": "Seller Settlement",
     "abbreviation": "SS",
