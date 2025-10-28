@@ -3,7 +3,7 @@ import os
 import logging
 from dotenv import load_dotenv
 
-# Azure 서비스 관련 라이브러리
+# Azure 서비스 관련 라이브러리 (필수)
 from openai import AzureOpenAI
 from azure.search.documents import SearchClient
 from azure.search.documents.models import QueryType, VectorizedQuery
@@ -29,7 +29,7 @@ AZURE_SEARCH_INDEX_NAME_QA = os.getenv("AZURE_SEARCH_INDEX_NAME_QA")
 AZURE_SEARCH_INDEX_NAME_DICT = os.getenv("AZURE_SEARCH_INDEX_NAME_DICT")
 VECTOR_PROFILE_NAME = "qa-vector-profile"
 
-# 필수 환경 변수 검사
+# 1. 필수 환경 변수 검사
 if not all(
     [
         OPENAI_ENDPOINT,
@@ -44,7 +44,7 @@ if not all(
     )
     st.stop()
 
-# 클라이언트 초기화
+# 2. 클라이언트 초기화
 try:
     openai_client = AzureOpenAI(
         api_key=OPENAI_KEY,
@@ -275,15 +275,15 @@ if "show_result" not in st.session_state:
     st.session_state.show_result = False
 
 
+# 콜백 함수: 예시 질문 설정
 def set_example_query(query):
-    """예시 질문을 설정하는 콜백 함수"""
     st.session_state.user_input = query
     st.session_state.run_rag = True
     st.session_state.current_result = None
 
 
+# 콜백 함수: RAG 파이프라인 실행
 def start_rag_process():
-    """RAG 파이프라인을 실행하는 콜백 함수"""
     if st.session_state.is_processing:
         st.session_state.show_warning = True
         return
@@ -296,25 +296,23 @@ def start_rag_process():
         st.session_state.show_warning_empty = True
 
 
+# 콜백 함수: 기록된 결과 표시
 def load_history_result(history_index):
-    """기록된 결과를 로드하는 콜백 함수"""
     st.session_state.current_result = st.session_state.history[history_index]
     st.session_state.user_input = st.session_state.history[history_index]["question"]
     st.session_state.show_result = True
 
 
-# 페이지 설정
 st.set_page_config(page_title="MVP RAG 기반 명명/용어 가이드", layout="wide")
 
-st.title("RAG 기반 명명/용어 생성 전문가")
+st.title("💡 RAG 기반 명명/용어 생성 전문가")
 st.markdown("---")
 
-# 사이드바 구성
+# 사이드바 설정
 with st.sidebar:
     st.header("개요")
     st.info(
-        "RAG 기반 명명/용어 생성 전문가는 Azure AI Search와 Azure OpenAI를 활용한 지능형 코딩 명명 규칙 도우미 애플리케이션입니다. "
-        "개발자들이 일관된 코딩 표준을 준수하면서 변수명, 함수명, 데이터베이스 객체명 등을 생성할 수 있도록 지원합니다."
+        f"**RAG 기반 명명/용어 생성 전문가**는 Azure AI Search와 Azure OpenAI를 활용한 지능형 코딩 명명 규칙 도우미 애플리케이션입니다. 개발자들이 일관된 코딩 표준을 준수하면서 변수명, 함수명, 데이터베이스 객체명 등을 생성할 수 있도록 지원합니다."
     )
     st.markdown("---")
 
@@ -355,7 +353,7 @@ with st.sidebar:
         for i, item in enumerate(st.session_state.history[::-1]):
             actual_index = len(st.session_state.history) - 1 - i
             st.button(
-                f"질문: {item['question'][:30]}...",
+                f"📝 {item['question'][:30]}...",
                 key=f"hist_{actual_index}",
                 on_click=load_history_result,
                 args=[actual_index],
@@ -363,7 +361,7 @@ with st.sidebar:
     else:
         st.info("아직 검색 기록이 없습니다.")
 
-# 메인 영역 구성
+# 메인 영역 설정
 user_input_area = st.text_area(
     "명명 규칙, 용어 정의 또는 새로운 용어 생성을 요청하세요:",
     key="user_input",
@@ -380,12 +378,13 @@ run_button = st.button(
 
 # 경고 메시지 표시
 if st.session_state.get("show_warning"):
-    st.warning("이미 답변을 생성 중입니다. 잠시 기다려 주십시오.")
+    st.warning("이미 답변을 생성 중입니다. 잠시 기다려 주십시오.", icon="⏳")
     st.session_state.show_warning = False
 
 if st.session_state.get("show_warning_empty"):
-    st.warning("요청 내용을 입력해 주세요.")
+    st.warning("요청 내용을 입력해 주세요.", icon="❗")
     st.session_state.show_warning_empty = False
+
 
 # RAG 실행 로직
 if st.session_state.run_rag and st.session_state.user_input:
@@ -393,17 +392,17 @@ if st.session_state.run_rag and st.session_state.user_input:
         try:
             final_user_input = st.session_state.user_input
 
-            # 키워드 추출
+            # 1. 키워드 추출
             keywords_list, search_query = extract_keywords_with_llm(final_user_input)
 
-            # Context 검색
+            # 2. Context 검색
             rules_context = search_rules_for_context(final_user_input, search_query)
             dictionary_context = search_dictionary_for_terms(
                 final_user_input, search_query
             )
             qa_context = search_qa_for_context(final_user_input, search_query)
 
-            # 모든 Context 통합
+            # 3. 모든 Context 통합
             all_context = rules_context + dictionary_context + qa_context
 
             if not all_context:
@@ -411,10 +410,10 @@ if st.session_state.run_rag and st.session_state.user_input:
                     "죄송합니다. 관련된 명명 규칙이나 용어를 찾을 수 없습니다."
                 )
             else:
-                # 최종 응답 생성
+                # 4. 최종 응답 생성
                 final_answer = generate_response_with_llm(final_user_input, all_context)
 
-            # 결과를 세션 상태에 저장
+            # 5. 결과를 세션 상태에 저장
             result_data = {
                 "question": final_user_input,
                 "answer": final_answer,
@@ -430,7 +429,7 @@ if st.session_state.run_rag and st.session_state.user_input:
                 "qa_context": "\n".join(qa_context) if qa_context else "",
             }
 
-            # 기록에 추가 및 현재 결과 설정
+            # 6. 기록에 추가 및 현재 결과 설정
             st.session_state.history.append(result_data)
             st.session_state.current_result = result_data
             st.session_state.show_result = True
@@ -441,21 +440,22 @@ if st.session_state.run_rag and st.session_state.user_input:
             # 처리 완료 후 플래그 초기화
             st.session_state.is_processing = False
             st.session_state.run_rag = False
-            # 페이지 재실행으로 사이드바 업데이트 및 결과 표시
+            # rerun()을 호출하여 사이드바 업데이트 및 결과 표시
             st.rerun()
 
-# 결과 표시
+
+# 결과 표시 (rerun 후에도 유지됨)
 if st.session_state.show_result and st.session_state.current_result:
     result = st.session_state.current_result
 
-    st.success("답변 생성 완료")
-    st.markdown("### 최종 답변")
+    st.success("✨ 답변 생성 완료")
+    st.markdown("### 💬 최종 답변")
     st.info(result["answer"])
 
     # 모든 Context 정보를 기본적으로 접힌 Expander 내부에 배치
-    with st.expander("상세 검색 Context 및 메타데이터", expanded=False):
+    with st.expander("🔍 상세 검색 Context 및 메타데이터", expanded=False):
         tab1, tab2, tab3, tab4 = st.tabs(
-            ["요약 정보", "1. 명명 규칙", "2. 용어사전", "3. Q&A"]
+            ["💡 요약 정보", "1. 명명 규칙", "2. 용어사전", "3. Q&A"]
         )
         with tab1:
             st.markdown("##### 검색 메타데이터")
