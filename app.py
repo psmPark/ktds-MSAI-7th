@@ -319,16 +319,22 @@ with st.sidebar:
     # 예시 질문 버튼
     st.header("예시 질문")
     st.button(
-        "Java 변수명 규칙 질문",
+        "Java 변수명 규칙 질문(1)",
         on_click=set_example_query,
         args=["Java에서 '재고'를 나타내는 변수명을 규칙에 맞게 만들어줘."],
         key="example1",
     )
     st.button(
+        "Java 변수명 규칙 질문(2)",
+        on_click=set_example_query,
+        args=["Java에서 배열 변수명으로 user_list는 규칙에 맞나요?"],
+        key="example2",
+    )
+    st.button(
         "DB 인덱스 규칙 질문",
         on_click=set_example_query,
         args=["두 개의 컬럼에 걸친 복합 인덱스를 명명하는 규칙을 알려줘."],
-        key="example2",
+        key="example3",
     )
     st.button(
         "용어 정의 요청",
@@ -336,7 +342,7 @@ with st.sidebar:
         args=[
             "WebUI에서 '배송 준비중' 상태를 표시하는 라벨의 접두어와 해당 용어의 약어를 알려줘."
         ],
-        key="example3",
+        key="example4",
     )
 
     st.markdown("---")
@@ -447,31 +453,33 @@ if st.session_state.show_result and st.session_state.current_result:
     st.markdown("### 💬 최종 답변")
     st.info(result["answer"])
 
-    tab1, tab2, tab3, tab4 = st.tabs(
-        ["💡 요약 정보", "1. 명명 규칙", "2. 용어사전", "3. Q&A"]
-    )
-    with tab1:
-        st.markdown("##### 검색 메타데이터")
-        st.json(result["metadata"])
-    with tab2:
-        st.markdown("##### Rules Index (Hybrid Search 결과)")
-        st.code(
-            result["rules_context"] if result["rules_context"] else "Context 없음",
-            language="markdown",
+    # ⭐ 모든 Context 정보를 기본적으로 접힌 Expander 내부에 배치
+    with st.expander("🔍 상세 검색 Context 및 메타데이터", expanded=False):
+        tab1, tab2, tab3, tab4 = st.tabs(
+            ["💡 요약 정보", "1. 명명 규칙", "2. 용어사전", "3. Q&A"]
         )
-    with tab3:
-        st.markdown("##### Dictionary Index (Hybrid Search 결과)")
-        st.code(
-            (
-                result["dictionary_context"]
-                if result["dictionary_context"]
-                else "Context 없음"
-            ),
-            language="markdown",
-        )
-    with tab4:
-        st.markdown("##### Q&A Index (Hybrid Search 결과)")
-        st.code(
-            result["qa_context"] if result["qa_context"] else "Context 없음",
-            language="markdown",
-        )
+        with tab1:
+            st.markdown("##### 검색 메타데이터")
+            st.json(result["metadata"])
+        with tab2:
+            st.markdown("##### Rules Index (Hybrid Search 결과)")
+            st.code(
+                result["rules_context"] if result["rules_context"] else "Context 없음",
+                language="markdown",
+            )
+        with tab3:
+            st.markdown("##### Dictionary Index (Hybrid Search 결과)")
+            st.code(
+                (
+                    result["dictionary_context"]
+                    if result["dictionary_context"]
+                    else "Context 없음"
+                ),
+                language="markdown",
+            )
+        with tab4:
+            st.markdown("##### Q&A Index (Hybrid Search 결과)")
+            st.code(
+                result["qa_context"] if result["qa_context"] else "Context 없음",
+                language="markdown",
+            )
