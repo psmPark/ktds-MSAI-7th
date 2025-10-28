@@ -173,43 +173,85 @@ def search_dictionary_for_terms(user_request: str, search_query: str) -> list:
         return []
 
 
-# 3. 명명 규칙 Context 검색 함수 (Rules Index)
-def search_rules_for_context(search_query: str) -> list:
-    """명명 규칙 인덱스에서 Context를 검색합니다."""
+# 3. 명명 규칙 Context 검색 함수 (Rules Index) - 💡 하이브리드 검색으로 수정
+def search_rules_for_context(user_request: str, search_query: str) -> list:
+    """하이브리드 검색(키워드 + 벡터)을 사용하여 명명 규칙 인덱스에서 Context를 검색합니다."""
     try:
+        # 1. 임베딩 벡터 생성
+        query_vector = generate_embedding(user_request)
+
+        if not query_vector:
+            logging.warning("Rules: 임베딩 벡터 생성 실패. 키워드 검색만 수행합니다.")
+            vector_queries = []
+        else:
+            # 2. VectorizedQuery 객체 생성
+            vector_queries = [
+                VectorizedQuery(
+                    vector=query_vector,
+                    k_nearest_neighbors=5,  # 검색할 K개의 이웃 수 (최대 5개)
+                    fields="vector_embedding",  # 인덱스 내 벡터 필드 이름
+                    exhaustive=False,
+                )
+            ]
+
+        # 3. 하이브리드 검색 실행 (search_text와 vector_queries 동시 사용)
         results = search_client_rules.search(
-            search_query,
+            search_text=search_query,  # ⬅️ 키워드 검색
+            vector_queries=vector_queries,  # ⬅️ 벡터 검색
             select=["category", "type", "rule_en", "rule_kr", "example"],
-            top=3,
+            top=5,  # 검색 결과를 조금 더 늘려 Context 확보 (기존 3개에서 5개로 변경)
             query_type=QueryType.FULL,
         )
+
         context_list = []
         for result in results:
-            context = f"[Context: {result['category']} {result['type']} Rule] **규칙**: {result['rule_kr']} **예시**: {', '.join(result['example'])}"
+            context = f"[Context: {result['category']} {result['type']} Rule (Score:{result['@search.score']:.2f})] **규칙**: {result['rule_kr']} **예시**: {', '.join(result['example'])}"
             context_list.append(context)
         return context_list
+
     except Exception as e:
-        logging.error(f"Azure AI Search (Rules) 오류: {e}")
+        logging.error(f"Azure AI Search (Rules Hybrid) 오류: {e}")
         return []
 
 
-# 4. Q&A Context 검색 함수 (QA Index)
-def search_qa_for_context(search_query: str) -> list:
-    """Q&A 인덱스에서 Context를 검색합니다."""
+# 4. Q&A Context 검색 함수 (QA Index) - 💡 하이브리드 검색으로 수정
+def search_qa_for_context(user_request: str, search_query: str) -> list:
+    """하이브리드 검색(키워드 + 벡터)을 사용하여 Q&A 인덱스에서 Context를 검색합니다."""
     try:
+        # 1. 임베딩 벡터 생성
+        query_vector = generate_embedding(user_request)
+
+        if not query_vector:
+            logging.warning("QA: 임베딩 벡터 생성 실패. 키워드 검색만 수행합니다.")
+            vector_queries = []
+        else:
+            # 2. VectorizedQuery 객체 생성
+            vector_queries = [
+                VectorizedQuery(
+                    vector=query_vector,
+                    k_nearest_neighbors=3,  # 검색할 K개의 이웃 수 (최대 3개)
+                    fields="vector_embedding",
+                    exhaustive=False,
+                )
+            ]
+
+        # 3. 하이브리드 검색 실행
         results = search_client_qa.search(
-            search_query,
+            search_text=search_query,  # ⬅️ 키워드 검색
+            vector_queries=vector_queries,  # ⬅️ 벡터 검색
             select=["category", "question", "answer"],
-            top=2,
+            top=3,  # 검색 결과를 조금 더 늘려 Context 확보 (기존 2개에서 3개로 변경)
             query_type=QueryType.FULL,
         )
+
         context_list = []
         for result in results:
-            context = f"[Context: QA-{result['category']}] **질문**: {result['question']} **답변**: {result['answer']}"
+            context = f"[Context: QA-{result['category']} (Score:{result['@search.score']:.2f})] **질문**: {result['question']} **답변**: {result['answer']}"
             context_list.append(context)
         return context_list
+
     except Exception as e:
-        logging.error(f"Azure AI Search (QA) 오류: {e}")
+        logging.error(f"Azure AI Search (QA Hybrid) 오류: {e}")
         return []
 
 
@@ -256,8 +298,8 @@ if __name__ == "__main__":
 
     # --- 테스트 케이스 정의 ---
     test_requests = [
-        "Web에서 드롭다운 규칙은 뭐야?",
-        # "물류번호 채번 이라는 메소드명을 만들어줘",
+        # "Web에서 드롭다운 규칙은 뭐야?",
+        "Web에서 '출발지'을 표시하는 라벨은 뭐라고 해야해?",
         # "Web에서 '계약 조건에 동의' 체크박스를 명명하는 예시는?",
     ]
 
@@ -273,9 +315,9 @@ if __name__ == "__main__":
         keywords_list, search_query = extract_keywords_with_llm(req)
 
         # 2. Context 검색 (3가지 소스)
-        rules_context = search_rules_for_context(search_query)
+        rules_context = search_rules_for_context(req, search_query)
         dictionary_context = search_dictionary_for_terms(req, search_query)
-        qa_context = search_qa_for_context(search_query)
+        qa_context = search_qa_for_context(req, search_query)
 
         # 3. 모든 Context 통합
         all_context = rules_context + dictionary_context + qa_context
