@@ -26,7 +26,7 @@
 	{
 		"id": 5,
 		"question": "상수명은 어떤 규칙으로 작성해야 하나요?",
-		"answer": "대문자와 밑줄(\\_)로 구성하며, 단어 간 구분을 명확히 합니다. (예: MAX_USER_COUNT)",
+		"answer": "대문자와 밑줄(_)로 구성하는 SCREAMING_SNAKE_CASE를 사용하며, 단어 간 구분을 명확히 합니다. (예: MAX_USER_COUNT)",
 		"category": "Java"
 	},
 	{
@@ -38,140 +38,140 @@
 	{
 		"id": 7,
 		"question": "DB 테이블명은 어떤 규칙을 사용하나요?",
-		"answer": "소문자 스네이크케이스(user_accounts)를 사용하며, 복수형으로 지정하는 것이 일반적입니다.",
+		"answer": "SCREAMING_SNAKE_CASE(대문자_밑줄)를 사용하며, TBL_ 접두어 사용 및 단수형 지정을 권장합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 8,
-		"question": "user_account_list처럼 테이블명에 복수형 대신 리스트를 붙여도 되나요?",
-		"answer": "규칙상 테이블명은 복수형(user_accounts)을 사용하도록 권장합니다.",
+		"question": "TBL_USER_ACCOUNT_LIST처럼 테이블명에 복수형 대신 리스트를 붙여도 되나요?",
+		"answer": "아닙니다. 규칙상 테이블명은 복수형이나 리스트 대신 단수형(TBL_USER_ACCOUNT) 사용을 권장합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 9,
 		"question": "DB 컬럼명 규칙은 무엇인가요?",
-		"answer": "소문자 스네이크케이스를 사용하며, 테이블의 의미를 반영해야 합니다.",
+		"answer": "SCREAMING_SNAKE_CASE(대문자_밑줄)를 사용하며, 용어사전에 정의된 표준 약어만 사용해야 합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 10,
-		"question": "컬럼명으로 data나 value 같은 일반적인 단어를 사용해도 되나요?",
-		"answer": "규칙상 컬럼명으로 data나 value처럼 일반적인 단어는 사용하지 않도록 피해야 합니다.",
+		"question": "컬럼명으로 DATA나 VALUE 같은 일반적인 단어를 사용해도 되나요?",
+		"answer": "규칙상 컬럼명으로 DATA나 VALUE처럼 일반적인 단어는 사용하지 않도록 피해야 합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 11,
-		"question": "product_price_value는 컬럼명으로 적절한가요?",
-		"answer": "value 사용은 지양되므로, product_price 또는 price가 더 적절합니다.",
+		"question": "PRODUCT_PRICE_VALUE는 컬럼명으로 적절한가요?",
+		"answer": "VALUE 사용은 지양되므로, PRODUCT_PRICE 또는 PRICE가 더 적절합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 12,
 		"question": "인덱스명은 어떻게 명명해야 하나요?",
-		"answer": "'idx_' 접두어를 붙이고, 테이블명과 컬럼명을 조합하여 명확히 구분해야 합니다.",
+		"answer": "'IX_' 또는 'IDX_' 접두어를 붙이고, 테이블명과 컬럼명을 SCREAMING_SNAKE_CASE로 조합하여 명확히 구분해야 합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 13,
-		"question": "idx_products_category_id는 어떤 규칙을 따랐나요?",
-		"answer": "'idx_' 접두어와 테이블명(products), 컬럼명(category_id)을 조합한 인덱스 명명 규칙을 따랐습니다.",
+		"question": "IX_PRODUCTS_CATEGORY_ID는 어떤 규칙을 따랐나요?",
+		"answer": "'IX_' 접두어와 테이블명(PRODUCTS), 컬럼명(CATEGORY_ID)을 조합한 인덱스 명명 규칙을 따랐습니다.",
 		"category": "Database"
 	},
 	{
 		"id": 14,
 		"question": "시퀀스명은 어떤 접두어를 사용하나요?",
-		"answer": "'seq_' 접두어를 붙이고 관련된 테이블명을 포함하여 명명합니다.",
+		"answer": "'SEQ_' 접두어를 붙이고 관련된 테이블명을 SCREAMING_SNAKE_CASE로 포함하여 명명합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 15,
-		"question": "seq_orders는 어떤 용도의 명명 규칙인가요?",
-		"answer": "'seq_' 접두어를 사용했으므로 시퀀스 명명 규칙을 따랐습니다.",
+		"question": "SEQ_ORDER는 어떤 용도의 명명 규칙인가요?",
+		"answer": "'SEQ_' 접두어를 사용했으므로 ORDER 테이블과 관련된 시퀀스 명명 규칙을 따랐습니다.",
 		"category": "Database"
 	},
 	{
 		"id": 16,
 		"question": "데이터베이스 함수명의 규칙은 무엇인가요?",
-		"answer": "'fn_' 접두어를 사용하고, 수행 목적을 소문자 스네이크케이스로 표현합니다.",
+		"answer": "'FN_' 접두어를 사용하고, 수행 목적을 SCREAMING_SNAKE_CASE로 표현합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 17,
-		"question": "fn_calculate_discount는 어떤 명명 규칙인가요?",
-		"answer": "'fn_' 접두어를 사용한 데이터베이스 함수 명명 규칙입니다.",
+		"question": "FN_CALCULATE_DISCOUNT는 어떤 명명 규칙인가요?",
+		"answer": "'FN_' 접두어를 사용한 데이터베이스 함수 명명 규칙입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 18,
-		"question": "WebUI 버튼 변수명 규칙은 무엇인가요?",
+		"question": "UI 버튼 변수명 규칙은 무엇인가요?",
 		"answer": "'btn' 접두어를 사용하고, 동작과 대상을 camelCase로 결합합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 19,
 		"question": "'회원 저장' 버튼은 어떻게 명명해야 하나요?",
 		"answer": "규칙에 따라 'btnSaveUser'와 같이 명명할 수 있습니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 20,
 		"question": "텍스트박스 변수명의 접두어는 무엇인가요?",
 		"answer": "'txt' 접두어를 사용하며, 대상 이름을 camelCase로 연결합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 21,
 		"question": "이메일 주소 입력란은 어떻게 명명해야 하나요?",
 		"answer": "규칙에 따라 'txtEmailAddress'와 같이 명명할 수 있습니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 22,
 		"question": "드롭다운 컨트롤의 접두어는 무엇인가요?",
 		"answer": "'ddl' 접두어를 사용하며, 항목의 의미를 나타내는 이름을 camelCase로 작성합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 23,
 		"question": "국가 선택 드롭다운은 어떻게 명명해야 하나요?",
 		"answer": "규칙에 따라 'ddlCountry'와 같이 명명할 수 있습니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 24,
 		"question": "라벨 컨트롤의 변수명 규칙은 무엇인가요?",
 		"answer": "'lbl' 접두어를 사용하고, 표시되는 내용을 나타내는 이름을 camelCase로 작성합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 25,
 		"question": "에러 메시지 표시 라벨은 어떻게 명명해야 하나요?",
 		"answer": "규칙에 따라 'lblErrorMessage'와 같이 명명할 수 있습니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 26,
 		"question": "라디오버튼의 접두어는 무엇인가요?",
 		"answer": "'rdo' 접두어를 사용하며, 선택 항목을 명확히 나타냅니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 27,
 		"question": "결제 수단 중 '신용카드' 라디오버튼은 어떻게 명명해야 하나요?",
 		"answer": "규칙에 따라 'rdoPaymentCreditCard'와 같이 명명할 수 있습니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 28,
 		"question": "체크박스의 변수명 규칙은 무엇인가요?",
 		"answer": "'chk' 접두어를 사용하고, 동의 또는 선택 항목을 나타내는 이름을 작성합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 29,
 		"question": "'약관 동의' 체크박스는 어떻게 명명해야 하나요?",
 		"answer": "규칙에 따라 'chkAgreeTerms'와 같이 명명할 수 있습니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 30,
@@ -193,45 +193,45 @@
 	},
 	{
 		"id": 33,
-		"question": "DB 테이블명으로 productcategory는 규칙에 맞나요?",
-		"answer": "아닙니다. 소문자 스네이크케이스를 사용해야 하므로 product_categories가 규칙에 맞습니다.",
+		"question": "DB 테이블명으로 PRODUCT_CATEGORY는 규칙에 맞나요?",
+		"answer": "네. 테이블명은 SCREAMING_SNAKE_CASE(대문자_밑줄)를 사용해야 하므로 PRODUCT_CATEGORY가 규칙에 맞습니다.",
 		"category": "Database"
 	},
 	{
 		"id": 34,
 		"question": "외래 키(Foreign Key) 컬럼을 명명할 때 특별한 규칙이 있나요?",
-		"answer": "규칙상 스네이크케이스를 사용하며, 참조하는 테이블의 기본 키를 포함하도록 명확히 작성합니다. (예: user_id, product_id)",
+		"answer": "SCREAMING_SNAKE_CASE를 사용하며, 참조하는 테이블의 기본 키를 포함하도록 명확히 작성합니다. (예: USER_ID, PRODUCT_ID)",
 		"category": "Database"
 	},
 	{
 		"id": 35,
 		"question": "두 개의 컬럼에 걸친 복합 인덱스는 어떻게 명명하나요?",
-		"answer": "'idx_' 뒤에 테이블명과 두 컬럼명을 모두 포함합니다. (예: idx_orders_user_id_date)",
+		"answer": "'IX_' 또는 'IDX_' 뒤에 테이블명과 두 컬럼명을 모두 포함합니다. (예: IX_ORDER_USER_DATE)",
 		"category": "Database"
 	},
 	{
 		"id": 36,
 		"question": "사용자 잔액 조회 DB 함수는 어떻게 명명해야 하나요?",
-		"answer": "'fn_' 접두사를 사용하여 fn_get_user_balance와 같이 명명합니다.",
+		"answer": "'FN_' 접두사를 사용하여 FN_GET_USER_BALANCE와 같이 명명합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 37,
-		"question": "WebUI에서 '상품명'을 표시하는 라벨은 어떻게 명명해야 하나요?",
+		"question": "UI에서 '상품명'을 표시하는 라벨은 어떻게 명명해야 하나요?",
 		"answer": "'lbl' 접두사를 사용하여 lblProductName과 같이 camelCase로 명명합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 38,
 		"question": "결제 수단 선택 드롭다운은 어떻게 명명하는 것이 적절한가요?",
 		"answer": "'ddl' 접두사를 사용하여 ddlPaymentMethod와 같이 명명합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 39,
-		"question": "WebUI 규칙상 save_button은 적절한 버튼 변수명인가요?",
+		"question": "UI 규칙상 save_button은 적절한 버튼 변수명인가요?",
 		"answer": "아닙니다. save_button은 스네이크케이스이므로, btnSave 또는 btnSaveRecord와 같은 camelCase를 사용해야 합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 40,
@@ -249,12 +249,12 @@
 		"id": 42,
 		"question": "로그인 버튼을 명명할 때, 동작과 대상을 어떻게 구분하나요?",
 		"answer": "동작은 Log 또는 Login, 대상은 In 또는 User 등으로 하여 btnLoginUser 또는 btnLogIn처럼 명명할 수 있습니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 43,
 		"question": "DB 함수가 할인을 계산하는 역할을 할 경우 명명 예시는?",
-		"answer": "'fn_' 접두어를 사용하여 fn_calculate_discount와 같이 명명합니다.",
+		"answer": "'FN_' 접두어를 사용하여 FN_CALCULATE_DISCOUNT와 같이 명명합니다.",
 		"category": "Database"
 	},
 	{
@@ -267,13 +267,13 @@
 		"id": 45,
 		"question": "사용자 이름을 입력하는 텍스트박스는 어떤 접두어를 사용해야 하나요?",
 		"answer": "txtUserName과 같이 'txt' 접두어를 사용해야 합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 46,
 		"question": "라디오버튼 그룹을 명명할 때 선택 항목을 명시하는 이유는 무엇인가요?",
 		"answer": "rdoGenderMale처럼 선택 항목을 명시하여 코드가 해당 라디오버튼의 구체적인 역할을 명확히 알 수 있게 하기 위함입니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 47,
@@ -283,21 +283,21 @@
 	},
 	{
 		"id": 48,
-		"question": "seq_warehouses는 어떤 객체의 명명 규칙인가요?",
-		"answer": "'seq_' 접두사를 사용했으므로 warehouses 테이블과 관련된 시퀀스 명명 규칙입니다.",
+		"question": "SEQ_WAREHOUSE는 어떤 객체의 명명 규칙인가요?",
+		"answer": "'SEQ_' 접두사를 사용했으므로 WAREHOUSE 테이블과 관련된 시퀀스 명명 규칙입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 49,
 		"question": "DB 테이블명을 만들 때 복수형을 사용하는 이유는?",
-		"answer": "테이블이 보통 여러 개의 데이터(레코드)를 담는 '컬렉션'이기 때문에 user_accounts처럼 복수형으로 지정하는 것이 규칙입니다.",
+		"answer": "테이블이 보통 여러 개의 데이터(레코드)를 담는 '컬렉션'이기 때문이나, 규칙상 단수형(TBL_USER)을 사용하도록 권장합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 50,
-		"question": "WebUI에서 '뉴스레터 수신 동의'를 위한 체크박스 명명 예시는?",
+		"question": "UI에서 '뉴스레터 수신 동의'를 위한 체크박스 명명 예시는?",
 		"answer": "chkReceiveNewsletter와 같이 'chk' 접두사와 camelCase를 사용하여 명명합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 51,
@@ -314,7 +314,7 @@
 	{
 		"id": 53,
 		"question": "send_email과 같은 변수명은 Java 규칙에 맞나요?",
-		"answer": "아닙니다. Java 변수명은 sendEmail과 같이 camelCase를 사용해야 합니다. send_email은 스네이크케이스입니다.",
+		"answer": "아닙니다. Java 변수명은 sendEmail과 같은 camelCase를 사용해야 합니다. send_email은 스네이크케이스입니다.",
 		"category": "Java"
 	},
 	{
@@ -326,7 +326,7 @@
 	{
 		"id": 55,
 		"question": "DB에서 주문 상세 정보를 저장하는 테이블명은 어떻게 만드는 것이 적절한가요?",
-		"answer": "복수형의 소문자 스네이크케이스인 order_details가 적절합니다.",
+		"answer": "SCREAMING_SNAKE_CASE인 ORDER_DETAIL이 적절합니다.",
 		"category": "Database"
 	},
 	{
@@ -337,57 +337,57 @@
 	},
 	{
 		"id": 57,
-		"question": "idx_shipments_shipment_date는 무엇에 대한 인덱스인가요?",
-		"answer": "shipments 테이블의 shipment_date 컬럼에 대한 인덱스입니다.",
+		"question": "IX_SHIPMENT_DATE는 무엇에 대한 인덱스인가요?",
+		"answer": "SHIPMENT 테이블의 SHIPMENT_DATE 컬럼에 대한 인덱스입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 58,
-		"question": "seq_products가 나타내는 것은 무엇이며, 어느 테이블과 관련이 있나요?",
-		"answer": "products 테이블의 기본 키 생성에 사용되는 시퀀스입니다.",
+		"question": "SEQ_PRODUCT가 나타내는 것은 무엇이며, 어느 테이블과 관련이 있나요?",
+		"answer": "PRODUCT 테이블의 기본 키 생성에 사용되는 시퀀스입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 59,
-		"question": "fn_get_product_stock의 역할과 규칙은 무엇인가요?",
-		"answer": "상품 재고를 조회하는 DB 함수이며, 'fn_' 접두어와 소문자 스네이크케이스 규칙을 따릅니다.",
+		"question": "FN_GET_PRODUCT_STOCK의 역할과 규칙은 무엇인가요?",
+		"answer": "상품 재고를 조회하는 DB 함수이며, 'FN_' 접두어와 SCREAMING_SNAKE_CASE 규칙을 따릅니다.",
 		"category": "Database"
 	},
 	{
 		"id": 60,
-		"question": "WebUI에서 '주문 삭제' 버튼은 어떻게 명명해야 하나요?",
+		"question": "UI에서 '주문 삭제' 버튼은 어떻게 명명해야 하나요?",
 		"answer": "'btnDeleteOrder'와 같이 'btn' 접두어와 camelCase를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 61,
-		"question": "'사용자 이름'을 입력하는 텍스트박스의 WebUI 변수명은?",
+		"question": "'사용자 이름'을 입력하는 텍스트박스의 UI 변수명은?",
 		"answer": "'txtUserName'과 같이 'txt' 접두어와 camelCase를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 62,
 		"question": "'사용자 역할'을 선택하는 드롭다운 변수명은?",
 		"answer": "'ddlUserRole'과 같이 'ddl' 접두어와 camelCase를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 63,
-		"question": "WebUI 규칙상 LABEL_STATUS는 적절한 명명인가요?",
+		"question": "UI 규칙상 LABEL_STATUS는 적절한 명명인가요?",
 		"answer": "아닙니다. 라벨은 'lblStatus'와 같이 'lbl' 접두어와 camelCase를 사용해야 합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 64,
 		"question": "'남성'을 선택하는 라디오버튼은 어떻게 명명해야 하나요?",
 		"answer": "'rdoGenderMale'과 같이 'rdo' 접두어와 선택 항목을 명시하는 camelCase를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 65,
 		"question": "'뉴스레터 수신' 체크박스는 어떤 규칙으로 명명하나요?",
 		"answer": "'chkReceiveNewsletter'와 같이 'chk' 접두어와 camelCase를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 66,
@@ -409,69 +409,69 @@
 	},
 	{
 		"id": 69,
-		"question": "DB 테이블명으로 User 대신 user_accounts를 사용하는 이유는?",
-		"answer": "소문자 스네이크케이스와 복수형을 사용해야 하는 규칙에 맞추기 위함입니다.",
+		"question": "DB 테이블명으로 USER 대신 TBL_USER를 사용하는 이유는?",
+		"answer": "SCREAMING_SNAKE_CASE와 TBL_ 접두어를 사용해야 하는 규칙에 맞추기 위함입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 70,
-		"question": "테이블명에 user_accounts처럼 복수형을 사용하지 않을 경우 생기는 문제는?",
-		"answer": "명명 규칙의 일관성이 깨지고, 데이터가 컬렉션이라는 의미를 명확히 전달하기 어렵습니다.",
+		"question": "테이블명에 USER_ACCOUNTS처럼 복수형을 사용하지 않을 경우 생기는 문제는?",
+		"answer": "명명 규칙의 일관성이 깨지고, 데이터가 단일 엔티티임을 명확히 전달하기 어렵습니다. (단수형 규칙 강조)",
 		"category": "Database"
 	},
 	{
 		"id": 71,
-		"question": "total_price는 DB 컬럼명으로 적절한가요?",
-		"answer": "네, 소문자 스네이크케이스를 사용하고 컬럼의 역할을 명확히 나타내므로 적절합니다.",
+		"question": "TOTAL_PRICE는 DB 컬럼명으로 적절한가요?",
+		"answer": "네, SCREAMING_SNAKE_CASE를 사용하고 컬럼의 역할을 명확히 나타내므로 적절합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 72,
-		"question": "idx_payments_payment_id의 접두어 'idx_'의 의미는?",
+		"question": "IX_PAYMENT_ID의 접두어 'IX_'의 의미는?",
 		"answer": "해당 객체가 인덱스임을 나타내는 식별자입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 73,
-		"question": "DB 함수명에서 'fn_' 접두사를 사용하는 목적은?",
+		"question": "DB 함수명에서 'FN_' 접두사를 사용하는 목적은?",
 		"answer": "코드에서 해당 객체가 데이터베이스 함수임을 즉시 인지할 수 있도록 합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 74,
-		"question": "WebUI에서 '폼 제출' 버튼은 어떻게 명명해야 하나요?",
+		"question": "UI에서 '폼 제출' 버튼은 어떻게 명명해야 하나요?",
 		"answer": "btnSubmitForm과 같이 동작(Submit)과 대상(Form)을 포함한 camelCase로 명명합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 75,
-		"question": "WebUI 규칙상 txt_user_name은 텍스트박스 변수명으로 적절한가요?",
+		"question": "UI 규칙상 txt_user_name은 텍스트박스 변수명으로 적절한가요?",
 		"answer": "아닙니다. 텍스트박스는 'txt' 접두어와 camelCase(txtUserName)를 사용해야 합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 76,
-		"question": "ddl 접두사가 WebUI에서 의미하는 바는?",
+		"question": "ddl 접두사가 UI에서 의미하는 바는?",
 		"answer": "Dropdown List 또는 드롭다운 컨트롤임을 나타냅니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 77,
-		"question": "WebUI에서 상태 메시지를 표시하는 라벨은 어떻게 명명해야 하나요?",
+		"question": "UI에서 상태 메시지를 표시하는 라벨은 어떻게 명명해야 하나요?",
 		"answer": "lblStatus와 같이 'lbl' 접두사를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 78,
-		"question": "WebUI에서 라디오버튼에 rdo 접두어를 사용하는 이유는?",
+		"question": "UI에서 라디오버튼에 rdo 접두어를 사용하는 이유는?",
 		"answer": "해당 컨트롤이 라디오버튼(단일 선택)임을 명시하기 위함입니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 79,
-		"question": "WebUI 체크박스 변수명에 'chk' 대신 'cbx'를 사용해도 규칙에 맞나요?",
+		"question": "UI 체크박스 변수명에 'chk' 대신 'cbx'를 사용해도 규칙에 맞나요?",
 		"answer": "규칙은 'chk'를 명시하고 있으므로, 일관성을 위해 'chk'를 사용해야 합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 80,
@@ -487,57 +487,57 @@
 	},
 	{
 		"id": 82,
-		"question": "테이블명 shipments에 대한 시퀀스 명명 예시는?",
-		"answer": "seq_shipments와 같이 'seq_' 접두어와 테이블명을 사용합니다.",
+		"question": "SEQ_SHIPMENT에 대한 시퀀스 명명 예시는?",
+		"answer": "SEQ_SHIPMENT와 같이 'SEQ_' 접두어와 테이블명을 사용합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 83,
-		"question": "fn_update_inventory 함수는 어떤 규칙에 따라 만들어졌나요?",
-		"answer": "DB 함수 명명 규칙에 따라 'fn_' 접두어와 목적(update_inventory)을 소문자 스네이크케이스로 표현했습니다.",
+		"question": "FN_UPDATE_INVENTORY 함수는 어떤 규칙에 따라 만들어졌나요?",
+		"answer": "DB 함수 명명 규칙에 따라 'FN_' 접두어와 목적(UPDATE_INVENTORY)을 SCREAMING_SNAKE_CASE로 표현했습니다.",
 		"category": "Database"
 	},
 	{
 		"id": 84,
-		"question": "WebUI에서 '주문 제출' 버튼을 btnSubmit로 명명하는 것은 규칙에 맞나요?",
+		"question": "UI에서 '주문 제출' 버튼을 btnSubmit로 명명하는 것은 규칙에 맞나요?",
 		"answer": "네, 'btn' 접두어와 동작을 포함한 camelCase이므로 규칙에 맞습니다. (btnSubmitForm도 가능)",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 85,
 		"question": "lblErrorMessage의 용도는 무엇인가요?",
-		"answer": "사용자에게 오류 메시지를 표시하는 WebUI 라벨 컨트롤입니다.",
-		"category": "WebUI"
+		"answer": "사용자에게 오류 메시지를 표시하는 UI 라벨 컨트롤입니다.",
+		"category": "UI"
 	},
 	{
 		"id": 86,
 		"question": "ddlCountry 대신 country_list를 사용하면 왜 규칙에 어긋나나요?",
-		"answer": "드롭다운은 'ddl' 접두어와 camelCase를 사용해야 하는 WebUI 컨트롤 규칙에 어긋나기 때문입니다.",
-		"category": "WebUI"
+		"answer": "드롭다운은 'ddl' 접두어와 camelCase를 사용해야 하는 UI 컨트롤 규칙에 어긋나기 때문입니다.",
+		"category": "UI"
 	},
 	{
 		"id": 87,
-		"question": "Java에서 클래스명 dataproccessor는 규칙에 맞나요?",
-		"answer": "아닙니다. 클래스명은 PascalCase(DataProcessor)를 사용해야 합니다.",
+		"question": "Java에서 클래스명 dataproccessor는 왜 규칙 위반인가요?",
+		"answer": "클래스명은 PascalCase를 사용해야 하므로 DataProcessor가 규칙에 맞습니다.",
 		"category": "Java"
 	},
 	{
 		"id": 88,
-		"question": "DB 컬럼명에 user_accounts.user_id처럼 테이블명을 포함하는 이유는?",
+		"question": "DB 컬럼명 TBL_USER.USER_ID처럼 테이블명을 포함하는 이유는?",
 		"answer": "외래 키(FK)를 지정할 때 어떤 테이블의 기본 키를 참조하는지 명확히 하기 위함입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 89,
-		"question": "idx_orders_order_date 인덱스는 어떤 목적으로 사용될 가능성이 높나요?",
-		"answer": "주문 날짜(order_date)를 기준으로 데이터를 빠르게 검색하거나 정렬하기 위함입니다.",
+		"question": "IX_ORDER_DATE 인덱스는 어떤 목적으로 사용될 가능성이 높나요?",
+		"answer": "주문 날짜(ORDER_DATE)를 기준으로 데이터를 빠르게 검색하거나 정렬하기 위함입니다.",
 		"category": "Database"
 	},
 	{
 		"id": 90,
-		"question": "WebUI에서 '비밀번호' 입력란은 어떻게 명명해야 하나요?",
+		"question": "UI에서 '비밀번호' 입력란은 어떻게 명명해야 하나요?",
 		"answer": "txtPassword와 같이 'txt' 접두어와 camelCase를 사용해야 합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 91,
@@ -553,33 +553,33 @@
 	},
 	{
 		"id": 93,
-		"question": "DB 테이블명 product_categories에서 _의 역할은 무엇인가요?",
-		"answer": "스네이크케이스(snake_case)를 구성하며 단어와 단어를 구분하는 역할을 합니다.",
+		"question": "DB 테이블명 PRODUCT_CATEGORY에서 _의 역할은 무엇인가요?",
+		"answer": "SCREAMING_SNAKE_CASE를 구성하며 단어와 단어를 구분하는 역할을 합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 94,
-		"question": "fn_process_payment 함수가 수행하는 주요 작업은 무엇인가요?",
-		"answer": "DB 함수 규칙에 따라 '결제 처리(process payment)' 작업을 수행하는 함수임을 알 수 있습니다.",
+		"question": "FN_PROCESS_PAYMENT 함수가 수행하는 주요 작업은 무엇인가요?",
+		"answer": "DB 함수 규칙에 따라 '결제 처리(PROCESS PAYMENT)' 작업을 수행하는 함수임을 알 수 있습니다.",
 		"category": "Database"
 	},
 	{
 		"id": 95,
-		"question": "WebUI에서 '계약 조건에 동의' 체크박스를 명명하는 예시는?",
+		"question": "UI에서 '계약 조건에 동의' 체크박스를 명명하는 예시는?",
 		"answer": "chkAgreeTerms와 같이 'chk' 접두어와 camelCase를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 96,
-		"question": "DB 컬럼명 first_name은 어떤 규칙을 따랐나요?",
-		"answer": "소문자 스네이크케이스를 사용한 DB 컬럼 명명 규칙을 따랐습니다.",
+		"question": "FIRST_NAME은 DB 컬럼명으로 어떤 규칙을 따랐나요?",
+		"answer": "SCREAMING_SNAKE_CASE를 사용한 DB 컬럼 명명 규칙을 따랐습니다.",
 		"category": "Database"
 	},
 	{
 		"id": 97,
-		"question": "WebUI에서 '총 주문 금액'을 표시하는 라벨은 어떻게 명명할까요?",
+		"question": "UI에서 '총 주문 금액'을 표시하는 라벨은 어떻게 명명할까요?",
 		"answer": "lblTotalAmount와 같이 'lbl' 접두어와 camelCase를 사용합니다.",
-		"category": "WebUI"
+		"category": "UI"
 	},
 	{
 		"id": 98,
@@ -589,14 +589,62 @@
 	},
 	{
 		"id": 99,
-		"question": "DB에서 inventory_logs 테이블의 log_id 컬럼은 왜 기본 키로 지정되었을까요?",
-		"answer": "각 재고 변경 기록(log)을 고유하게 식별하기 위한 Primary Key(PK) 역할을 합니다.",
+		"question": "DB에서 INVENTORY_LOG 테이블의 LOG_ID 컬럼은 왜 기본 키로 지정되었을까요?",
+		"answer": "각 재고 변경 기록(LOG)을 고유하게 식별하기 위한 Primary Key(PK) 역할을 합니다.",
 		"category": "Database"
 	},
 	{
 		"id": 100,
-		"question": "WebUI 버튼 이름에서 동작(Verb)을 앞에 두는 이유는?",
+		"question": "UI 버튼 이름에서 동작(Verb)을 앞에 두는 이유는?",
 		"answer": "버튼이 '무엇을 할지'를 명확하게 하여 코드의 가독성과 이해도를 높이기 위함입니다.",
-		"category": "WebUI"
+		"category": "UI"
+	},
+    {
+		"id": 101,
+		"question": "Python에서 함수명으로 calculateScore는 규칙에 맞나요?",
+		"answer": "아닙니다. Python 함수명은 PEP 8에 따라 calculate_score와 같은 snake_case를 사용해야 합니다.",
+		"category": "Python"
+	},
+    {
+		"id": 102,
+		"question": "Python 클래스명으로 data_processor는 규칙에 맞나요?",
+		"answer": "아닙니다. Python 클래스명은 PascalCase(DataProcessor)를 사용해야 합니다.",
+		"category": "Python"
+	},
+    {
+		"id": 103,
+		"question": "Python에서 변수명으로 userName은 규칙 위반인가요?",
+		"answer": "네. Python 변수명은 PEP 8에 따라 user_name과 같은 snake_case를 사용해야 합니다.",
+		"category": "Python"
+	},
+    {
+		"id": 104,
+		"question": "Python에서 상수는 어떻게 명명해야 하나요?",
+		"answer": "Java와 마찬가지로 MAX_LIMIT처럼 대문자와 밑줄을 사용하는 SCREAMING_SNAKE_CASE를 사용합니다.",
+		"category": "Python"
+	},
+    {
+		"id": 105,
+		"question": "Python에서 '임시 값'을 나타내는 변수명으로 tmp는 적절한가요?",
+		"answer": "tmp처럼 짧은 약어는 지양하고, temporary_value와 같이 명확한 snake_case를 사용해야 합니다.",
+		"category": "Python"
+	},
+    {
+		"id": 106,
+		"question": "Python 모듈명이 api_client.py가 아닌 ApiClient.py라면 규칙 위반인가요?",
+		"answer": "네, 모듈명은 짧고 모두 소문자를 사용해야 하므로 api_client.py가 규칙에 맞습니다.",
+		"category": "Python"
+	},
+    {
+		"id": 107,
+		"question": "Python 함수명에 동사로 시작해야 한다는 규칙이 있나요?",
+		"answer": "Java와 달리 명시적인 동사 규칙은 없으나, 행위를 나타내는 동사를 포함하여 calculate_score처럼 작성하는 것이 권장됩니다.",
+		"category": "Python"
+	},
+    {
+		"id": 108,
+		"question": "Java 패키지 명명 규칙은 무엇인가요?",
+		"answer": "모두 소문자를 사용하며, com.회사명.프로젝트.모듈처럼 역도메인 명명 규칙을 따릅니다.",
+		"category": "Java"
 	}
 ]

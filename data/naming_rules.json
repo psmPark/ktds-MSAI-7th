@@ -1,122 +1,194 @@
 [
-    {
-      "id": 1,
-      "category": "Java",
-      "type": "class",
-      "rule_en": "Class names should use PascalCase and represent nouns. Avoid abbreviations unless well-known.",
-      "example": ["UserAccount", "OrderService", "DataProcessor"],
-      "rule_kr": "클래스명은 명사 형태로 PascalCase(대문자로 시작하는 단어 결합)를 사용하며, 일반적으로 알려진 약어 외에는 생략형을 피합니다."
-    },
-    {
-      "id": 2,
-      "category": "Java",
-      "type": "method",
-      "rule_en": "Method names should use camelCase, start with a verb, and describe the action clearly.",
-      "example": ["getUserInfo()", "calculateTotal()", "sendEmail()"],
-      "rule_kr": "메서드명은 동사로 시작하며 camelCase(소문자로 시작하는 단어 결합)를 사용하고, 수행 동작을 명확히 나타내야 합니다."
-    },
-    {
-      "id": 3,
-      "category": "Java",
-      "type": "variable",
-      "rule_en": "Variable names should use camelCase, start with a lowercase letter, and clearly describe their purpose.",
-      "example": ["userName", "orderList", "totalAmount"],
-      "rule_kr": "변수명은 소문자로 시작하는 camelCase를 사용하며, 변수의 역할을 명확히 표현합니다."
-    },
-    {
-      "id": 4,
-      "category": "Java",
-      "type": "constant",
-      "rule_en": "Constants should be written in uppercase letters with underscores between words.",
-      "example": ["MAX_USER_COUNT", "DEFAULT_TIMEOUT"],
-      "rule_kr": "상수명은 대문자와 밑줄(_)로 구성하며, 단어 간 구분을 명확히 합니다."
-    },
-    {
-      "id": 5,
-      "category": "Database",
-      "type": "table",
-      "rule_en": "Use lowercase snake_case. Use plural form for collection-type tables.",
-      "example": ["user_accounts", "order_details"],
-      "rule_kr": "테이블명은 소문자 스네이크케이스(snake_case)를 사용하며, 다수의 데이터를 나타낼 때 복수형으로 지정합니다."
-    },
-    {
-      "id": 6,
-      "category": "Database",
-      "type": "column",
-      "rule_en": "Use lowercase snake_case. Include clear context of the table. Avoid generic names like 'data' or 'value'.",
-      "example": ["user_id", "order_date", "total_price"],
-      "rule_kr": "컬럼명은 스네이크케이스를 사용하고, 해당 테이블의 의미를 반영하며 data, value 등의 일반적인 단어는 피합니다."
-    },
-    {
-      "id": 7,
-      "category": "Database",
-      "type": "index",
-      "rule_en": "Prefix with 'idx_' followed by table and column name(s).",
-      "example": ["idx_user_accounts_user_id", "idx_orders_order_date"],
-      "rule_kr": "인덱스명은 'idx_' 접두어를 붙이고, 테이블명과 컬럼명을 조합하여 명확히 구분합니다."
-    },
-    {
-      "id": 8,
-      "category": "Database",
-      "type": "sequence",
-      "rule_en": "Prefix with 'seq_' followed by the related table name.",
-      "example": ["seq_user_accounts", "seq_order_details"],
-      "rule_kr": "시퀀스명은 'seq_' 접두어를 붙이고 관련된 테이블명을 포함하여 명명합니다."
-    },
-    {
-      "id": 9,
-      "category": "Database",
-      "type": "function",
-      "rule_en": "Prefix with 'fn_' followed by the main purpose of the function. Use lowercase snake_case.",
-      "example": ["fn_calculate_discount", "fn_get_user_balance"],
-      "rule_kr": "데이터베이스 함수명은 'fn_' 접두어를 사용하고, 수행 목적을 소문자 스네이크케이스로 표현합니다."
-    },
-    {
-      "id": 10,
-      "category": "WebUI",
-      "type": "button",
-      "rule_en": "Use camelCase starting with 'btn' followed by action and target name.",
-      "example": ["btnSaveUser", "btnDeleteOrder", "btnSubmitForm"],
-      "rule_kr": "버튼 컨트롤은 'btn' 접두어를 사용하고, 동작(행위)과 대상(객체)을 camelCase로 결합합니다."
-    },
-    {
-      "id": 11,
-      "category": "WebUI",
-      "type": "textbox",
-      "rule_en": "Use camelCase starting with 'txt' followed by target name.",
-      "example": ["txtUserName", "txtEmailAddress"],
-      "rule_kr": "텍스트박스 변수명은 'txt' 접두어를 사용하고, 대상 이름을 camelCase로 연결합니다."
-    },
-    {
-      "id": 12,
-      "category": "WebUI",
-      "type": "dropdown",
-      "rule_en": "Use camelCase starting with 'ddl' followed by target name.",
-      "example": ["ddlCountry", "ddlUserRole"],
-      "rule_kr": "드롭다운 컨트롤은 'ddl' 접두어를 사용하고, 항목의 의미를 나타내는 이름을 camelCase로 작성합니다."
-    },
-    {
-      "id": 13,
-      "category": "WebUI",
-      "type": "label",
-      "rule_en": "Use camelCase starting with 'lbl' followed by target name.",
-      "example": ["lblStatus", "lblErrorMessage"],
-      "rule_kr": "라벨 컨트롤은 'lbl' 접두어를 사용하고, 표시되는 내용을 나타내는 이름을 camelCase로 작성합니다."
-    },
-    {
-      "id": 14,
-      "category": "WebUI",
-      "type": "radio",
-      "rule_en": "Use camelCase starting with 'rdo' followed by option or target name.",
-      "example": ["rdoGenderMale", "rdoPaymentCreditCard"],
-      "rule_kr": "라디오버튼은 'rdo' 접두어를 사용하고, 선택 항목을 명확히 나타냅니다."
-    },
-    {
-      "id": 15,
-      "category": "WebUI",
-      "type": "checkbox",
-      "rule_en": "Use camelCase starting with 'chk' followed by target name.",
-      "example": ["chkAgreeTerms", "chkReceiveNewsletter"],
-      "rule_kr": "체크박스는 'chk' 접두어를 사용하고, 동의 또는 선택 항목을 나타내는 이름을 작성합니다."
-    }
+  {
+    "id": 1,
+    "category": "Java",
+    "type": "class",
+    "rule_en": "Class names should use PascalCase and represent nouns. Avoid abbreviations unless well-known.",
+    "example": ["UserAccount", "OrderService", "DataProcessor"],
+    "rule_kr": "클래스명은 명사 형태로 PascalCase(대문자로 시작하는 단어 결합)를 사용하며, 일반적으로 알려진 약어 외에는 생략형을 피합니다."
+  },
+  {
+    "id": 2,
+    "category": "Java",
+    "type": "method",
+    "rule_en": "Method names should use camelCase, start with a verb, and describe the action clearly.",
+    "example": ["getUserInfo()", "calculateTotal()", "sendEmail()"],
+    "rule_kr": "메서드명은 동사로 시작하며 camelCase(소문자로 시작하는 단어 결합)를 사용하고, 수행 동작을 명확히 나타내야 합니다."
+  },
+  {
+    "id": 3,
+    "category": "Java",
+    "type": "variable",
+    "rule_en": "Variable names should use camelCase, start with a lowercase letter, and clearly describe their purpose.",
+    "example": ["userName", "orderList", "totalAmount"],
+    "rule_kr": "변수명은 소문자로 시작하는 camelCase를 사용하며, 변수의 역할을 명확히 표현합니다."
+  },
+  {
+    "id": 4,
+    "category": "Java",
+    "type": "constant",
+    "rule_en": "Constants should be written in uppercase letters with underscores between words (SCREAMING_SNAKE_CASE).",
+    "example": ["MAX_USER_COUNT", "DEFAULT_TIMEOUT"],
+    "rule_kr": "상수명은 대문자와 밑줄(_)로 구성하는 SCREAMING_SNAKE_CASE를 사용하며, 단어 간 구분을 명확히 합니다."
+  },
+  {
+    "id": 5,
+    "category": "Database",
+    "type": "table",
+    "rule_en": "Use SCREAMING_SNAKE_CASE (uppercase with underscores). Use singular form and consider a prefix like TBL_.",
+    "example": ["TBL_USER_MASTER", "ORDER_DETAIL"],
+    "rule_kr": "테이블명은 SCREAMING_SNAKE_CASE(대문자와 밑줄)를 사용하며, TBL_와 같은 접두어 사용 및 **단수형** 지정을 권장합니다."
+  },
+  {
+    "id": 6,
+    "category": "Database",
+    "type": "column",
+    "rule_en": "Use SCREAMING_SNAKE_CASE (uppercase with underscores). Avoid abbreviations that are not officially defined.",
+    "example": ["USER_ID", "ORDER_DATE", "TOTAL_PRICE"],
+    "rule_kr": "컬럼명은 SCREAMING_SNAKE_CASE를 사용하며, 비공식적인 약어 사용은 피하고, 용어사전에 정의된 표준 약어만 사용합니다."
+  },
+  {
+    "id": 7,
+    "category": "Database",
+    "type": "index",
+    "rule_en": "Prefix with 'IX_' (or 'IDX_') followed by table and column name(s). Use SCREAMING_SNAKE_CASE.",
+    "example": ["IX_USER_MASTER_NAME", "IDX_ORDERS_DATE"],
+    "rule_kr": "인덱스명은 'IX_' 접두어를 붙이고, 테이블명과 컬럼명을 SCREAMING_SNAKE_CASE로 조합하여 명확히 구분합니다."
+  },
+  {
+    "id": 8,
+    "category": "Database",
+    "type": "sequence",
+    "rule_en": "Prefix with 'SEQ_' followed by the related table name. Use SCREAMING_SNAKE_CASE.",
+    "example": ["SEQ_USER_MASTER", "SEQ_ORDER_DETAILS"],
+    "rule_kr": "시퀀스명은 'SEQ_' 접두어를 붙이고 관련된 테이블명을 SCREAMING_SNAKE_CASE로 포함하여 명명합니다."
+  },
+  {
+    "id": 9,
+    "category": "Database",
+    "type": "function",
+    "rule_en": "Prefix with 'FN_' followed by the main purpose of the function. Use SCREAMING_SNAKE_CASE.",
+    "example": ["FN_CALCULATE_DISCOUNT", "FN_GET_USER_BALANCE"],
+    "rule_kr": "데이터베이스 함수명은 'FN_' 접두어를 사용하고, 수행 목적을 SCREAMING_SNAKE_CASE로 표현합니다."
+  },
+  {
+    "id": 10,
+    "category": "UI",
+    "type": "button",
+    "rule_en": "Use camelCase starting with 'btn' followed by action and target name.",
+    "example": ["btnSaveUser", "btnDeleteOrder", "btnSubmitForm"],
+    "rule_kr": "버튼 컨트롤은 'btn' 접두어를 사용하고, 동작(행위)과 대상(객체)을 camelCase로 결합합니다."
+  },
+  {
+    "id": 11,
+    "category": "UI",
+    "type": "textbox",
+    "rule_en": "Use camelCase starting with 'txt' followed by target name.",
+    "example": ["txtUserName", "txtEmailAddress"],
+    "rule_kr": "텍스트박스 변수명은 'txt' 접두어를 사용하고, 대상 이름을 camelCase로 연결합니다."
+  },
+  {
+    "id": 12,
+    "category": "UI",
+    "type": "dropdown",
+    "rule_en": "Use camelCase starting with 'ddl' followed by target name.",
+    "example": ["ddlCountry", "ddlUserRole"],
+    "rule_kr": "드롭다운 컨트롤은 'ddl' 접두어를 사용하고, 항목의 의미를 나타내는 이름을 camelCase로 작성합니다."
+  },
+  {
+    "id": 13,
+    "category": "UI",
+    "type": "label",
+    "rule_en": "Use camelCase starting with 'lbl' followed by target name.",
+    "example": ["lblStatus", "lblErrorMessage"],
+    "rule_kr": "라벨 컨트롤은 'lbl' 접두어를 사용하고, 표시되는 내용을 나타내는 이름을 camelCase로 작성합니다."
+  },
+  {
+    "id": 14,
+    "category": "UI",
+    "type": "radio",
+    "rule_en": "Use camelCase starting with 'rdo' followed by option or target name.",
+    "example": ["rdoGenderMale", "rdoPaymentCreditCard"],
+    "rule_kr": "라디오버튼은 'rdo' 접두어를 사용하고, 선택 항목을 명확히 나타냅니다."
+  },
+  {
+    "id": 15,
+    "category": "UI",
+    "type": "checkbox",
+    "rule_en": "Use camelCase starting with 'chk' followed by target name.",
+    "example": ["chkAgreeTerms", "chkReceiveNewsletter"],
+    "rule_kr": "체크박스는 'chk' 접두어를 사용하고, 동의 또는 선택 항목을 나타내는 이름을 작성합니다."
+  },
+  {
+    "id": 16,
+    "category": "Python",
+    "type": "class",
+    "rule_en": "Class names should use PascalCase (CapWords convention).",
+    "example": ["DataProcessor", "UserHandler"],
+    "rule_kr": "클래스명은 PascalCase(CapWords)를 사용하며 명사 형태로 작성합니다. (PEP 8 표준)"
+  },
+  {
+    "id": 17,
+    "category": "Python",
+    "type": "function",
+    "rule_en": "Function names should be lowercase, with words separated by underscores (snake_case).",
+    "example": ["calculate_score", "get_user_list"],
+    "rule_kr": "함수명은 소문자를 사용하고 단어 간 구분을 밑줄(_)로 하는 snake_case를 사용합니다. (PEP 8 표준)"
+  },
+  {
+    "id": 18,
+    "category": "Python",
+    "type": "variable",
+    "rule_en": "Variable names should be lowercase, with words separated by underscores (snake_case).",
+    "example": ["final_result", "raw_data"],
+    "rule_kr": "변수명은 소문자 snake_case를 사용하며, 단일 문자는 지양하고 명확하게 표현합니다. (PEP 8 표준)"
+  },
+  {
+    "id": 19,
+    "category": "Python",
+    "type": "constant",
+    "rule_en": "Constants should be written in all capital letters with underscores (SCREAMING_SNAKE_CASE).",
+    "example": ["MAX_USERS", "API_TIMEOUT"],
+    "rule_kr": "상수명은 대문자와 밑줄(_)로 구성하는 SCREAMING_SNAKE_CASE를 사용합니다. (PEP 8 표준)"
+  },
+  {
+    "id": 20,
+    "category": "Common",
+    "type": "naming_quality",
+    "rule_en": "Avoid Hungarian notation or type-encoding in names (e.g., 'iCnt', 'strName'). Do not mix Korean and English (e.g., 'user정보').",
+    "example": ["countOfUsers (O)", "userCount (O)", "iUserCnt (X)", "user정보 (X)"],
+    "rule_kr": "변수명에 자료형을 암시하는 헝가리안 표기법(i, str 등) 사용을 금지하며, 한국어와 영어를 혼용하는 것을 금지합니다. (품질 규칙)"
+  },
+  {
+    "id": 21,
+    "category": "Java",
+    "type": "package",
+    "rule_en": "Package names should be all lowercase and use the reverse domain name convention (e.g., com.company.project.module).",
+    "example": ["com.mycompany.service", "com.project.util"],
+    "rule_kr": "패키지명은 모두 소문자를 사용하며, 역도메인 명명 규칙(ex: com.회사명.프로젝트.모듈)을 따릅니다."
+  },
+  {
+    "id": 22,
+    "category": "Python",
+    "type": "package_module",
+    "rule_en": "Module names should be short, all lowercase, and can use underscores if it improves readability.",
+    "example": ["db_util.py", "api_client.py"],
+    "rule_kr": "모듈명은 짧고 모두 소문자를 사용하며, 가독성이 필요할 경우 밑줄(_)을 사용하여 작성합니다. (PEP 8 표준)"
+  },
+  {
+    "id": 23,
+    "category": "Database",
+    "type": "naming_convention",
+    "rule_en": "All database objects (Tables, Columns, Indexes, Sequences) must only use English characters and numbers, excluding Korean or non-English characters.",
+    "example": ["USER_ID (O)", "회원ID (X)"],
+    "rule_kr": "모든 DB 객체명은 영문 대문자와 숫자만 사용해야 하며, 한국어 또는 기타 외국어 사용을 엄격히 금지합니다."
+  },
+  {
+    "id": 24,
+    "category": "Database",
+    "type": "table_plurality",
+    "rule_en": "Use SINGULAR form for tables representing an entity (e.g., 'USER' not 'USERS').",
+    "example": ["TBL_USER (O)", "TBL_USERS (X)"],
+    "rule_kr": "테이블명은 단일 엔티티를 나타내는 경우 복수형 대신 **단수형** 명사를 사용합니다. (ID 5 보강)"
+  }
 ]
