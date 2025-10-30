@@ -1,6 +1,6 @@
 # 🧩 AI 코딩 네이밍 가이드
 ### Azure AI 기술 구성요소 및 아키텍처
-URL: https://pro-psm-webapp-ffagfpebdpd2f9at.swedencentral-01.azurewebsites.net/
+- **URL**  https://pro-psm-webapp-ffagfpebdpd2f9at.swedencentral-01.azurewebsites.net/
 ---
 
 ## 🔹 개요  
