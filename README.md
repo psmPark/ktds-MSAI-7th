@@ -30,6 +30,10 @@
     - 용어사전 Index (Dictionary)
     - Q&A Index
 
+### 💾 4. **Azure Storage Account**
+- **RAG 지식 기반 (Knowledge Base) 원본 데이터 저장소.**
+- 명명 규칙, 용어사전, Q&A 등을 포함하는 **학습 데이터 (Source Data)** 파일들을 안전하게 저장 및 관리하는 데 사용.
+
 ---
 
 ## 🔁 RAG 아키텍처 흐름 요약
