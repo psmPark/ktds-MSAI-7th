@@ -476,14 +476,11 @@ with tab_file:
         key="file_uploader_key",
         label_visibility="collapsed",  # 라벨을 숨겨 공간 절약
     )
-    st.info(
-        "파일 분석 요청 시, 텍스트 요청 내용(1번 탭)은 분석을 보조하는 컨텍스트로 활용될 수 있습니다."
-    )
 
 
 # 통합 실행 버튼은 탭 외부에 배치하여, 두 입력 중 하나가 들어오면 동작하도록 함
 run_button = st.button(
-    "전문가 답변 생성 / 코드 분석 시작",
+    "답변 생성",
     type="primary",
     disabled=st.session_state.is_processing,
     on_click=start_integrated_process,
