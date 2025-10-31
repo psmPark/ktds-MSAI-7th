@@ -4,8 +4,10 @@
 ---
 
 ## 🔹 개요  
-이 애플리케이션은 **RAG (Retrieval-Augmented Generation)** 패턴을 사용하여 개발 과정에서 발생하는 명명 규칙, 용어 정의, 일반적인 Q&A 요청에 대해 전문가 수준의 답변을 제공합니다.  
-
+이 애플리케이션은 **RAG (Retrieval-Augmented Generation) 패턴**을 사용하여 개발 과정에서 발생하는 명명 규칙, 용어 정의, 일반적인 Q&A 요청에 대해 전문가 수준의 답변을 제공하며, 
+    **Java, Python 코드, Database 객체(Table, Column, Index, Sequence) 및 UI 컨트롤**의 명명 표준을 포괄적으로 지원합니다.
+1.  **텍스트 질의 응답:** 명명 생성 및 용어 정의에 대한 전문가 답변 제공.
+2.  **코드/DDL 파일 분석:** 업로드된 **Java, Python, SQL/DDL** 파일의 코드를 분석하여 명명 규칙 위반 사항과 개선안을 제시.
 ---
 
 ## ⚙️ 사용 Azure 기술 구성요소
